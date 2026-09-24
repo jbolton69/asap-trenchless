@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+---
+<section class="bg-gradient-to-b from-brand-950 to-brand-800 text-white">
+  <div class="container-x py-14 sm:py-20">
+    {% if breadcrumbs %}
+    <nav aria-label="Breadcrumb" class="mb-5 text-xs text-white/60">
+      {% for b in breadcrumbs %}<a class="hover:text-white" href="{{ b.url }}">{{ b.name }}</a>{% if not loop.last %} <span class="px-1">/</span> {% endif %}{% endfor %}
+    </nav>
+    {% endif %}
+    {% if eyebrow %}<p class="text-xs font-bold uppercase tracking-[0.18em] text-accent-400">{{ eyebrow }}</p>{% endif %}
+    <h1 class="mt-3 max-w-4xl text-4xl text-white sm:text-5xl">{{ h1 or title }}</h1>
+    {% if lede %}<p class="mt-5 max-w-2xl text-lg text-white/80">{{ lede }}</p>{% endif %}
+  </div>
+</section>
+{% if heroImage %}
+<figure class="container-x -mt-8 mb-4">
+  <img
+    src="/assets/img/{{ heroImage }}-800.webp"
+    srcset="/assets/img/{{ heroImage }}-400.webp 400w, /assets/img/{{ heroImage }}-800.webp 800w, /assets/img/{{ heroImage }}-1600.webp 1600w"
+    sizes="(min-width: 1200px) 1136px, 100vw"
+    alt="{{ heroImageAlt or title }}"
+    width="1600" height="900"
+    class="w-full rounded-2xl border border-white/10 shadow-2xl"
+    loading="eager" fetchpriority="high">
+  {% if heroImageCaption %}<figcaption class="mt-3 text-sm text-ink-700">{{ heroImageCaption }}</figcaption>{% endif %}
+</figure>
+{% endif %}
+<div class="container-x grid gap-12 py-14 lg:grid-cols-[minmax(0,1fr)_320px]">
+  <div class="prose-site max-w-none">
+    {{ content | safe }}
+  </div>
+  <aside class="lg:sticky lg:top-28 lg:self-start">
+    {% include "partials/sidebar.njk" %}
+  </aside>
+</div>

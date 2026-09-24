@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ metaTitle or title }} | {{ site.shortName }}</title>
+<meta name="description" content="{{ metaDescription or site.description }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ metaTitle or title }}">
+<meta property="og:description" content="{{ metaDescription or site.description }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta name="robots" content="{% if noindex %}noindex,follow{% else %}index,follow,max-image-preview:large{% endif %}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="icon" href="/assets/img/favicon.png" type="image/png">
+<meta property="og:image" content="{{ site.url }}/assets/img/logo.png">
+{% include "partials/schema.njk" %}
+{% block head %}{% endblock %}
+</head>
+<body class="flex min-h-screen flex-col">
+{% include "partials/header.njk" %}
+<main id="main" class="flex-1">
+{{ content | safe }}
+</main>
+{% include "partials/footer.njk" %}
+{% include "partials/privacy-notice.njk" %}
+{% include "partials/analytics.njk" %}
+<script>
+function ytActivate(el) {
+  if (el.dataset.loaded) return;
+  el.dataset.loaded = "1";
+  var f = document.createElement('iframe');
+  f.className = 'yt-frame';
+  f.src = 'https://www.youtube-nocookie.com/embed/' + el.dataset.yt + '?autoplay=1&rel=0';
+  f.title = el.getAttribute('aria-label') || 'Video';
+  f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+  f.allowFullscreen = true;
+  el.appendChild(f);
+}
+document.addEventListener('click', function (e) {
+  var yt = e.target.closest('[data-yt]');
+  if (yt) { ytActivate(yt); return; }
+  var t = e.target.closest('[data-toggle]');
+  if (!t) return;
+  var el = document.getElementById(t.getAttribute('data-toggle'));
+  if (el) { el.hidden = !el.hidden; t.setAttribute('aria-expanded', el.hidden ? 'false' : 'true'); }
+});
+document.addEventListener('keydown', function (e) {
+  if (e.key !== 'Enter' && e.key !== ' ') return;
+  var yt = e.target.closest && e.target.closest('[data-yt]');
+  if (yt) { e.preventDefault(); ytActivate(yt); }
+});
+</script>
+</body>
+</html>

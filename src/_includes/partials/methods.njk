@@ -1,0 +1,19 @@
+<section class="container-x py-16">
+  <p class="eyebrow">Trenchless methods</p>
+  <h2 class="mt-2 text-3xl sm:text-4xl">Three ways to fix a failed sewer line</h2>
+  <p class="prose-site mt-4 max-w-3xl">Each one solves a different problem. The camera footage decides which applies to your line — not a price sheet.</p>
+  <div class="mt-10 grid gap-6 md:grid-cols-3">
+    {% for s in services %}{% if not s.hub and s.slug in ["cipp-pipe-lining","pipe-bursting","sewer-line-replacement"] %}
+    <article class="card flex flex-col">
+      <h3 class="text-xl"><a class="hover:text-brand-700" href="/{{ s.slug }}/">{{ s.title }}</a></h3>
+      <p class="prose-site mt-2 flex-1">{{ s.short }}</p>
+      <dl class="mt-4 grid gap-2 border-t border-ink-900/10 pt-4 text-sm">
+        <div class="flex gap-2"><dt class="w-24 shrink-0 font-semibold text-ink-900">Best for</dt><dd class="text-ink-700">{{ s.bestFor }}</dd></div>
+        <div class="flex gap-2"><dt class="w-24 shrink-0 font-semibold text-ink-900">Not for</dt><dd class="text-ink-700">{{ s.notFor }}</dd></div>
+        <div class="flex gap-2"><dt class="w-24 shrink-0 font-semibold text-ink-900">Timeline</dt><dd class="text-ink-700">{{ s.timeline }}</dd></div>
+      </dl>
+      <a class="mt-5 text-sm font-semibold text-brand-700 hover:text-brand-800" href="/{{ s.slug }}/">How {{ s.navTitle }} works &rarr;</a>
+    </article>
+    {% endif %}{% endfor %}
+  </div>
+</section>

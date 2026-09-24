@@ -1,0 +1,10 @@
+<div class="border-y border-ink-900/10 bg-ink-950/[0.03]">
+  <div class="container-x grid grid-cols-2 gap-6 py-8 lg:grid-cols-4">
+    {% for t in site.trustPoints %}
+    <div class="text-center">
+      <p class="font-display text-3xl font-bold text-brand-800 sm:text-4xl">{{ t.stat }}</p>
+      <p class="mt-1 text-xs font-semibold uppercase tracking-wider text-ink-700">{{ t.label }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,36 @@
+---
+layout: layouts/page.njk
+permalink: "/service-areas/"
+title: "Service Areas"
+h1: "Where We Work Along the Colorado Front Range"
+metaTitle: "Service Areas | Trenchless Sewer Repair, Denver Metro & Front Range"
+metaDescription: "All Sewer & Plumbing serves Denver, Adams, Jefferson, Arapahoe, Boulder, Douglas, Broomfield, Larimer and Weld counties. Find your city."
+eyebrow: "Service areas"
+lede: "Nine counties from Castle Rock to Fort Collins, with pages about what's actually in the ground in each city we work in."
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Service Areas
+    url: /service-areas/
+---
+<p>Sewer lines fail differently depending on when a neighborhood was built, what kind of soil it sits on, and whether the city or a special district runs the sewer. A 1920s clay line under a Washington Park bungalow and a 1990s PVC line in Highlands Ranch are different problems with different fixes, so these pages are organized that way.</p>
+<p><strong>{{ site.phoneCta }}</strong> <a href="tel:+1{{ site.phone | phoneDigits }}">{{ site.phone }}</a></p>
+
+{% for c in counties %}
+<h2 id="{{ c.slug }}">{{ c.name }}</h2>
+<p>{{ c.intro }}</p>
+{% set cc = cities | where("county", c.slug) %}
+{% if cc | length %}
+<div class="not-prose mb-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+  {% for city in cc %}
+  <a class="flex items-center justify-between rounded-lg border border-ink-900/10 px-4 py-3 text-sm font-semibold text-ink-800 transition hover:border-brand-300 hover:bg-brand-50 hover:text-brand-800" href="/{{ c.slug }}/{{ city.slug }}/">
+    {{ city.name }} <span aria-hidden="true">&rarr;</span>
+  </a>
+  {% endfor %}
+</div>
+{% endif %}
+<p class="not-prose mb-12"><a class="font-semibold text-brand-700 hover:text-brand-800" href="/{{ c.slug }}/">Read the full {{ c.name }} page &rarr;</a></p>
+{% endfor %}
+
+<h2>Don't see your city?</h2>
+<p>These are the places with their own pages, not the edge of where we go. We work across the whole Front Range and travel statewide for lining projects. Call and ask &mdash; the answer is almost always yes.</p>

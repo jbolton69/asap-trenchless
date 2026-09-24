@@ -1,0 +1,101 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "PlumbingBusiness",
+      "@id": "{{ site.url }}/#business",
+      "name": "{{ site.name }}",
+      "url": "{{ site.url }}",
+      "telephone": "{{ site.phone }}",
+      "openingHours": "Mo-Su 00:00-23:59",
+      "foundingDate": "{{ site.since }}",
+      "logo": "{{ site.url }}/assets/img/logo.png",
+      "image": "{{ site.url }}/assets/img/logo.png",
+      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "{{ reviews.rating }}", "reviewCount": "{{ reviews.count }}"},
+      "description": "{{ site.description }}",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ site.hq.street }}",
+        "addressLocality": "{{ site.hq.city }}",
+        "addressRegion": "{{ site.hq.region }}",
+        "postalCode": "{{ site.hq.postalCode }}",
+        "addressCountry": "{{ site.hq.country }}"
+      },
+      "areaServed": [
+        {% for c in counties %}{"@type": "AdministrativeArea", "name": "{{ c.name }}{% if c.slug == 'denver' or c.slug == 'broomfield' %} (City and County){% endif %}, Colorado"}{% if not loop.last %},{% endif %}{% endfor %}
+      ],
+      "makesOffer": [
+        {% for s in services %}{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "{{ s.title }}", "url": "{{ site.url }}/{{ s.slug }}/"}}{% if not loop.last %},{% endif %}{% endfor %}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}",
+      "name": "{{ site.name }}",
+      "publisher": {"@id": "{{ site.url }}/#business"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}{{ page.url }}#webpage",
+      "url": "{{ site.url }}{{ page.url }}",
+      "name": "{{ metaTitle or title }}",
+      "description": "{{ metaDescription or site.description }}",
+      "isPartOf": {"@id": "{{ site.url }}/#website"},
+      "about": {"@id": "{{ site.url }}/#business"}
+      {% if breadcrumbs %},
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {% for b in breadcrumbs %}{"@type": "ListItem", "position": {{ loop.index }}, "name": "{{ b.name }}", "item": "{{ site.url }}{{ b.url }}"}{% if not loop.last %},{% endif %}{% endfor %}
+        ]
+      }
+      {% endif %}
+    }
+    {% if serviceSchema %},
+    {
+      "@type": "Service",
+      "name": "{{ serviceSchema.name }}",
+      "serviceType": "{{ serviceSchema.name }}",
+      "provider": {"@id": "{{ site.url }}/#business"},
+      "description": "{{ serviceSchema.description }}",
+      "areaServed": {"@type": "AdministrativeArea", "name": "{{ serviceSchema.areaServed or 'Colorado Front Range' }}"}
+    }
+    {% endif %}
+    {% if postSchema %},
+    {
+      "@type": "BlogPosting",
+      "headline": {{ title | dump | safe }},
+      "description": {{ (description or "") | dump | safe }},
+      "datePublished": "{{ date | isoDate }}",
+      "dateModified": "{{ date | isoDate }}",
+      "mainEntityOfPage": {"@id": "{{ site.url }}{{ page.url }}#webpage"},
+      "author": {"@type": "Organization", "name": "{{ site.name }}"},
+      "publisher": {"@id": "{{ site.url }}/#business"}
+      {% if topics %}, "keywords": {{ topics | join(", ") | dump | safe }}{% endif %}
+    }
+    {% endif %}
+    {% if hasVideo %},
+    {
+      "@type": "VideoObject",
+      "name": {{ site.video.title | dump | safe }},
+      "description": "How cured-in-place pipe lining is installed: liner saturation, inversion into the host pipe, inflation, cure, and post-work camera verification.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/{{ site.video.id }}/maxresdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/{{ site.video.id }}",
+      "contentUrl": "{{ site.video.url }}",
+      "uploadDate": "2024-01-01",
+      "publisher": {"@id": "{{ site.url }}/#business"}
+    }
+    {% endif %}
+    {% if faqPage %},
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {% for f in faqs %}{"@type": "Question", "name": {{ f.q | dump | safe }}, "acceptedAnswer": {"@type": "Answer", "text": {{ f.a | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}
+      ]
+    }
+    {% endif %}
+  ]
+}
+</script>

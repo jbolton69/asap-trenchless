@@ -1,0 +1,262 @@
+[
+  {
+    "slug": "adams-county",
+    "name": "Adams County",
+    "seat": "Brighton",
+    "home": true,
+    "intro": "Adams County is home base for All Sewer. The shop sits in Westminster, and the trenchless trucks leave from here every morning for jobs across the metro. The county itself is a study in contrasts: 1950s planned suburbs, century-old farm towns, a heavy-industry corridor along the South Platte, and brand-new subdivisions, each draining to a different public system.",
+    "housingStory": "Much of what sits under Adams County homes was laid in one burst. Thornton began as Sam Hoffman's planned community in 1953, and Northglenn's first model homes opened near I-25 and 104th Avenue in 1959; within a few years each had thousands of houses. Federal Heights filled in with ranch homes through the 1950s and 1960s. Houses from that postwar window usually left the foundation through a short run of cast iron and then switched to vitrified clay tile out to the street, and some tracts from the era used bituminous fiber (Orangeburg) pipe, which softens and flattens as it ages. Clay joints were sealed with mortar or early gaskets, so seventy years on the typical failures are root intrusion at the joints, cracked bells, and offsets where one section has dropped. Older still are the original town sites in Westminster's Harris Park and downtown Brighton, where homes from the 1910s and 1920s can carry cast iron that has scaled and thinned along the bottom. The newest layer, from Reunion in Commerce City to the metro-district subdivisions around Brighton, is PVC, where problems are more about settlement and installation than material.",
+    "terrain": "The western half of the county sits on the rolling plains between Clear Creek and Big Dry Creek, where clay-rich soils can swell when wet and shrink when dry. That movement is what pulls clay joints apart and puts sags into old laterals. East toward the South Platte the ground flattens out, which matters for grade: a lateral with little fall to begin with has no margin once a section settles. Most residential laterals run beneath front yards and then under the street to a main, so driveways, mature trees and landscaping are usually what trenchless methods are protecting.",
+    "permitNote": "There is no single sewer authority in Adams County. Westminster, Thornton, Northglenn, Brighton and Federal Heights each run their own collection mains, while Commerce City and much of the unincorporated south end are served by the South Adams County Water and Sanitation District, and the county lists dozens of other water and sanitation or metro districts. Where a city or district has published its rule, the property owner is responsible for the private service line from the house to the main, and Brighton spells out that this includes the wye at the main. Work in a public street also needs that jurisdiction's right-of-way permit, so the first question on any job is which city or district owns the main.",
+    "challenges": [
+      "Sixty-to-seventy-year-old clay laterals in Thornton, Northglenn and Federal Heights",
+      "Expansive clay soils that open joints and create sags in older lines",
+      "A patchwork of city utilities and special districts with different rules",
+      "Laterals running under mature street trees, driveways and front-yard landscaping",
+      "Flat grades near the South Platte leave little room for settled pipe"
+    ],
+    "sources": [
+      "https://www.westminsterco.gov/m/faq?cat=50",
+      "https://www.brightonco.gov/784/Sewer-Back-up",
+      "https://www.northglenn.org/residents/water/sewer.php",
+      "https://www.southadamswaterco.gov/water___wastewater/wastewater_information.php",
+      "https://adamscountyco.gov/our-county/community-economic-development/permits-licensing/water-and-sanitation-districts/",
+      "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+      "https://en.wikipedia.org/wiki/Thornton,_Colorado",
+      "https://www.northglenn.org/community/about_northglenn/history.php",
+      "https://www.westminstereconomicdevelopment.org/wp-content/uploads/2021/09/00_HarrisParkCommunityVisionPlan_book_Aug2021_high-002.pdf"
+    ]
+  },
+  {
+    "slug": "denver",
+    "name": "Denver",
+    "seat": "Denver",
+    "home": false,
+    "intro": "Denver is one consolidated city and county, so a single utility, the Wastewater Management Division inside DOTI, looks after the public mains. Everything between a house and that main is the owner's problem. Because the city's homes run from 1880s brick to 1950s ranches, that private line is usually clay tile or cast iron with decades of roots in it.",
+    "housingStory": "Denver grew outward in rings, and the sewer pipe changes with each ring. The first ring came in the 1870s through the 1890s: Highland, Curtis Park, Capitol Hill and the other early towns and additions close to downtown. Streetcar suburbs followed from about 1900 to 1930. That is when Washington Park, Park Hill, Congress Park and University Park filled in with brick bungalows and foursquares. After World War II came the tract builders, and southwest Denver pastures turned into full subdivisions within a few years. The city was laying clay pipe in the 1920s. Most private laterals from those decades are vitrified clay tile, which many owners call terra cotta, with cast iron inside the foundation and for the first few feet outside it. Postwar houses usually have cast iron under the slab or basement and clay or the occasional bituminous fiber line out to the street. Each material fails in its own way here. Clay separates at the joints and fills with roots. Cast iron scales from the inside until the bottom of the pipe rots through. Fiber pipe goes soft and oval. When an old house is scraped or given a pop-top, the new building often ends up tied to a century-old line, so the lateral should get a camera before the drywall goes up.",
+    "terrain": "The city sits in the South Platte valley. Near the river and along Cherry Creek the ground is mostly sand and gravel. The uplands are a patchwork of clay soils over claystone, and some of those clays swell when wet and shrink when dry, which works joints loose over the years. Laterals in older blocks usually run under a tree lawn with a large street tree in it, and in many neighborhoods they run under a detached garage or out to an alley main. Many old basements still have a front cleanout, which gives a lining crew a clean way in without tearing up the yard.",
+    "permitNote": "The city takes responsibility for public main sewers only. The private service line from the building to the main is the owner's to locate, repair and pay for, and that includes the stretch under the street and the connection at the main. Repair work goes through DOTI's wastewater permitting. Any excavation in a street, alley or sidewalk also needs a street cut permit, and a street occupancy permit is always required with it. Applications go through the city's E-Permits system, and DOTI permit operations schedules the inspections. Metro Water Recovery treats Denver's wastewater at the Hite facility on York Street, but it plays no part in private laterals.",
+    "challenges": [
+      "Clay tile laterals from 1890-1930 with root masses packed into every joint",
+      "Cast iron under basements scaled so badly the bottom of the pipe is gone",
+      "Owner responsibility runs all the way to the main, including the section under the street",
+      "Mature tree lawns, detached garages and alleys sit directly over the line",
+      "Scrape-and-rebuild houses tied to old laterals that nobody ever put a camera in"
+    ],
+    "sources": [
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Wastewater-Management/FAQ",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Wastewater-Management",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Wastewater-Management/Sanitary-Sewer-Master-Plan",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Documents/Wastewater-Permits/Sewer-Use-and-Drainage-Permits",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Right-of-Way-Services/Street-Occupancy",
+      "https://www.metrowaterrecovery.com/about-us/",
+      "https://denverite.com/2025/06/26/emerald-ash-borer-denver-what-to-do/",
+      "https://en.wikipedia.org/wiki/List_of_Denver_landmarks"
+    ]
+  },
+  {
+    "slug": "jefferson-county",
+    "name": "Jefferson County",
+    "seat": "Golden",
+    "home": false,
+    "intro": "Jefferson County runs from flat postwar suburbs on Denver's west edge straight up into granite foothills, and its sewer map is just as mixed. One street can drain to a city utility, the next to a sanitation district formed in the 1940s, and a cabin a few miles uphill to a septic tank. Knowing whose rules apply comes before any digging or lining.",
+    "housingStory": "The oldest sewer laterals in the county sit under the mining-era core of Golden and the farm towns that became Arvada and Wheat Ridge, where houses from the 1890s through the 1920s usually drain through cast iron inside and vitrified clay outside. The big wave came after World War II: from the late 1940s through the early 1970s, orchards and truck farms between Sheridan and Kipling filled with ranches and split-levels, and whole sanitation districts were organized just to serve them. Those decades are the clay-tile and Orangeburg years, with cast iron under slabs and basements. Clay joints were sealed with mortar or early compression gaskets that roots open up within a few decades, and bituminous fiber pipe slowly flattens into an oval under backfill weight. Cast iron from the same era scales shut and then rusts through along the bottom, where the water runs. Later development in west Arvada, south Lakewood and the Evergreen area moved to PVC, which fails less from age than from settlement, poor bedding and shifting ground. A camera run is the only honest way to tell which of these stories a given line is living through.",
+    "terrain": "East of the hogback most laterals run through clay-rich soils over shale and claystone, and near Golden the county maps a Designated Dipping Bedrock Area where tilted expansive layers can heave in long ridges. Those movements open joints, create bellies and push pipe off grade. Along Clear Creek and Bear Creek the ground turns to cobbly river gravel that is hard to trench cleanly. West of the hogback, Evergreen and the foothills sit on granite and gneiss close to the surface, so excavation often means breaking rock, and steep driveways and retaining walls limit where equipment can set up.",
+    "permitNote": "There is no single sewer authority in Jefferson County. Lakewood alone lists about 21 water and sewer providers, and Arvada, Wheat Ridge, Edgewater and Golden each mix city utilities with independent districts such as Wheat Ridge Sanitation, Clear Creek Valley and East Jefferson County Sanitation. Across the providers we checked, the homeowner owns the lateral from the house to the main, and several make the owner responsible for the connection itself. Street cuts need a right-of-way permit from the city or county that owns the road, and many districts require their own inspection before a trench is backfilled. Mountain homes off district lines fall under Jefferson County Public Health septic rules.",
+    "challenges": [
+      "Figuring out which of dozens of sanitation districts owns the main and sets repair rules",
+      "Clay tile and Orangeburg laterals under the 1950s and 1960s ranches east of Kipling",
+      "Heaving, steeply dipping bedrock near the hogback pushing lines out of grade",
+      "Shallow granite in Evergreen and the foothills that makes open trenching slow and costly",
+      "District inspections and road-owner permits that both have to line up before backfill"
+    ],
+    "travelNote": "Our trucks run out of Westminster, and the east half of Jefferson County is a routine drive down Wadsworth or Kipling. Evergreen and the foothill neighborhoods take longer, and in winter steep, icy driveways can decide what equipment we can actually get to a cleanout, so we plan mountain jobs with that in mind.",
+    "sources": [
+      "https://www.lakewoodco.gov/files/assets/public/v/6/public-works/pdfs/engineering/2024.12.10_pw-water-and-sewer-provider-list.pdf",
+      "https://www.jeffco.us/DocumentCenter/View/2074/Designated-Dipping-Bedrock-Area-Guide-PDF",
+      "https://www.jeffco.us/2712/Geology",
+      "https://www.jeffco.us/2379/Onsite-Wastewater-Treatment-Systems",
+      "https://www.arvadaco.gov/443/Special-Water-Sewer-Districts",
+      "https://www.wheatridgesanitation.com/",
+      "https://evergreenmetro.colorado.gov/who-we-are",
+      "https://www.metrowaterrecovery.com/regulations/member-special-connectors/"
+    ]
+  },
+  {
+    "slug": "arapahoe-county",
+    "name": "Arapahoe County",
+    "seat": "Littleton",
+    "home": false,
+    "intro": "Arapahoe County runs from Denver's southern edge out onto the eastern plains, and the sewer rules change almost block to block. Aurora and Englewood run their own utilities, Littleton leaves collection to independent districts, and Centennial alone is split among seven sanitation district boundaries. Before any lateral is dug or lined here, the first job is figuring out whose system it ties into.",
+    "housingStory": "The county's oldest sewer laterals sit under the original town grids: Littleton and Sheridan both incorporated in 1890, Englewood in 1903, and Aurora grew out of the 1890s town of Fletcher. Houses from those early decades usually drain through cast iron inside the foundation and clay tile toward the street, and a century of settling has opened many of those joints. The big wave came after World War II. Englewood was largely built out by 1960, Littleton boomed through the 1950s and 1960s alongside the Martin Marietta plant, and in Aurora Sam Hoffman put up Hoffman Heights, a 1953 tract of brick ranches. Laterals from that period are mostly vitrified clay, with cast iron under slabs and basements, and some homes of the era used bituminous fiber (Orangeburg) pipe that softens and ovals out with age. Cherry Hills Village (1945) and Greenwood Village (1950) followed with larger lots and longer runs, and the neighborhoods that later became Centennial filled in during the late 20th century, which is where PVC starts to show up. In South Arapahoe Sanitation District, about 65 percent of the public mains are still clay or concrete, a fair hint at what the private lines tied to them are made of.",
+    "terrain": "Most of the developed county is gently rolling plains cut by the South Platte valley on the west and by Cherry Creek and its tributaries farther east. The Colorado Geological Survey calls expansive clay the state's most significant geologic hazard, and the bentonite-bearing soils under much of the metro area swell when wet and shrink when dry, which works lateral joints loose and pulls grade out of long runs. District mains here are commonly laid 6 to 25 feet deep, so laterals drop steeply in places. The High Line Canal corridor and older lots are lined with big cottonwoods and other thirsty trees whose roots go looking for leaking joints.",
+    "permitNote": "Who you answer to depends on the address. Aurora Water and Englewood Utilities run collection inside their city limits, while Littleton, Centennial, Greenwood Village, Cherry Hills Village and Sheridan are served by special districts such as South Arapahoe, Southgate, South Englewood No. 1, Cherry Hills Village Sanitation, ACWWA and the two Sheridan districts. In the districts whose rules we checked, the property owner owns and maintains the whole service line, including the tap at the main, and the district must be notified before a connection is made or a line is rehabilitated. Street cuts need a right-of-way permit from the city, or from the county in unincorporated areas.",
+    "challenges": [
+      "Dozens of separate sanitation districts, each with its own notice and inspection rules",
+      "Postwar clay tile laterals with root-packed joints under mature cottonwoods and elms",
+      "Expansive bentonite clays that heave, sag and offset older pipe joints",
+      "Deep district mains that force long, steep lateral runs on big lots",
+      "ZIP codes that do not match city limits, which confuses who owns the sewer"
+    ],
+    "sources": [
+      "https://southarapahoe.org/",
+      "https://southarapahoe.org/resources/",
+      "https://southenglewood.org/",
+      "https://southgatedistricts.org/168/Southgate-Districts",
+      "https://maps.centennialco.gov/arcgis/rest/services/Special_Districts/MapServer/5?f=pjson",
+      "https://www.littletonco.gov/Government/Departments/Public-Works-Engineering/Sanitary-Sewer-and-Wastewater",
+      "https://www.littletonco.gov/Government/City-Services/Utilities/Sanitation-Districts",
+      "https://www.englewoodco.gov/government/city-departments/utilities/services/wastewater/find-your-sanitation-district",
+      "https://cherryhillsvillagesd.colorado.gov/district-information/rules-and-regulations",
+      "https://aurora.municipal.codes/Code/138-262",
+      "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+      "https://sah-archipedia.org/buildings/CO-01-AH43",
+      "https://en.wikipedia.org/wiki/Englewood,_Colorado",
+      "https://en.wikipedia.org/wiki/Littleton,_Colorado"
+    ]
+  },
+  {
+    "slug": "boulder-county",
+    "name": "Boulder County",
+    "seat": "Boulder",
+    "home": false,
+    "intro": "Boulder County mixes some of the oldest sewer laterals on the Front Range with some of the newest. Boulder and Longmont have Victorian-era districts; Lafayette and Louisville were coal towns with mine workings under parts of them; and hundreds of homes in Louisville and Superior were rebuilt after the December 2021 Marshall Fire.",
+    "housingStory": "The county's towns started early. Longmont was founded by the Chicago-Colorado Colony in 1871, Louisville grew around the Welch Mine from 1877, Lafayette was platted in 1888 and Superior in 1896. Their original blocks, along with Boulder's Mapleton Hill and University Hill, hold houses from the 1880s through the 1920s, where laterals are typically clay tile or cast iron and have often been patched more than once. The postwar decades added tract neighborhoods such as Boulder's Martin Acres and Table Mesa; the City of Boulder notes that much of its own public sewer was built with clay pipe from the 1940s through the 1960s, and private laterals of that era are usually similar. Then came the suburban wave: Superior went from about 250 residents to more than 9,000 during the 1990s, and Louisville, Lafayette and Longmont all added large PVC-era subdivisions. Finally, the Marshall Fire destroyed more than 1,000 homes, mostly in Louisville and Superior, and the rebuilds tied new houses into whatever lateral survived. Each era fails differently, which is why we camera first.",
+    "terrain": "Soils change fast across the county. The foothills edge of Boulder has shallow sandstone and bedrock, the creek corridors carry cobbly alluvium, and the plains to the east include expansive clays. Under parts of Lafayette and Louisville, old room-and-pillar coal workings lie a few dozen to about 150 feet down, and the Colorado Geological Survey has studied subsidence across the Boulder-Weld coalfield. Ground that sinks can reverse the fall of a gravity sewer. Mountain homes above the cities mostly rely on septic systems rather than public sewer.",
+    "permitNote": "The incorporated cities run their own sewer utilities: Boulder, Longmont, Louisville and Lafayette each operate a collection system and treatment plant, and Superior's Public Works and Utilities department handles its sewers. Longmont states plainly that the service line from the building to the main belongs to the property owner; the other cities follow a similar model, but where ownership ends at the tap can vary, so confirm with the city. Street and alley cuts require a right-of-way permit from the city. Rural properties on septic fall under Boulder County Public Health's onsite wastewater rules.",
+    "challenges": [
+      "Clay and cast iron laterals under 1880s-1920s houses in the older town centers",
+      "Undermined ground in parts of Lafayette and Louisville that can shift sewer grade",
+      "Marshall Fire rebuilds reconnected to laterals that survived heavy demolition equipment",
+      "Root intrusion from mature street trees in the older neighborhoods",
+      "Shallow bedrock and cobble near the foothills that make digging slow"
+    ],
+    "sources": [
+      "https://bouldercolorado.gov/services/sanitary-sewer-rehabilitation-program",
+      "https://bouldercolorado.gov/projects/main-sewer-improvements-project",
+      "https://longmontcolorado.gov/water/sewer-lines/",
+      "https://coloradoencyclopedia.org/article/longmont-historic-districts",
+      "https://en.wikipedia.org/wiki/Louisville,_Colorado",
+      "https://en.wikipedia.org/wiki/Lafayette,_Colorado",
+      "https://en.wikipedia.org/wiki/Superior,_Colorado",
+      "https://coloradonewsline.com/2022/01/07/1084-homes-louisville-superior-destroyed-marshall-fire-updated-tally/",
+      "https://coloradogeologicalsurvey.org/publications/coal-mine-subsidence-land-use-boulder-weld-colorado/",
+      "https://archives.boulderweekly.com/news/no-solid-ground/",
+      "https://www.louisvilleco.gov/local-government/government/departments/public-works/water-wastewater-treatment",
+      "https://www.superiorcolorado.gov/Government/Departments/Public-Works-Utilities",
+      "https://assets.bouldercounty.gov/wp-content/uploads/2017/05/boulder-county-ows-regulations.pdf"
+    ]
+  },
+  {
+    "slug": "douglas-county",
+    "name": "Douglas County",
+    "seat": "Castle Rock",
+    "home": false,
+    "intro": "Almost nothing in Douglas County's suburbs predates 1980, so most sewer laterals here are PVC rather than clay or cast iron. That changes the diagnosis: failures usually come from ground movement, sagging trench backfill and bad joints, not from rotting pipe. Sewer service is split among a town utility and a patchwork of water and sanitation districts.",
+    "housingStory": "Douglas County's residential build-out is recent. The first Highlands Ranch homes went up in 1981, Parker incorporated that same year with fewer than 300 residents, Lone Tree grew from a 1982 subdivision, and Castle Pines did not incorporate until 2007. Castle Rock's population rose by roughly half between 2010 and 2020 alone. The exception is the small historic core of Castle Rock, the county seat, where some houses date to the rhyolite-quarry years around 1900 and can still have cast iron or clay underneath. For the overwhelming majority of homes, though, the lateral is plastic pipe laid by a production builder. PVC does not corrode, and roots have a harder time getting through its glued or gasketed joints than through old clay bells. What goes wrong instead is geometry: a line settles into a belly where the trench backfill compacted poorly, a joint pulls apart or offsets when claystone underneath swells, a fitting cracks during a later landscaping or fence project, or concrete washout and construction debris sit in the pipe from the day the house was built. Roots do still find their way in at cleanout risers and transitions.",
+    "terrain": "Much of north-central Douglas County sits on claystone and arkose bedrock of the Denver and Dawson formations, overlain in places by windblown silts. The Colorado Geological Survey has documented both highly swelling claystone and collapsible surface soils here, and dipping expansive bedrock is a known county hazard. For sewer lines that means heave in one place and settlement in another along the same run. The terrain is rolling to steep, so many neighborhoods drain to lift stations, and some laterals run long and deep off hillside lots.",
+    "permitNote": "There is no single sewer authority. Castle Rock Water runs the Town of Castle Rock's collection system; Highlands Ranch is unincorporated and served by Highlands Ranch Water (formerly Centennial Water and Sanitation District); Lone Tree is split among Southgate, Parker Water and Sanitation, and a small area in Northern Douglas County Water and Sanitation District; Castle Pines North Metropolitan District serves most of Castle Pines. Districts we checked put the service line on the property owner out to the main. Street and sidewalk cuts need a right-of-way permit from whoever owns the road, which in unincorporated areas is generally Douglas County.",
+    "challenges": [
+      "Swelling claystone that lifts one part of a PVC lateral and drops another",
+      "Bellies from trench backfill that settled after the builder moved on",
+      "Construction debris and concrete left inside lines from original build-out",
+      "Several different sanitation districts, each with its own rules and inspectors",
+      "Hillside lots with long, deep laterals feeding lift-station sewersheds"
+    ],
+    "travelNote": "Our shop is in Westminster, on the north side of the metro area, so Douglas County jobs mean a run down I-25 or around C-470 and E-470. We schedule south-metro work accordingly and bring the trenchless trailer and camera on the first visit so a diagnosis does not require a second trip.",
+    "sources": [
+      "https://coloradogeologicalsurvey.org/publications/soil-bedrock-conditions-construction-considerations-douglas-colorado/",
+      "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+      "https://www.crgov.com/3084/Wastewater",
+      "https://www.highlandsranchwater.org/about-us",
+      "https://www.highlandsranchwater.org/wastewater",
+      "https://cityoflonetree.com/utility-providers/",
+      "https://cpnmd.specialdistrict.org/wastewater",
+      "https://en.wikipedia.org/wiki/Highlands_Ranch,_Colorado",
+      "https://en.wikipedia.org/wiki/Parker,_Colorado",
+      "https://en.wikipedia.org/wiki/Castle_Rock,_Colorado"
+    ]
+  },
+  {
+    "slug": "broomfield",
+    "name": "Broomfield",
+    "seat": "Broomfield",
+    "home": false,
+    "intro": "Broomfield is a single city and county with one utility, which makes the paperwork simpler than in its neighbors. The pipes are another matter: a 1955 planned suburb, 1970s and 1980s infill, and fast-growing 1990s and 2000s subdivisions all drain into the same system, and each era fails in its own way.",
+    "housingStory": "Modern Broomfield began in 1955, when the Turnpike Land Company laid out Broomfield Heights just north of the new Denver-Boulder Turnpike, with a first filing of roughly 950 homes aimed at young postwar families. Those small ranches along the streets near First Avenue and Midway Boulevard are now around seventy years old, and their laterals belong to the clay-tile era, with cast iron under the house and, in some cases, fiber pipe outside. The city incorporated in 1961 and kept growing through the 1970s and 1980s with split-levels and bi-levels where clay gave way to early PVC. In the 1990s Broomfield annexed land in Adams, Jefferson, Boulder and Weld counties, and after consolidation as the state's 64th county in 2001, the Interlocken business park, Broomlands and the Anthem neighborhoods north of State Highway 7 filled in with newer PVC systems. The older lines fail from roots at joints and bottoms rusting out; the newer ones fail from settling trench backfill, bellies and offset fittings where the ground moved after construction.",
+    "terrain": "Most of Broomfield sits on rolling plains of clay soil over claystone and shale, with swelling clays in places that can lift and drop pipe as moisture changes. The ground climbs toward Rocky Flats on the southwest side, and the newer northern subdivisions sit on graded fill from large earthmoving projects, where backfill can keep settling for years. Laterals are typically buried below frost depth. Access is usually easy in Broomfield Heights, with front-yard runs to street mains, but newer homes often have finished basements, tight side yards and landscaped HOA frontages that make trenchless entry points more valuable.",
+    "permitNote": "Broomfield operates its own water, sewer and water recovery facility as a consolidated city and county, so most homeowners deal with one public works department rather than a patchwork of districts. As in the surrounding cities, the property owner is generally responsible for the private sewer lateral; confirm exactly where the owner's part ends with Broomfield Public Works before planning work at the tap. Work in the street or public right-of-way needs a Broomfield right-of-way permit, and a handful of rural parcels still rely on septic systems licensed through the city and county.",
+    "challenges": [
+      "Seventy-year-old clay and cast iron laterals under the original Broomfield Heights ranches",
+      "Settling fill and swelling clay creating bellies in 1990s and 2000s subdivision lines",
+      "HOA landscaping and finished basements in Anthem and Interlocken limiting dig options",
+      "Mature street trees in the older central neighborhoods rooting into joints"
+    ],
+    "travelNote": "Broomfield borders Westminster, where our trucks are based, so it is one of the shortest drives we make for camera work, jetting or a full lining job, whether the job is in the original Heights near U.S. 36 or up in Anthem off Highway 7.",
+    "sources": [
+      "https://caturner.wordpress.com/2010/08/02/the-birth-of-a-1950s-suburb-broomfield-heights/",
+      "https://coloradoencyclopedia.org/article/city-and-county-broomfield",
+      "https://www.broomfield.org/386/History-of-Broomfield",
+      "https://en.wikipedia.org/wiki/Broomfield,_Colorado",
+      "https://broomfield.org/4346/Water-Recovery-Facility-Upgrade-and-Expa",
+      "https://www.broomfield.org/847/Septic-Systems"
+    ]
+  },
+  {
+    "slug": "larimer-county",
+    "name": "Larimer County",
+    "seat": "Fort Collins",
+    "home": false,
+    "intro": "Larimer County sewer work runs from Victorian-era Fort Collins and Loveland to farm-edge growth towns like Berthoud. The ground is the common thread: much of the populated plain sits on Pierre Shale and wind-blown silts that swell or settle, and that movement shows up as offset joints and sags in old clay and cast iron laterals.",
+    "housingStory": "The county's oldest sewer laterals sit under the railroad-era cores of Fort Collins, Loveland and Berthoud, where homes went up from the 1880s through the 1920s. Those houses were typically plumbed with cast iron inside and vitrified clay tile out to the street, joined with mortar or oakum that has long since cracked. The next big wave came after World War II: Fort Collins subdivisions such as Circle Drive went on sale in 1946, and ranch homes spread outward through the 1950s and 1960s as Colorado State University doubled its enrollment. Clay tile stayed common in that era, and some builders used bituminous fiber (Orangeburg) pipe, which softens and flattens with age. Since the 1980s nearly everything has been PVC, and the population surge of the last two decades means large parts of Loveland, Berthoud and south Fort Collins are young. In practice the failures we see here come in two flavors: roots and cracked joints in pre-1970 clay, and older cast iron that has scaled and thinned from the inside until the bottom of the pipe gives out.",
+    "terrain": "Along the western edge, the rock layers tilt sharply upward into the hogbacks near Horsetooth Reservoir, and bedrock can be close to the surface on the foothill side of town. Out on the plains, the Colorado Geological Survey flags swelling and collapsing soils wherever Pierre Shale and wind-deposited silts lie under the ground. Those soils heave when wet and shrink when dry, which pulls pipe joints apart and creates low spots that hold water and debris. River bottoms along the Cache la Poudre and Big Thompson add flood-deposited sand and gravel and shallow groundwater in places.",
+    "permitNote": "Inside city limits, the municipal utility runs the public mains: Fort Collins Utilities, the City of Loveland's water and power department, and the Town of Berthoud's wastewater division. Parts of the county are instead served by special districts, including the South Fort Collins Sanitation District, which maintains close to 250 miles of sewer in the south and southeast. The private service line is the property owner's to maintain, but exactly where that ends at the main differs by provider, so confirm with the utility or district. Work in a street or sidewalk needs a right-of-way permit from the city or town.",
+    "challenges": [
+      "Swelling Pierre Shale soils that shift joints and create bellies in older laterals",
+      "Clay tile and cast iron under 1880s-1920s homes in Fort Collins and Loveland",
+      "Ash and other mature street trees whose roots find cracked clay joints",
+      "Several utilities and sanitation districts with different ownership boundaries at the main",
+      "Shallow, tilted bedrock near the foothills on the west side"
+    ],
+    "travelNote": "Our shop is in Westminster, roughly an hour south of Fort Collins and Loveland. We take on lining and pipe bursting projects all over Colorado, and northern Larimer County is a regular trip for our trenchless crews. The best approach is to call early, get the camera inspection on the calendar, and plan the repair date together so the right equipment arrives ready to finish the job.",
+    "sources": [
+      "https://coloradogeologicalsurvey.org/publications/geologic-map-fort-collins-quadrangle-larimer-colorado/",
+      "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+      "https://history.fcgov.com/1940s/neighborhoods",
+      "https://www.sfcsd.net/collections",
+      "https://berthoud.org/1407/Wastewater-Collection-Treatment",
+      "https://www.lovelandwaterandpower.org/about-us/wastewater",
+      "https://en.wikipedia.org/wiki/Fort_Collins,_Colorado"
+    ]
+  },
+  {
+    "slug": "weld-county",
+    "name": "Weld County",
+    "seat": "Greeley",
+    "home": false,
+    "intro": "Weld County pairs one of Colorado's oldest planned towns, 1870 Greeley, with some of its fastest-growing suburbs in Erie, Frederick and Windsor. Sewer problems follow that split: century-old clay and cast iron under Greeley's core, and in the coal-mining southwest, ground that can still settle over abandoned workings.",
+    "housingStory": "Greeley was laid out by the Union Colony in 1870, and its wastewater system dates to 1889, so the oldest laterals in the county run under homes near downtown and the University of Northern Colorado. Those houses, built from the 1880s into the 1920s, usually have cast iron under the floor and clay tile to the street. Windsor, Erie and Frederick also have small original cores tied to sugar beets or coal: Windsor's around a 1903 sugar factory, Erie's dating to the 1870s, and Frederick's to a 1907 mining camp. After 1945, Greeley filled out with ranch-home neighborhoods where clay tile and, now and then, Orangeburg fiber pipe were standard. Then came the boom. Erie grew from about 6,300 people in 2000 to over 30,000 in 2020, Windsor from about 9,900 to about 32,700, and Frederick from about 2,500 to over 14,500. Those newer homes have PVC laterals that rarely need lining. The repair work in Weld tends to cluster in the pre-1970 housing, where root-filled joints, cracked tile and corroded iron are the everyday findings.",
+    "terrain": "Most of Weld is flat irrigated plain cut by the South Platte, Cache la Poudre and St. Vrain rivers, with sandy river deposits and pockets of clay that swell when wet. Low ground near the rivers can carry shallow groundwater, which makes deep open trenches harder to keep dry. In the southwest corner, the old Boulder-Weld coal field lies under parts of Erie, Frederick, Firestone and Dacono, and the Colorado Geological Survey has studied subsidence there, where old mine workings can settle and move the ground above them.",
+    "permitNote": "Greeley, Windsor and Erie each run their own sewer collection systems through their public works or utilities departments. Frederick, Firestone and Dacono are served by the St. Vrain Sanitation District, a special district that also covers parts of Mead, Longmont and unincorporated Weld. The district states that the owner owns both the service line and the service connection. Greeley likewise tells residents that their service line is theirs to maintain. Street and sidewalk work requires a right-of-way permit from the municipality, and Windsor asks contractors to notify the town before working on a sanitary sewer.",
+    "challenges": [
+      "Greeley laterals near downtown that are well over a century old",
+      "Ground movement over abandoned coal mines in Erie and Frederick",
+      "Shallow groundwater near the Poudre and South Platte rivers",
+      "Owner responsibility that reaches the main connection in St. Vrain Sanitation District",
+      "Mixed materials where old town cores meet newer PVC subdivisions"
+    ],
+    "travelNote": "Greeley and Windsor are about an hour north of our Westminster shop, and Erie and Frederick are closer still. We travel across Colorado for lining and bursting projects, so Weld County jobs are routine for our trenchless trucks. Book the camera inspection ahead, and we will schedule the repair day so the crew arrives with the liner or bursting setup the pipe actually needs.",
+    "sources": [
+      "https://greeleyco.gov/water-and-sewer/water-system/wastewater-collection/",
+      "https://coloradoencyclopedia.org/article/greeley",
+      "https://www.stvrainsdco.gov/sewer-system",
+      "https://www.stvrainsdco.gov/faqs",
+      "https://citizenportal.ai/articles/7311473/Colorado/Weld-County/Frederick-Town/St-Vrain-Sanitation-District-briefs-Frederick-trustees-on-system-size-expansion-and-local-service",
+      "https://www.windsorco.gov/372/Water-Sewer",
+      "https://cbsnews.com/colorado/news/colorado-agency-studies-land-around-old-front-range-mines",
+      "https://en.wikipedia.org/wiki/Erie,_Colorado",
+      "https://en.wikipedia.org/wiki/Windsor,_Colorado",
+      "https://en.wikipedia.org/wiki/Frederick,_Colorado"
+    ]
+  }
+]

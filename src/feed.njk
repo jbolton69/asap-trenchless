@@ -1,0 +1,24 @@
+---
+permalink: /blog/feed.xml
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.name }} — Trenchless Sewer Blog</title>
+  <subtitle>{{ site.description }}</subtitle>
+  <link href="{{ site.url }}/blog/feed.xml" rel="self"/>
+  <link href="{{ site.url }}/blog/"/>
+  <updated>{% if collections.posts | length %}{{ collections.posts[0].date | isoDate }}{% else %}{{ "" | dateISO }}T00:00:00Z{% endif %}</updated>
+  <id>{{ site.url }}/blog/</id>
+  <author><name>{{ site.name }}</name></author>
+  {%- for p in collections.posts | limit(25) %}
+  <entry>
+    <title>{{ p.data.title }}</title>
+    <link href="{{ site.url }}{{ p.url }}"/>
+    <updated>{{ p.date | isoDate }}</updated>
+    <id>{{ site.url }}{{ p.url }}</id>
+    <summary>{{ p.data.description }}</summary>
+  </entry>
+  {%- endfor %}
+</feed>

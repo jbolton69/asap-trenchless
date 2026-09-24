@@ -1,0 +1,171 @@
+---
+layout: layouts/base.njk
+title: "Trenchless Sewer Repair in Denver & the Colorado Front Range"
+metaTitle: "Trenchless Sewer Repair Denver & Front Range | All Sewer & Plumbing"
+metaDescription: "No-dig sewer line repair across the Denver metro and Colorado Front Range since 2009. CIPP lining, pipe bursting and camera inspection. Open 24/7. Estimates are free."
+hasVideo: true
+---
+<section class="relative isolate overflow-hidden bg-ink-950 text-white">
+  {% if site.heroBackground.image and site.heroBackground.opacity > 0 %}
+  <img
+    src="/assets/img/{{ site.heroBackground.image }}-1200.webp"
+    srcset="/assets/img/{{ site.heroBackground.image }}-800.webp 800w,
+            /assets/img/{{ site.heroBackground.image }}-1200.webp 1200w,
+            /assets/img/{{ site.heroBackground.image }}-2000.webp 2000w"
+    sizes="100vw"
+    alt=""
+    aria-hidden="true"
+    fetchpriority="high"
+    class="pointer-events-none absolute inset-0 -z-10 h-full w-full object-cover"
+    style="opacity: {{ site.heroBackground.opacity / 100 }}; object-position: {{ site.heroBackground.position }};">
+  {# Darkening scrim: keeps headline contrast well above WCAG AA regardless of the photo #}
+  <div class="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-r from-ink-950 via-ink-950/75 to-ink-950/5" aria-hidden="true"></div>
+  <div class="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-t from-ink-950/95 via-transparent to-ink-950/40" aria-hidden="true"></div>
+  {% endif %}
+  <div class="absolute inset-0 -z-10 bg-[radial-gradient(60%_60%_at_70%_0%,rgba(29,113,240,0.28),transparent)]" aria-hidden="true"></div>
+  <div class="container-x relative grid gap-12 py-16 sm:py-24 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+    <div>
+      <p class="inline-flex items-center gap-2 rounded-full border border-accent-500/40 bg-accent-500/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.14em] text-accent-400">
+        <span class="h-1.5 w-1.5 rounded-full bg-accent-400"></span> Since {{ site.since }} &middot; Denver metro &amp; Front Range
+      </p>
+      <h1 class="mt-5 text-4xl leading-[1.05] text-white sm:text-5xl lg:text-6xl">
+        Trenchless Sewer Repair<span class="block text-brand-300">Across the Colorado Front Range</span>
+      </h1>
+      <p class="mt-6 max-w-xl text-lg leading-relaxed text-white/75">
+        We fix and replace failing sewer lines without trenching your yard, driveway or slab. Most residential lining jobs are done in a single day, and every job starts with a camera so you see the problem before you see a price.
+      </p>
+      <div class="mt-8 flex flex-wrap items-center gap-4">
+        <a class="btn-primary text-base" href="tel:+1{{ site.phone | phoneDigits }}">Call {{ site.phone }}</a>
+        <a class="btn-ghost text-base" href="#quote">Get a free estimate</a>
+      </div>
+      <p class="mt-3 text-sm font-semibold text-accent-400">{{ site.phoneCta }} {{ site.hours }}.</p>
+      <dl class="mt-10 grid max-w-lg grid-cols-2 gap-x-6 gap-y-4 text-sm sm:grid-cols-4">
+        {% for t in site.trustPoints %}
+        <div>
+          <dt class="font-display text-2xl font-bold text-white">{{ t.stat }}</dt>
+          <dd class="text-white/60">{{ t.label }}</dd>
+        </div>
+        {% endfor %}
+      </dl>
+    </div>
+    <div class="rounded-2xl border border-white/10 bg-white/[0.04] p-6 backdrop-blur sm:p-8">
+      <p class="text-xs font-bold uppercase tracking-[0.18em] text-accent-400">Where we work</p>
+      <h2 class="mt-2 text-2xl text-white">Nine Front Range counties</h2>
+      <ul class="mt-5 grid grid-cols-2 gap-x-4 divide-white/10">
+        {% for c in counties %}
+        <li>
+          <a class="flex items-center justify-between gap-2 border-b border-white/10 py-2.5 text-sm font-semibold text-white transition hover:text-accent-400" href="/{{ c.slug }}/">
+            {{ c.name }} <span aria-hidden="true" class="text-white/40">&rarr;</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      <a class="mt-6 flex items-center justify-between gap-4 rounded-xl bg-accent-500 px-5 py-4 text-ink-950 transition hover:bg-accent-400" href="tel:+1{{ site.phone | phoneDigits }}">
+        <span class="text-sm font-bold uppercase tracking-wider">{{ site.phoneCta }}</span>
+        <span class="whitespace-nowrap font-display text-2xl font-bold">{{ site.phone }}</span>
+      </a>
+      <p class="mt-4 text-xs text-white/50">Shop in {{ site.hq.city }}. Camera inspection before any quote.</p>
+    </div>
+  </div>
+</section>
+
+<section class="container-x py-16">
+  <div class="grid gap-10 lg:grid-cols-[1.15fr_0.85fr]">
+    <div class="prose-site max-w-none">
+      <p class="eyebrow">The short version</p>
+      <h2 class="mt-2 text-3xl sm:text-4xl">A new sewer line without a trench across your yard</h2>
+      <p>Replacing a sewer lateral the old way means an excavator, a trench from the house to the street, and a second bill to put back the lawn, the driveway, the sprinkler lines and the trees that were in the way. In a lot of Denver-area neighborhoods that cleanup costs more than the pipe itself, and if the main sits under the street there is a street-cut permit and patch on top of it.</p>
+      <p>Trenchless work skips most of that. We get in through a cleanout or a small access pit and fix the pipe from the inside. A cured-in-place liner hardens into a seamless new pipe inside the old one, with no joints left for roots to find. Pipe bursting drags a new length of fused HDPE through the path of the old line while breaking the old pipe apart. Either way, the yard stays where it is.</p>
+      <p>Here is the part a good contractor should tell you up front: <strong>trenchless doesn't fit every line.</strong> Colorado's swelling clay soils can push a pipe out of line or let it sag into a low spot that holds water. A liner cures to the shape it's given, so it would lock that sag in place. That's why the camera goes in first, and why some of our written scopes say to dig.</p>
+    </div>
+    <div class="rounded-2xl border border-ink-900/10 bg-ink-950/[0.02] p-7">
+      <p class="eyebrow">Signs it's your sewer line</p>
+      <ul class="mt-4 space-y-3 text-sm text-ink-700">
+        <li class="flex gap-3"><span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-accent-500"></span> Backups that return within weeks of being snaked</li>
+        <li class="flex gap-3"><span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-accent-500"></span> More than one fixture draining slowly at the same time</li>
+        <li class="flex gap-3"><span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-accent-500"></span> Gurgling from a toilet when the washer or tub drains</li>
+        <li class="flex gap-3"><span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-accent-500"></span> A strip of lawn that stays greener than the rest in a dry Colorado summer</li>
+        <li class="flex gap-3"><span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-accent-500"></span> Water coming up through a basement floor drain</li>
+        <li class="flex gap-3"><span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-accent-500"></span> A sewer scope during a home purchase that flagged the lateral</li>
+        <li class="flex gap-3"><span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-accent-500"></span> Roots pulled out on the cable, every single time</li>
+      </ul>
+      <a class="btn-secondary mt-6 w-full text-sm" href="/sewer-camera-inspection/">Start with a camera inspection</a>
+    </div>
+  </div>
+</section>
+
+{% include "partials/trustbar.njk" %}
+
+<section class="container-x py-16">
+  <div class="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    <div>
+      <p class="eyebrow">See the process</p>
+      <h2 class="mt-2 text-3xl sm:text-4xl">What actually happens inside your sewer line</h2>
+      <p class="prose-site mt-4">"No dig" can sound like a sales pitch until you watch it happen. This video shows a liner being soaked in resin, fed into the old pipe, pressed against its walls and cured, and then the camera running through a finished pipe with no joints left.</p>
+      {% set videoId = site.video.id %}
+      {% set videoTitle = site.video.title %}
+      {% set videoCaption = site.video.caption %}
+      {% include "partials/video.njk" %}
+    </div>
+    <div class="lg:pl-4">
+      {% include "partials/badge.njk" %}
+      <p class="prose-site mt-5 text-sm">Owner Jeff Haug trained on Perma-Liner equipment in {{ site.since }}, back when very few Colorado contractors offered lining at all. The crews have since lined house laterals, pool plumbing, storm drains and roof drains.</p>
+    </div>
+  </div>
+</section>
+
+{% include "partials/methods.njk" %}
+
+<section class="bg-brand-50/60">
+  <div class="container-x py-16">
+    <p class="eyebrow">Service areas</p>
+    <h2 class="mt-2 text-3xl sm:text-4xl">The Denver metro and the Front Range</h2>
+    <p class="prose-site mt-4 max-w-3xl">What breaks underground depends on when a neighborhood was built, what the soil does when it gets wet, and who owns the pipe out to the main. Pick your county to see what we run into there.</p>
+    <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {% for c in counties %}
+      <a class="group card block transition hover:border-brand-300 hover:shadow-md" href="/{{ c.slug }}/">
+        <div class="flex items-start justify-between gap-3">
+          <h3 class="text-xl text-ink-950 group-hover:text-brand-700">{{ c.name }}</h3>
+          {% if c.home %}<span class="rounded-full bg-accent-500/15 px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-700">Home base</span>{% endif %}
+        </div>
+        <p class="mt-2 line-clamp-3 text-sm leading-relaxed text-ink-700">{{ c.intro }}</p>
+        <p class="mt-4 text-sm font-semibold text-brand-700">{{ c.name }} sewer repair &rarr;</p>
+      </a>
+      {% endfor %}
+    </div>
+    <p class="mt-8"><a class="font-semibold text-brand-700 hover:text-brand-800" href="/service-areas/">Browse all {{ cities.length }} cities we serve &rarr;</a></p>
+  </div>
+</section>
+
+<section class="container-x py-16">
+  <p class="eyebrow">Recent jobs</p>
+  <h2 class="mt-2 text-3xl sm:text-4xl">Real Colorado sewer lines we've fixed</h2>
+  <p class="prose-site mt-4 max-w-3xl">A few recent jobs, with the footage, the pipe and the method we used on each.</p>
+  {% set projectList = projects | limit(6) %}
+  <div class="lg:[&>div]:grid-cols-3">{% include "partials/project-cards.njk" %}</div>
+</section>
+
+{% include "partials/reviews.njk" %}
+{% include "partials/process.njk" %}
+
+<section class="container-x py-16">
+  <div class="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
+    <div>
+      <p class="eyebrow">Common questions</p>
+      <h2 class="mt-2 text-3xl sm:text-4xl">The things people actually ask us</h2>
+      <p class="prose-site mt-4">Straight answers, including a few that talk people out of hiring us.</p>
+      <a class="btn-secondary mt-6 text-sm" href="/faq/">Read all questions</a>
+    </div>
+    <div class="divide-y divide-ink-900/10 border-y border-ink-900/10">
+      {% for f in faqs | limit(6) %}
+      <details class="group py-4">
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-ink-950">
+          {{ f.q }}
+          <span class="shrink-0 text-brand-700 transition group-open:rotate-45" aria-hidden="true">+</span>
+        </summary>
+        <p class="mt-3 text-[15px] leading-relaxed text-ink-700">{{ f.a }}</p>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>

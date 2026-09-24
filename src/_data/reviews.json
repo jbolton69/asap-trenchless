@@ -1,0 +1,42 @@
+{
+  "profileUrl": "https://maps.google.com/?cid=12475710023021445620",
+  "placeId": "",
+  "searchQuery": "All Sewer and Plumbing Services Westminster CO",
+  "rating": "4.9",
+  "count": 269,
+  "note": "rating/count can be refreshed with npm run reviews:refresh (needs GOOGLE_MAPS_API_KEY; set placeId after first run). items are curated by hand, verbatim from Google; set city to a city slug to pin a review to that city page.",
+  "items": [
+    {
+      "name": "Brean S.",
+      "city": null,
+      "date": "2026-08",
+      "stars": 5,
+      "service": "Sewer inspection",
+      "text": "Ben was amazing! Very fast and an excellent communicator and helped us figure out exactly what needed to be done to keep our Sewer in Top Shape, and avoid any unexpected large expense in the future highly recommend!"
+    },
+    {
+      "name": "R. Davis",
+      "city": null,
+      "date": "2026-07",
+      "stars": 5,
+      "service": "Sewer line cleaning",
+      "text": "Had All Sewer and Plumbing Services come out to remove tree roots in my sewer line. Ben was a very knowledgeable, helpful, and friendly guy. He walked through all the possible remediations after thoroughly cleaning the line! I’m a retired contractor, and would highly recommend Ben and All Sewer and Plumbing Services!"
+    },
+    {
+      "name": "Jenni C.",
+      "city": null,
+      "date": "2026-06",
+      "stars": 5,
+      "service": "Sewer repair",
+      "text": "What a great experience from the first phone call to job complete. The crew was on time, professional, and left everything clean when they were done. best of all, problem solved with confidence that we won’t have a future issue. Thanks to Ben and the All Sewer crew for making a challenging situation a positive experience."
+    },
+    {
+      "name": "Julie N.",
+      "city": null,
+      "date": "2026-06",
+      "stars": 5,
+      "service": "Sewer line cleaning",
+      "text": "We had Elroy come out to help clean our sewer line. He was punctual, kind and very knowledgeable about explaining what he saw and any next steps to protect pipes in the future. He was very quick with the service. I highly recommend this company and Elroy."
+    }
+  ]
+}

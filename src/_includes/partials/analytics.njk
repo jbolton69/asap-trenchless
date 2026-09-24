@@ -1,0 +1,41 @@
+{# ClickCease — fraud prevention, treated as strictly necessary, not gated by opt-out. #}
+{% if site.analytics.clickCeaseEnabled %}
+<script type="text/javascript">
+  var script = document.createElement('script');
+  script.async = true; script.type = 'text/javascript';
+  var target = 'https://www.clickcease.com/monitor/stat.js';
+  script.src = target;
+  var elem = document.head; elem.appendChild(script);
+</script>
+<noscript>
+  <a href="https://www.clickcease.com" rel="nofollow"><img src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease" /></a>
+</noscript>
+{% endif %}
+
+{# Google Analytics 4 — loaded only when the visitor has not opted out and is not sending GPC. #}
+{% if site.analytics.ga4Enabled and site.analytics.ga4MeasurementId %}
+<script>
+(function () {
+  if (window.aspPrivacy && window.aspPrivacy.optedOut()) return;
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  window.gtag = gtag;
+
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'granted'
+  });
+
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.analytics.ga4MeasurementId }}';
+  document.head.appendChild(s);
+
+  gtag('js', new Date());
+  gtag('config', '{{ site.analytics.ga4MeasurementId }}', { anonymize_ip: true });
+})();
+</script>
+{% endif %}

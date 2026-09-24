@@ -1,0 +1,19 @@
+---
+layout: layouts/page.njk
+permalink: "/404.html"
+title: "Page Not Found"
+h1: "That page isn't here"
+metaTitle: "Page Not Found | All Sewer & Plumbing"
+metaDescription: "The page you were looking for doesn't exist. Find our services and service areas here."
+eyebrow: "404"
+lede: "The link may be old or mistyped. Here's where everything lives."
+---
+<h2>Services</h2>
+<ul>
+  {% for s in services %}<li><a href="/{{ s.slug }}/">{{ s.title }}</a></li>{% endfor %}
+</ul>
+<h2>Service areas</h2>
+<ul>
+  {% for c in counties %}<li><a href="/{{ c.slug }}/">{{ c.name }}</a></li>{% endfor %}
+</ul>
+<p><a href="/">Back to the homepage</a> or call {{ site.phone }}. Estimates are free.</p>

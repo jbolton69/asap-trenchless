@@ -1,0 +1,11 @@
+{# Expects projectList. Cards link to the full write-up on curedinplacepipe.net. #}
+<div class="not-prose mt-6 grid gap-5 sm:grid-cols-2">
+  {% for p in projectList %}
+  <a class="card group block transition hover:border-brand-300 hover:shadow-md" href="{{ p.url }}" rel="noopener">
+    <p class="text-xs font-bold uppercase tracking-wider text-brand-700">{{ p.place }}, CO &middot; {{ p.method }}</p>
+    <h3 class="mt-2 text-lg text-ink-950 group-hover:text-brand-800">{{ p.footage }} of {{ p.material | lower }} sewer</h3>
+    <p class="mt-2 text-sm leading-relaxed text-ink-700">{{ p.summary }}</p>
+    <p class="mt-3 text-sm font-semibold text-brand-700">Read the job write-up &rarr;</p>
+  </a>
+  {% endfor %}
+</div>

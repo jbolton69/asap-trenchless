@@ -1,0 +1,28 @@
+{
+  "name": "asp-trenchless",
+  "version": "1.0.0",
+  "description": "All Sewer and Plumbing Services — asp-trenchless.com static site (Eleventy + Tailwind)",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/css/tailwind.css -o ./_site/assets/css/site.css --minify",
+    "watch:css": "tailwindcss -i ./src/css/tailwind.css -o ./_site/assets/css/site.css --watch",
+    "build:11ty": "eleventy",
+    "watch:11ty": "eleventy --serve",
+    "build": "npm run build:11ty && npm run build:css",
+    "start": "npm run build:11ty && npm-run-all --parallel watch:*",
+    "reviews:refresh": "node tools/refresh-review-stats.mjs",
+    "blog:import": "node tools/import-soro.mjs",
+    "img": "node tools/optimize-images.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "fast-xml-parser": "^5.11.1",
+    "npm-run-all": "^4.1.5",
+    "sharp": "^0.35.4",
+    "tailwindcss": "^3.4.19",
+    "turndown": "^7.2.4"
+  },
+  "type": "module"
+}

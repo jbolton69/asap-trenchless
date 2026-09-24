@@ -1,0 +1,62 @@
+---
+layout: layouts/page.njk
+permalink: "/about/"
+title: "About All Sewer and Plumbing Services"
+h1: "Lining Colorado Sewer Lines Since 2009"
+metaTitle: "About All Sewer & Plumbing Services | Westminster, CO Trenchless Sewer Contractor"
+metaDescription: "All Sewer and Plumbing Services has repaired Colorado sewer lines without trenching since 2009. Owner Jeff Haug, Perma-Liner trained crews, shop in Westminster."
+eyebrow: "About us"
+lede: "A Westminster-based crew that started lining sewers in Colorado before most contractors here had heard of it."
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: About
+    url: /about/
+---
+<h2>How we got here</h2>
+<p>In 2009, owner Jeff Haug went through Perma-Liner's training and bought his own lining equipment. At the time, cured-in-place lining was common in other parts of the country but almost nobody in Colorado offered it to homeowners, so a failed sewer line here nearly always meant an excavator. The company ran for years as Sewer Solutions before becoming All Sewer and Plumbing Services, LLC, and it has lined hundreds of lines since.</p>
+<p>Today the crews run dedicated trenchless trucks out of our shop at {{ site.hq.street }} in {{ site.hq.city }}, in the north Denver metro. Most of our work is in the Denver and Boulder areas, and we travel anywhere in Colorado when a lining project calls for it.</p>
+
+<h2>What we do</h2>
+<p>Everything a failed sewer line needs, from finding the problem to proving it's fixed:</p>
+<ul>
+  <li><a href="/sewer-camera-inspection/">Sewer camera inspection</a> and locating</li>
+  <li><a href="/hydro-jetting/">Hydro jetting and drain cleaning</a>, including root cutting</li>
+  <li><a href="/cipp-pipe-lining/">CIPP pipe lining</a> with Perma-Liner systems</li>
+  <li><a href="/pipe-bursting/">Pipe bursting</a> with fused HDPE</li>
+  <li><a href="/sewer-line-replacement/">Spot repairs and conventional replacement</a> when trenchless isn't the right answer</li>
+  <li><a href="/commercial-trenchless/">Commercial, industrial and municipal lining</a> &mdash; including pool plumbing, storm drains and roof drains</li>
+</ul>
+<p>Because we do all of these, we don't need to push one of them. Whichever method your camera footage supports is the one we quote.</p>
+
+<h2>How we work</h2>
+<h3>The camera comes first</h3>
+<p>We won't price sewer work from a phone description. We run a camera from the cleanout to the main, mark the trouble spots on the ground, and go through the video with you before any number comes up. Plenty of situations can be talked through on the phone first, and if you already have a sewer scope video from a home inspection, send it over and we'll take a look.</p>
+
+<h3>We'll tell you when lining is wrong</h3>
+<p>Front Range clay soils swell and shrink, and over decades that movement can bend a pipe out of line or leave a sag that holds water. A liner cures in whatever shape it's given, so it can't fix a line that has lost its slope. Those lines get burst or replaced, and our written scope will say so.</p>
+
+<h3>We deal with the city or the district</h3>
+<p>Around Denver, the rules for your sewer line depend on who runs your sewer: the city, or one of the many special sanitation districts across the metro. Some want notice before work starts, some inspect before anything is backfilled, and some have rules about which repair methods they'll accept. We check those requirements before the job is scheduled, pull the permits, and book the inspections.</p>
+
+<h3>You see the finished pipe</h3>
+<p>After a liner cures or a new pipe is pulled in, the camera goes back in. You get to watch the finished line from end to end before we leave.</p>
+
+<h2>Who you'll meet</h2>
+<p>Customers mention our technicians by name in their Google reviews &mdash; Ben and Elroy come up often &mdash; and the company holds a {{ reviews.rating }}-star rating across more than {{ reviews.count }} Google reviews. We're open 24 hours a day, seven days a week.</p>
+
+<h2>Where we work</h2>
+<p>Nine Front Range counties, with dedicated pages for the cities and neighborhoods we work in most:</p>
+<div class="not-prose my-6 grid gap-3 sm:grid-cols-2">
+  {% for c in counties %}
+  <a class="flex items-center justify-between rounded-lg border border-ink-900/10 px-4 py-3 transition hover:border-brand-300 hover:bg-brand-50" href="/{{ c.slug }}/">
+    <span class="font-semibold text-ink-900">{{ c.name }}</span>
+    <span aria-hidden="true" class="text-brand-700">&rarr;</span>
+  </a>
+  {% endfor %}
+</div>
+
+<h2>Verified CIPP installer</h2>
+<div class="not-prose my-6 max-w-xl">{% include "partials/badge.njk" %}</div>
+
+<p><strong>{{ site.phoneCta }}</strong> <a href="tel:+1{{ site.phone | phoneDigits }}">{{ site.phone }}</a></p>

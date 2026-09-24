@@ -1,0 +1,28 @@
+{#
+  Lite YouTube facade: poster image + play button, no third-party JS until clicked.
+  Loads nothing from YouTube on page load — the iframe is injected on interaction.
+#}
+<div class="not-prose my-10">
+  <div
+    class="group relative aspect-video w-full cursor-pointer overflow-hidden rounded-2xl bg-ink-950 shadow-xl"
+    data-yt="{{ videoId }}"
+    role="button"
+    tabindex="0"
+    aria-label="Play video: {{ videoTitle }}">
+    <img
+      src="{% if videoPoster %}/assets/img/{{ videoPoster }}{% else %}https://i.ytimg.com/vi/{{ videoId }}/maxresdefault.jpg{% endif %}"
+      alt="{{ videoTitle }}"
+      width="1280" height="720"
+      class="h-full w-full object-cover opacity-80 transition group-hover:opacity-95"
+      loading="lazy">
+    <span class="pointer-events-none absolute inset-0 grid place-items-center">
+      <span class="grid h-20 w-20 place-items-center rounded-full bg-accent-500 shadow-2xl transition group-hover:scale-110">
+        <svg class="ml-1 h-9 w-9 text-ink-950" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+      </span>
+    </span>
+    <span class="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink-950/90 to-transparent p-5">
+      <span class="block font-display text-lg font-semibold text-white sm:text-xl">{{ videoTitle }}</span>
+      {% if videoCaption %}<span class="mt-1 block text-sm text-white/70">{{ videoCaption }}</span>{% endif %}
+    </span>
+  </div>
+</div>

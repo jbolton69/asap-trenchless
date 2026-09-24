@@ -1,0 +1,44 @@
+---
+layout: layouts/page.njk
+permalink: "/our-process/"
+title: "Our Process"
+h1: "How an All Sewer Job Runs, Start to Finish"
+metaTitle: "Our Process | Camera-First Trenchless Sewer Repair, Denver Metro"
+metaDescription: "Camera inspection, cleaning, a written scope, permits, installation and a final camera check: the six steps behind every All Sewer and Plumbing Services job."
+eyebrow: "Our process"
+lede: "The same six steps on every job, in the same order. Skipping the first one is how sewer repairs go wrong."
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Our Process
+    url: /our-process/
+---
+<h2>The six steps</h2>
+<p>The order stays the same whether it's a 40-foot lateral under a <a href="/denver/harvey-park/">Harvey Park</a> ranch or a 12-inch drain line on a commercial property. Only the scale changes.</p>
+
+{% for p in process %}
+<h3>{{ loop.index }}. {{ p.step }}</h3>
+<p>{{ p.detail }}</p>
+{% endfor %}
+
+<h2>Why we look twice</h2>
+<p>The first camera run finds the problem. But a line packed with roots, grease or rust scale hides some of what's wrong with it. Once the jetter has cleared it, a second look sometimes turns up a crack behind a root mass, a joint that has pulled apart, or a low spot that only shows once the standing water drains. Now and then that changes the plan from lining to bursting or a dig. Better to learn that before a liner cures in place than after.</p>
+
+<h2>What we need from you</h2>
+<ul>
+  <li><strong>A way into the line.</strong> An existing cleanout is ideal. If there isn't one, we'll find the line and set up access.</li>
+  <li><strong>Several hours without using the drains</strong> on most home lining jobs. You'll know the start and finish times ahead of time.</li>
+  <li><strong>A decision on surface restoration</strong> wherever an access pit is needed, agreed on before the work starts.</li>
+  <li><strong>For rentals, HOAs and commercial buildings:</strong> help with tenant notices and access to each area as the work moves through it.</li>
+</ul>
+
+<h2>What we won't do</h2>
+<ul>
+  <li>Quote a lining job without running a camera through the line first</li>
+  <li>Line a pipe that has sagged, lost its slope or collapsed</li>
+  <li>Install a liner over roots or scale to save cleaning time</li>
+  <li>Skip the permit or the city or district inspection</li>
+  <li>Leave without showing you the finished pipe on camera</li>
+</ul>
+<p>If a sewer quote you've been given skipped any of these, a second opinion is worth it. <a href="/sewer-camera-inspection/">Start with a camera inspection</a>.</p>
+<p><strong>{{ site.phoneCta }}</strong> <a href="tel:+1{{ site.phone | phoneDigits }}">{{ site.phone }}</a></p>

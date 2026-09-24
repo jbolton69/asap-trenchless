@@ -1,0 +1,71 @@
+{% set activePhone = site.phone %}
+<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:m-2 focus:rounded focus:bg-white focus:px-4 focus:py-2">Skip to content</a>
+<div class="bg-ink-950 text-white">
+  <div class="container-x flex flex-wrap items-center justify-between gap-2 py-2 text-[13px]">
+    <p class="font-medium text-white/80">Trenchless sewer repair across the Colorado Front Range since {{ site.since }} &middot; Open 24/7</p>
+    <p class="flex items-center gap-4">
+      <span class="hidden sm:inline text-white/70">{{ site.phoneCta }}</span>
+      <a class="font-semibold text-accent-400 hover:text-accent-300" href="tel:+1{{ activePhone | phoneDigits }}">{{ activePhone }}</a>
+    </p>
+  </div>
+</div>
+<header class="sticky top-0 z-40 border-b border-ink-900/10 bg-white/95 backdrop-blur">
+  <div class="container-x flex items-center justify-between gap-4 py-3">
+    <a href="/" class="flex items-center gap-3">
+      <img src="/assets/img/logo.webp" alt="All Sewer &amp; Plumbing Services" width="272" height="180" class="h-14 w-auto sm:h-[72px]" fetchpriority="high">
+      <span class="sr-only">All Sewer and Plumbing Services — Trenchless Sewer Repair</span>
+    </a>
+    <nav class="hidden items-center gap-6 lg:flex" aria-label="Main">
+      <div class="group relative">
+        <button class="flex items-center gap-1 py-2 text-sm font-semibold text-ink-800 hover:text-brand-700" aria-haspopup="true">Services
+          <svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>
+        </button>
+        <div class="invisible absolute left-0 top-full z-50 w-72 rounded-xl border border-ink-900/10 bg-white p-2 opacity-0 shadow-xl transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+          {% for s in services %}
+          <a class="block rounded-lg px-3 py-2 text-sm font-medium text-ink-800 hover:bg-brand-50 hover:text-brand-800" href="/{{ s.slug }}/">{{ s.navTitle }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="group relative">
+        <button class="flex items-center gap-1 py-2 text-sm font-semibold text-ink-800 hover:text-brand-700" aria-haspopup="true">Service Areas
+          <svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>
+        </button>
+        <div class="invisible absolute left-0 top-full z-50 w-72 rounded-xl border border-ink-900/10 bg-white p-2 opacity-0 shadow-xl transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+          {% for c in counties %}
+          <a class="block rounded-lg px-3 py-2 text-sm font-medium text-ink-800 hover:bg-brand-50 hover:text-brand-800" href="/{{ c.slug }}/">{{ c.name }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      <a class="py-2 text-sm font-semibold text-ink-800 hover:text-brand-700" href="/our-process/">Our Process</a>
+      <a class="py-2 text-sm font-semibold text-ink-800 hover:text-brand-700" href="/blog/">Blog</a>
+      <a class="py-2 text-sm font-semibold text-ink-800 hover:text-brand-700" href="/faq/">FAQ</a>
+      <a class="py-2 text-sm font-semibold text-ink-800 hover:text-brand-700" href="/about/">About</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a class="hidden text-right md:block" href="tel:+1{{ activePhone | phoneDigits }}">
+        <span class="block text-[11px] font-semibold uppercase tracking-wider text-ink-700">Free estimates &middot; call now</span>
+        <span class="block font-display text-xl font-bold text-brand-800">{{ activePhone }}</span>
+      </a>
+      <a class="btn-primary hidden text-sm sm:inline-flex" href="#quote">Free Estimate</a>
+      <a class="btn-primary px-3 py-2.5 text-sm sm:hidden" href="tel:+1{{ activePhone | phoneDigits }}" aria-label="Call {{ activePhone }}">Call</a>
+      <button class="lg:hidden rounded-lg border border-ink-900/15 p-2" data-toggle="mobilenav" aria-expanded="false" aria-label="Toggle menu">
+        <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobilenav" hidden class="border-t border-ink-900/10 bg-white lg:hidden">
+    <div class="container-x grid gap-1 py-4">
+      <p class="eyebrow mt-2">Services</p>
+      {% for s in services %}<a class="rounded px-2 py-2 text-sm font-medium hover:bg-brand-50" href="/{{ s.slug }}/">{{ s.navTitle }}</a>{% endfor %}
+      <p class="eyebrow mt-3">Service Areas</p>
+      {% for c in counties %}<a class="rounded px-2 py-2 text-sm font-medium hover:bg-brand-50" href="/{{ c.slug }}/">{{ c.name }}</a>{% endfor %}
+      <p class="eyebrow mt-3">Company</p>
+      <a class="rounded px-2 py-2 text-sm font-medium hover:bg-brand-50" href="/our-process/">Our Process</a>
+      <a class="rounded px-2 py-2 text-sm font-medium hover:bg-brand-50" href="/blog/">Blog</a>
+      <a class="rounded px-2 py-2 text-sm font-medium hover:bg-brand-50" href="/faq/">FAQ</a>
+      <a class="rounded px-2 py-2 text-sm font-medium hover:bg-brand-50" href="/about/">About</a>
+      <a class="rounded px-2 py-2 text-sm font-medium hover:bg-brand-50" href="/contact/">Contact</a>
+      <a class="btn-secondary mt-3" href="tel:+1{{ activePhone | phoneDigits }}">Call {{ activePhone }}</a>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,104 @@
+---
+pagination:
+  data: counties
+  size: 1
+  alias: county
+  addAllPagesToCollections: true
+permalink: "/{{ county.slug }}/"
+layout: layouts/base.njk
+eleventyComputed:
+  title: "Trenchless Sewer Repair in {{ county.name }}"
+  metaTitle: "Trenchless Sewer Repair in {{ county.name }}, CO | No-Dig Sewer Line Repair"
+  metaDescription: "No-dig sewer line repair across {{ county.name }}, Colorado. Camera inspection, CIPP lining and pipe bursting for homes and businesses. Estimates are free. Call {{ site.phone }}."
+  breadcrumbs:
+    - name: Home
+      url: /
+    - name: Service Areas
+      url: /service-areas/
+    - name: "{{ county.name }}"
+      url: "/{{ county.slug }}/"
+---
+{% set countyCities = cities | where("county", county.slug) %}
+{% set countyProjects = projects | where("county", county.slug) %}
+<section class="relative overflow-hidden bg-gradient-to-b from-brand-950 to-brand-800 text-white">
+  <div class="container-x py-16 sm:py-24">
+    <nav aria-label="Breadcrumb" class="mb-5 text-xs text-white/60">
+      <a class="hover:text-white" href="/">Home</a> <span class="px-1">/</span>
+      <a class="hover:text-white" href="/service-areas/">Service Areas</a> <span class="px-1">/</span>
+      <span class="text-white/80">{{ county.name }}</span>
+    </nav>
+    <p class="text-xs font-bold uppercase tracking-[0.18em] text-accent-400">{{ county.name }}, Colorado{% if county.home %} &middot; Home base{% endif %}</p>
+    <h1 class="mt-3 max-w-4xl text-4xl text-white sm:text-5xl lg:text-6xl">Trenchless Sewer Repair in {{ county.name }}</h1>
+    <p class="mt-5 max-w-2xl text-lg text-white/80">{{ county.intro }}</p>
+    <div class="mt-8 flex flex-wrap items-center gap-4">
+      <a class="btn-primary" href="tel:+1{{ site.phone | phoneDigits }}">Call {{ site.phone }}</a>
+      <a class="btn-ghost" href="#quote">Get a free estimate</a>
+    </div>
+    <p class="mt-4 text-sm text-white/60">{{ site.phoneCta }} &middot; {{ site.hours }}</p>
+  </div>
+</section>
+
+{% include "partials/trustbar.njk" %}
+
+<div class="container-x grid gap-12 py-16 lg:grid-cols-[minmax(0,1fr)_320px]">
+  <div class="prose-site max-w-none">
+    <h2>What fails in {{ county.name }} sewer lines, and why</h2>
+    <p>{{ county.housingStory }}</p>
+
+    <h3>Soil, slope and access</h3>
+    <p>{{ county.terrain }}</p>
+
+    <h3>What we watch for on {{ county.name }} camera inspections</h3>
+    <ul>
+      {% for ch in county.challenges %}<li>{{ ch }}</li>{% endfor %}
+    </ul>
+
+    <h2>Trenchless methods we use in {{ county.name }}</h2>
+    <p>The camera decides which of these fits your line. Here is what each one does, and where it stops being the right tool.</p>
+    <div class="not-prose mt-6 grid gap-5 sm:grid-cols-2">
+      {% for s in services %}{% if s.slug in ["cipp-pipe-lining","pipe-bursting","sewer-line-replacement","sewer-camera-inspection"] %}
+      <div class="card">
+        <h3 class="text-lg"><a class="hover:text-brand-700" href="/{{ s.slug }}/">{{ s.title }}</a></h3>
+        <p class="mt-2 text-sm leading-relaxed text-ink-700">{{ s.short }}</p>
+        <p class="mt-3 text-sm text-ink-700"><span class="font-semibold text-ink-900">Best for:</span> {{ s.bestFor }}</p>
+      </div>
+      {% endif %}{% endfor %}
+    </div>
+
+{% if county.travelNote %}
+    <h2>Getting to {{ county.name }}</h2>
+    <p>{{ county.travelNote }}</p>
+{% endif %}
+
+    <h2>Permits and sewer districts in {{ county.name }}</h2>
+    <p>{{ county.permitNote }}</p>
+
+{% if countyProjects | length %}
+    <h2>Recent trenchless jobs in {{ county.name }}</h2>
+    {% set projectList = countyProjects %}
+    {% include "partials/project-cards.njk" %}
+{% endif %}
+
+{% if countyCities | length %}
+    <h2>Cities we serve in {{ county.name }}</h2>
+    <p>We work throughout {{ county.name }}, including the communities below. Don't see yours? We almost certainly still cover it &mdash; call {{ site.phone }} and ask.</p>
+    <div class="not-prose mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {% for c in countyCities %}
+      <a class="flex items-center justify-between rounded-lg border border-ink-900/10 px-4 py-3 text-sm font-semibold text-ink-800 transition hover:border-brand-300 hover:bg-brand-50 hover:text-brand-800" href="/{{ county.slug }}/{{ c.slug }}/">
+        {{ c.name }}
+        <span aria-hidden="true">&rarr;</span>
+      </a>
+      {% endfor %}
+    </div>
+{% endif %}
+
+    <h2>A straight answer about your {{ county.name }} sewer line</h2>
+    <p>Every job starts with a camera run from the cleanout to the main, with the footage counter on screen and the problem spots marked on the ground. You watch the video with us, then get a written scope that names the method and explains why the alternatives were ruled out. Sometimes the honest answer is that your line needs to be dug and replaced &mdash; a pipe that has sagged or lost its slope can't be fixed by lining it, and we would rather tell you that before any money changes hands.</p>
+    <p><strong>{{ site.phoneCta }}</strong> <a href="tel:+1{{ site.phone | phoneDigits }}">{{ site.phone }}</a></p>
+  </div>
+  <aside class="lg:sticky lg:top-28 lg:self-start">
+    {% include "partials/sidebar.njk" %}
+  </aside>
+</div>
+
+{% include "partials/process.njk" %}

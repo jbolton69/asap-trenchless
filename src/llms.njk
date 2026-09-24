@@ -1,0 +1,54 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+---
+# {{ site.name | safe }}
+
+> {{ site.description | safe }}
+
+Trenchless sewer repair contractor based in {{ site.hq.city | safe }}, Colorado, serving the Denver metro
+and the Colorado Front Range (nine counties). Doing trenchless sewer work since {{ site.since }}; owner {{ site.owner }}.
+Formerly operated as {{ site.formerName }}. Open 24 hours, 7 days.
+
+Contact: {{ site.phone | safe }}. Estimates are free.
+
+## Methods
+
+{% for s in services -%}
+- [{{ s.title | safe }}]({{ site.url }}/{{ s.slug }}/): {{ s.short | safe }} Best for: {{ s.bestFor | safe }}
+{% endfor %}
+
+## What this company will tell you that others may not
+
+- A sewer quote given without a camera inspection is a guess. Every job starts with video.
+- Lining cannot fix a pipe that has lost its slope, sagged into a belly, or collapsed. Those
+  lines need pipe bursting or conventional replacement.
+- Colorado's expansive clay soils move pipe over time; bellies and offsets caused by that
+  movement are a common reason a line needs bursting or a dig instead of a liner.
+- Around Denver, the property owner usually owns the sewer lateral out to the main, often
+  including the connection, but the rule depends on the city or special sanitation district.
+
+## Service areas
+
+{% for c in counties -%}
+- [{{ c.name | safe }}]({{ site.url }}/{{ c.slug }}/)
+{% endfor %}
+
+### Cities with dedicated pages
+
+{% for c in counties %}**{{ c.name | safe }}**: {% for city in cities | where("county", c.slug) %}[{{ city.name | safe }}]({{ site.url }}/{{ c.slug }}/{{ city.slug }}/){% if not loop.last %}, {% endif %}{% endfor %}
+
+{% endfor %}
+## Reference
+
+- [Our process]({{ site.url }}/our-process/): the six steps every job follows
+- [Frequently asked questions]({{ site.url }}/faq/)
+- [About]({{ site.url }}/about/)
+- [Contact and free estimates]({{ site.url }}/contact/)
+
+## Articles
+
+{% for p in collections.posts -%}
+- [{{ p.data.title | safe }}]({{ site.url }}{{ p.url }}): {{ p.data.description | safe }}
+{% endfor %}

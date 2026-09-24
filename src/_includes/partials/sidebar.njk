@@ -1,0 +1,24 @@
+{% set activePhone = site.phone %}
+<div class="rounded-2xl border border-ink-900/10 bg-ink-950 p-6 text-white">
+  <p class="text-xs font-bold uppercase tracking-[0.18em] text-accent-400">{{ site.phoneCta }}</p>
+  <p class="mt-2 text-sm text-white/75">Camera inspection, written finding, straight recommendation.</p>
+  <a class="mt-4 block font-display text-3xl font-bold text-white hover:text-accent-400" href="tel:+1{{ activePhone | phoneDigits }}">{{ activePhone }}</a>
+  <p class="text-xs text-white/50">{{ site.hours }}</p>
+  <a class="btn-primary mt-4 w-full text-sm" href="#quote">Request an estimate</a>
+</div>
+<div class="mt-6 rounded-2xl border border-ink-900/10 p-6">
+  <p class="eyebrow">Trenchless methods</p>
+  <ul class="mt-3 space-y-2 text-sm">
+    {% for s in services %}{% if not s.hub %}
+    <li><a class="font-medium text-ink-800 hover:text-brand-700" href="/{{ s.slug }}/">{{ s.title }}</a></li>
+    {% endif %}{% endfor %}
+  </ul>
+</div>
+<div class="mt-6 rounded-2xl border border-ink-900/10 p-6">
+  <p class="eyebrow">Areas served</p>
+  <ul class="mt-3 space-y-2 text-sm">
+    {% for c in counties %}
+    <li><a class="font-medium text-ink-800 hover:text-brand-700" href="/{{ c.slug }}/">{{ c.name }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,26 @@
+[
+  {
+    "step": "Camera run and locate",
+    "detail": "We send a camera through the line from a cleanout, noting the distance to every defect, then trace its position and depth from the surface with a locator. You see the video and hear what it shows before any method is suggested."
+  },
+  {
+    "step": "Hydro-jet cleaning",
+    "detail": "High-pressure water, with cutters where needed, clears roots, grease and scale down to the pipe wall. That gives the camera a true view of the pipe and gives a liner a clean surface to bond to."
+  },
+  {
+    "step": "Choosing the method, in writing",
+    "detail": "From the footage we recommend lining, pipe bursting, a spot repair or a conventional dig, and explain why the others do not fit. A belly or a line knocked off grade by heaving soil is not a lining job, and we will tell you so. The scope is written down before work is scheduled."
+  },
+  {
+    "step": "Permits with the right agency",
+    "detail": "Depending on the address, the permits may come from a city, the county or a special sanitation district that owns the main and sets rules at the tap. We sort out which applies, file for them, and schedule the inspections that come with them."
+  },
+  {
+    "step": "Installation",
+    "detail": "A lining job on a typical house is usually done in one day, and pipe bursting typically takes one to two days including the access pits. Drains stay out of use while the line is open, and we give you the start and finish times ahead of time."
+  },
+  {
+    "step": "Final camera check",
+    "detail": "When the work is finished, the camera goes back through the full length so you can see the new pipe wall, the reinstated connections and clean flow to the main. You keep a copy of the recording."
+  }
+]

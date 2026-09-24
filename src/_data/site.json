@@ -1,0 +1,62 @@
+{
+  "name": "All Sewer and Plumbing Services, LLC",
+  "shortName": "All Sewer & Plumbing",
+  "url": "https://asap-trenchless.com",
+  "tagline": "Trenchless Sewer Repair Across the Colorado Front Range",
+  "description": "All Sewer and Plumbing Services repairs and replaces sewer lines without trenching your yard, driveway or slab. CIPP lining, pipe bursting and camera inspection across the Denver metro and Colorado Front Range since 2009.",
+  "yearsExperience": "Since 2009",
+  "since": 2009,
+  "phone": "(720) 606-6223",
+  "phoneCta": "Estimates are free. Call now.",
+  "hq": {
+    "street": "9083 Perry Street",
+    "city": "Westminster",
+    "region": "CO",
+    "postalCode": "80031",
+    "country": "US"
+  },
+  "hours": "Open 24 hours, 7 days a week",
+  "owner": "Jeff Haug",
+  "formerName": "Sewer Solutions",
+  "socials": {},
+  "trustPoints": [
+    { "stat": "2009", "label": "Lining sewers since" },
+    { "stat": "4.9★", "label": "Google rating" },
+    { "stat": "1 Day", "label": "Typical lining job" },
+    { "stat": "24/7", "label": "Open every day" }
+  ],
+  "cippProgram": {
+    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services",
+    "blurb": "Listed as a CIPP Verified Installer at curedinplacepipe.net, a trenchless-only directory that checks licensing, completed work and lining equipment before listing a contractor."
+  },
+  "video": {
+    "id": "V55Cvz6z8Bw",
+    "title": "CIPP Cured In Place Pipe — Trenchless Sewer Pipe Lining Technology",
+    "url": "https://youtu.be/V55Cvz6z8Bw",
+    "caption": "Watch a liner go in, start to finish — about four minutes."
+  },
+  "analytics": {
+    "ga4MeasurementId": "",
+    "ga4Enabled": false,
+    "clickCeaseEnabled": false,
+    "note": "Create a GA4 property for asap-trenchless.com, paste its G- ID here and set ga4Enabled to true at go-live."
+  },
+  "legal": {
+    "entity": "All Sewer and Plumbing Services, LLC",
+    "governingLaw": "State of Colorado",
+    "venue": "Adams County, Colorado",
+    "effectiveDate": "REPLACE — the date these terms go live"
+  },
+  "heroBackground": {
+    "image": "hero-old-pipe",
+    "alt": "",
+    "opacity": 55,
+    "position": "center right"
+  },
+  "form": {
+    "provider": "web3forms",
+    "accessKey": "REPLACE-WITH-WEB3FORMS-KEY",
+    "primaryRecipient": "organicseopositions@gmail.com",
+    "note": "Records only — recipients are set in the Web3Forms dashboard, never in page source. The form stays hidden (call CTA shown instead) until accessKey is a real key."
+  }
+}

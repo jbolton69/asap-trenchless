@@ -1,0 +1,25 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for p in collections.all %}
+{%- if p.url and not p.data.excludeFromSitemap and not p.data.noindex and ".html" not in p.url %}
+{%- set depth = p.url | urlDepth %}
+  <url>
+    <loc>{{ site.url }}{{ p.url }}</loc>
+    {#- Posts carry their real publish date; everything else uses the build date. #}
+    <lastmod>{% if "posts" in (p.data.tags or []) %}{{ (p.date | isoDate).slice(0, 10) }}{% else %}{{ "" | dateISO }}{% endif %}</lastmod>
+    <changefreq>{% if p.url == "/" %}weekly{% else %}monthly{% endif %}</changefreq>
+    <priority>
+      {%- if p.url == "/" -%}1.0
+      {%- elif p.data.privacy or p.url == "/privacy-policy/" -%}0.3
+      {%- elif depth > 1 -%}0.6
+      {%- else -%}0.8
+      {%- endif -%}
+    </priority>
+  </url>
+{%- endif %}
+{%- endfor %}
+</urlset>

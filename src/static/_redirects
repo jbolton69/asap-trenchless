@@ -1,0 +1,9 @@
+# Cloudflare Pages redirects for asap-trenchless.com
+/index.php        /                     301
+/home             /                     301
+/contact-us       /contact/             301
+/contact-us/      /contact/             301
+/privacy          /privacy-policy/      301
+/cipp             /cipp-pipe-lining/    301
+/pipe-lining      /cipp-pipe-lining/    301
+/pipe-lining/     /cipp-pipe-lining/    301

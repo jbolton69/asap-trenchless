@@ -1,0 +1,102 @@
+[
+  {
+    "city": "arvada",
+    "county": "jefferson-county",
+    "place": "Arvada",
+    "footage": "36 ft",
+    "material": "Cast iron",
+    "method": "Spot repair + CIPP lining",
+    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/arvada-36-ft-cast-iron-lining",
+    "summary": "A builder sent his own sewer video; one cracked section was repaired through a small pit and the rest of the line was lined to the main the next day."
+  },
+  {
+    "city": "boulder",
+    "county": "boulder-county",
+    "place": "Boulder",
+    "footage": "75 ft",
+    "material": "Cast iron",
+    "method": "Pipe bursting",
+    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/boulder-75-ft-pipe-bursting-rescue",
+    "summary": "Another contractor dug in the wrong spot and walked off. We burst in a new HDPE line and had the family's sewer working again that evening."
+  },
+  {
+    "city": "centennial",
+    "county": "arapahoe-county",
+    "place": "Centennial",
+    "footage": "47 ft",
+    "material": "Cast iron",
+    "method": "CIPP lining",
+    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/centennial-47-ft-lining-no-dig",
+    "summary": "Flaking, cracking cast iron that hadn't collapsed yet — lined from a cleanout inside the house with no digging at all."
+  },
+  {
+    "city": null,
+    "county": "denver",
+    "place": "Denver",
+    "footage": "55 ft",
+    "material": "Cast iron",
+    "method": "Trenchless replacement",
+    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/denver-55-ft-cast-iron-trenchless-replacement",
+    "summary": "A kitchen leak in a 70-year-old house led to the camera, which found roots and cracks the length of the lateral. Replaced without opening the yard."
+  },
+  {
+    "city": null,
+    "county": "denver",
+    "place": "Denver",
+    "footage": "78 ft",
+    "material": "Terra cotta",
+    "method": "CIPP lining",
+    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/denver-78-ft-terra-cotta-lining",
+    "summary": "Roots at every joint of an old terra cotta line. Cleaned and lined end to end from the homeowner's existing inspection video."
+  },
+  {
+    "city": null,
+    "county": "denver",
+    "place": "Denver",
+    "footage": "200 ft",
+    "material": "12-inch drain",
+    "method": "CIPP lining",
+    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/denver-university-pool-200-ft-12-inch-lining",
+    "summary": "A campus pool's leaking drain system, lined from the surge tank with the pool only half drained. Camera and leak test both passed."
+  },
+  {
+    "city": "lafayette",
+    "county": "boulder-county",
+    "place": "Lafayette",
+    "footage": "44 ft",
+    "material": "Cast iron",
+    "method": "CIPP lining",
+    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/lafayette-44-ft-lining-vs-excavation",
+    "summary": "The other quote meant tearing out the porch and driveway. The line was close to collapse but still lineable — lined the next morning."
+  },
+  {
+    "city": "lakewood",
+    "county": "jefferson-county",
+    "place": "Lakewood",
+    "footage": "67 ft",
+    "material": "Cast iron",
+    "method": "CIPP lining",
+    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/lakewood-67-ft-cast-iron-same-day-lining",
+    "summary": "Four rooter calls in a year, and the bottom of the 1950s pipe was gone. Lined the same day as the inspection, before it could collapse."
+  },
+  {
+    "city": "littleton",
+    "county": "arapahoe-county",
+    "place": "Littleton",
+    "footage": "72 ft",
+    "material": "Vitrified clay",
+    "method": "CIPP lining",
+    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/littleton-72-ft-clay-lining-from-inside",
+    "summary": "A front yard full of vintage cars ruled out digging. The clay line was jetted clean and lined from inside the house."
+  },
+  {
+    "city": "thornton",
+    "county": "adams-county",
+    "place": "Thornton",
+    "footage": "48 ft",
+    "material": "Cast iron",
+    "method": "Pipe bursting",
+    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/thornton-48-ft-pipe-bursting",
+    "summary": "Bursting beat lining on price for this run, and two small pits kept clear of the big shade trees in the middle of the yard."
+  }
+]

@@ -1,0 +1,80 @@
+---
+layout: layouts/base.njk
+---
+{% set mins = content | readingTime %}
+<article>
+  <header class="bg-gradient-to-b from-brand-950 to-brand-800 text-white">
+    <div class="container-x py-14 sm:py-18">
+      <nav aria-label="Breadcrumb" class="mb-5 text-xs text-white/60">
+        <a class="hover:text-white" href="/">Home</a> <span class="px-1">/</span>
+        <a class="hover:text-white" href="/blog/">Blog</a> <span class="px-1">/</span>
+        <span class="text-white/80">{{ title }}</span>
+      </nav>
+      {% if topics %}
+      <p class="flex flex-wrap gap-2">
+        {% for t in topics %}
+        <a href="/blog/topic/{{ t | slug }}/" class="rounded-full border border-white/25 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-white/80 hover:bg-white/10">{{ t }}</a>
+        {% endfor %}
+      </p>
+      {% endif %}
+      <h1 class="mt-4 max-w-4xl text-4xl text-white sm:text-5xl">{{ title }}</h1>
+      {% if description %}<p class="mt-5 max-w-2xl text-lg text-white/80">{{ description }}</p>{% endif %}
+      <p class="mt-6 text-sm text-white/60">
+        <time datetime="{{ date | isoDate }}">{{ date | readableDate }}</time>
+        <span class="px-2">&middot;</span>{{ mins }} min read
+        {% if author %}<span class="px-2">&middot;</span>{{ author }}{% endif %}
+      </p>
+    </div>
+  </header>
+
+  {# Featured image. `image` is a filename in src/assets/img. Alt stays empty
+     unless imageAlt is set — a caption-free hero next to the headline is
+     decorative, and repeating the title in alt text helps nobody. #}
+  {% if image %}
+  <div class="container-x -mt-8 sm:-mt-10">
+    <img
+      class="aspect-[16/9] w-full rounded-2xl object-cover shadow-xl ring-1 ring-ink-900/10"
+      src="/assets/img/{{ image }}"
+      alt="{{ imageAlt or '' }}"
+      width="1600" height="900"
+      fetchpriority="high" decoding="async">
+    {% if imageCredit %}<p class="mt-2 text-xs text-ink-700">{{ imageCredit }}</p>{% endif %}
+  </div>
+  {% endif %}
+
+  <div class="container-x grid gap-12 py-14 lg:grid-cols-[minmax(0,1fr)_320px]">
+    <div class="prose-site max-w-none">
+      {{ content | safe }}
+
+      <hr class="my-10 border-ink-900/10">
+      <p class="text-sm text-ink-700">
+        Think this describes your line? Every job starts with a
+        <a href="/sewer-camera-inspection/">camera inspection</a> — we show you the footage
+        before we quote anything. {{ site.phoneCta }}
+        <a href="tel:+1{{ site.phone | phoneDigits }}">{{ site.phone }}</a> or
+        <a href="#quote">request a free estimate</a>.
+      </p>
+    </div>
+    <aside class="lg:sticky lg:top-28 lg:self-start">
+      {% include "partials/sidebar.njk" %}
+    </aside>
+  </div>
+
+  {% set rel = collections.posts | related(page.url, topics, 3) %}
+  {% if rel | length %}
+  <section class="border-t border-ink-900/10 bg-ink-950/[0.02]">
+    <div class="container-x py-14">
+      <h2 class="text-2xl">Related reading</h2>
+      <div class="mt-6 grid gap-6 md:grid-cols-3">
+        {% for p in rel %}
+        <a class="card block transition hover:border-brand-300 hover:shadow-md" href="{{ p.url }}">
+          <p class="text-xs font-semibold uppercase tracking-wider text-brand-700">{{ p.data.topics[0] }}</p>
+          <h3 class="mt-2 text-lg text-ink-950">{{ p.data.title }}</h3>
+          <p class="mt-2 text-sm leading-relaxed text-ink-700">{{ p.data.description | excerpt(110) }}</p>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+</article>

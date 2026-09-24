@@ -1,0 +1,93 @@
+{% if site.analytics.ga4Enabled or site.analytics.clickCeaseEnabled %}
+{#
+  CCPA/CPRA notice + opt-out. Not a blocking gate.
+
+  - Analytics runs by default, EXCEPT when the browser sends Global Privacy Control,
+    or the visitor has opted out. Both are checked before GA loads.
+  - ClickCease is treated as strictly necessary (fraud prevention) and is not gated.
+  - The preference lives in localStorage on the visitor's own browser. Nothing is sent
+    anywhere, and no cookie is set by this component itself.
+#}
+<div id="privacy-notice" hidden
+     class="fixed inset-x-0 bottom-0 z-50 border-t border-ink-900/10 bg-white/95 shadow-[0_-4px_24px_rgba(0,0,0,0.08)] backdrop-blur">
+  <div class="container-x flex flex-col gap-4 py-4 sm:flex-row sm:items-center sm:justify-between">
+    <p class="text-sm leading-relaxed text-ink-700">
+      We use cookies and similar technology{% if site.analytics.ga4Enabled %} for website analytics{% endif %}{% if site.analytics.clickCeaseEnabled %}{% if site.analytics.ga4Enabled %} and{% endif %} to detect fraudulent ad clicks{% endif %}.
+      See our <a class="font-semibold text-brand-700 underline" href="/privacy-policy/">Privacy Policy</a>.
+    </p>
+    <div class="flex shrink-0 items-center gap-3">
+      <button type="button" data-privacy-optout
+              class="text-sm font-semibold text-ink-700 underline underline-offset-2 hover:text-ink-950">
+        Opt out of analytics
+      </button>
+      <button type="button" data-privacy-dismiss class="btn-primary px-4 py-2 text-sm">Got it</button>
+    </div>
+  </div>
+</div>
+
+<div id="privacy-toast" hidden
+     class="fixed bottom-5 left-1/2 z-50 -translate-x-1/2 rounded-lg bg-ink-950 px-5 py-3 text-sm font-medium text-white shadow-xl">
+</div>
+
+<script>
+(function () {
+  var K_SEEN = 'asp.privacy.seen';
+  var K_OPTOUT = 'asp.privacy.optout';
+
+  function ls(op, key, val) {
+    try { return op === 'get' ? localStorage.getItem(key) : localStorage.setItem(key, val); }
+    catch (e) { return null; }
+  }
+
+  // Global Privacy Control is a recognized opt-out signal under the Colorado Privacy Act.
+  var gpc = (navigator.globalPrivacyControl === true);
+  var optedOut = gpc || ls('get', K_OPTOUT) === '1';
+
+  window.aspPrivacy = {
+    optedOut: function () { return optedOut; },
+    gpc: gpc
+  };
+
+  function toast(msg) {
+    var t = document.getElementById('privacy-toast');
+    if (!t) return;
+    t.textContent = msg;
+    t.hidden = false;
+    setTimeout(function () { t.hidden = true; }, 3500);
+  }
+
+  function setOptOut(on) {
+    optedOut = on;
+    ls('set', K_OPTOUT, on ? '1' : '0');
+    if (on && window.gtag) { window.gtag('consent', 'update', { analytics_storage: 'denied' }); }
+    toast(on ? 'Opted out. Analytics disabled on this browser.' : 'Analytics re-enabled on this browser.');
+  }
+
+  var bar = document.getElementById('privacy-notice');
+  // Don't show the bar to someone whose browser already signalled a preference.
+  if (bar && !gpc && ls('get', K_SEEN) !== '1') { bar.hidden = false; }
+
+  document.addEventListener('click', function (e) {
+    var dismiss = e.target.closest('[data-privacy-dismiss]');
+    if (dismiss) { ls('set', K_SEEN, '1'); if (bar) bar.hidden = true; return; }
+
+    var out = e.target.closest('[data-privacy-optout]');
+    if (out) {
+      e.preventDefault();
+      ls('set', K_SEEN, '1');
+      if (bar) bar.hidden = true;
+      setOptOut(true);
+      return;
+    }
+
+    // "Your Privacy Choices" — footer and legal pages. Toggles, so it's reversible.
+    var choices = e.target.closest('[data-privacy-choices]');
+    if (choices) {
+      e.preventDefault();
+      if (gpc) { toast('Your browser sends Global Privacy Control. Analytics is already off.'); return; }
+      setOptOut(!optedOut);
+    }
+  });
+})();
+</script>
+{% endif %}

@@ -1,0 +1,2007 @@
+[
+  {
+    "name": "Park Hill",
+    "slug": "park-hill",
+    "county": "denver",
+    "fullName": "Park Hill, Denver",
+    "priority": 1,
+    "zips": [
+      "80207",
+      "80220"
+    ],
+    "builtEra": "1890s-1930s streetcar-era homes in South Park Hill, stepping forward to 1940s-1950s houses farther north",
+    "commonPipe": "Clay tile south of 23rd Avenue with cast iron inside the house; later clay and cast iron in the postwar sections to the north",
+    "neighborhoods": [
+      "South Park Hill",
+      "North Park Hill",
+      "Northeast Park Hill",
+      "Montview Boulevard corridor"
+    ],
+    "sewerAuthority": "City and County of Denver DOTI Wastewater Management owns the mains; the homeowner owns the service line to the main",
+    "local": "Park Hill wasn't built all at once. It was built one strip at a time, heading north. Baron von Winckler platted the first piece in 1887 next to City Park. Streetcar service brought the first real houses around the turn of the century, and the heaviest building came in the 1920s and 1930s. Northeast Park Hill filled in after World War II. So the sewer line under a house in Park Hill depends heavily on which side of 23rd Avenue or Martin Luther King Boulevard you live on. In South Park Hill, a 1915 Tudor or foursquare usually has a clay tile lateral with short joints that roots have been working at for a hundred years. Up north, the pipe is younger but not always better: cast iron under the floor, clay or the odd fiber section outside, and joints that shifted as the clay soil dried and wet. The big Montview lots add another wrinkle, because a house set well back from the street needs a long lateral, and every added foot is another joint.",
+    "local2": "Park Hill's parkway feel comes from its trees. Montview and the side streets are lined with big shade trees, and the tree lawns between the sidewalk and the curb sit right on top of most service lines. Roots don't break sound pipe. They find the weeping joint in a clay line and fill it. Ash trees need extra thought now. The emerald ash borer was confirmed in Denver in 2025, and ash make up about one in six trees citywide. If an ash over your line is coming out, it makes sense to inspect and deal with the pipe around the same time. We have lined 78 feet of terra cotta on a Denver job much like the clay laterals found in South Park Hill, with no trench across the lawn.",
+    "permitNote": "Denver maintains only the public main. The homeowner owns the service line from the house out to the main, which covers the pipe under Montview or any side street and the tap itself. DOTI's wastewater permit desk handles the repair permit. Opening pavement or concrete in the public right-of-way brings in two more: one for the cut itself and one for occupying the street while the crew works. Lining from a basement cleanout often avoids a street opening, but not always.",
+    "signals": [
+      "Root balls filling clay joints under the tree lawn",
+      "Offset clay joints where the line crosses from yard to parkway",
+      "Heavy scale in cast iron between the floor drain and the foundation wall",
+      "Long runs on deep Montview lots with more than one sag"
+    ],
+    "faqs": [
+      {
+        "q": "My Park Hill house is from the 1920s. Is the original clay line still in there?",
+        "a": "Often it is, sometimes with a repaired section or two. A camera run from the basement cleanout shows exactly which pieces are original and how the joints look. If the clay is round and holding grade but full of roots, lining is a good fit. If it has sagged or broken apart, it needs bursting or a dig at that spot first."
+      },
+      {
+        "q": "Will lining work if the line runs under a big parkway tree?",
+        "a": "Usually, yes. That is where lining earns its keep. We clear the roots, and the liner seals the joints so they can't grow back in, without cutting the roots that keep the tree standing. What stops lining is a collapsed section or a real belly under the tree. In that case we tell you and talk through a spot repair."
+      }
+    ],
+    "sources": [
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Wastewater-Management/FAQ",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Documents/Wastewater-Permits/Sewer-Use-and-Drainage-Permits",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Right-of-Way-Services/Street-Occupancy",
+      "https://denverite.com/2025/06/26/emerald-ash-borer-denver-what-to-do/",
+      "https://history.denverlibrary.org/neighborhood-history-guide/park-hill-neighborhood-history",
+      "https://www.historicparkhill.org/",
+      "https://www.westword.com/news/park-hill-neighborhood-divided-by-battles-over-historic-district-subdividing-lots-8350570"
+    ]
+  },
+  {
+    "name": "Washington Park",
+    "slug": "washington-park",
+    "county": "denver",
+    "fullName": "Washington Park, Denver",
+    "priority": 1,
+    "zips": [
+      "80209",
+      "80210"
+    ],
+    "builtEra": "Mostly brick homes built 1900-1940 after the park opened in 1899, with some 1890s houses in Washington Park West",
+    "commonPipe": "Vitrified clay tile laterals with cast iron stacks and building drains",
+    "neighborhoods": [
+      "Washington Park",
+      "Washington Park West",
+      "Bonnie Brae",
+      "Platt Park",
+      "Old South Gaylord"
+    ],
+    "sewerAuthority": "City and County of Denver DOTI Wastewater Management; the owner is responsible for the private service line",
+    "local": "Washington Park is where brick houses and clay pipe went in at the same time. The land sat mostly empty until South Denver was annexed in the 1890s and the park was laid out beginning in 1899. After that, the blocks around it filled in quickly. Most of the houses went up between 1900 and 1940, and nearly all of them are brick. Builders of that period ran a cast iron drain through the basement and then switched to clay tile at the foundation for the run to the main. That clay is now 85 to 120 years old. The pipe itself tends to hold up well. The weak spots are the joints, which were sealed with mortar or packing that broke down long ago, and the transition fitting where iron meets clay. On a camera, a Washington Park lateral usually looks the same: clean pipe, then a joint with a tail of roots, then another. Because the clay barrels usually keep their shape, many of these lines can be lined rather than dug.",
+    "local2": "The bigger change in Wash Park lately is above ground: pop-tops, big additions and full scrape-and-rebuilds on narrow lots. A remodeled house doubles the bathrooms but often keeps the same 4-inch clay line that served a two-bedroom bungalow. When a new house goes up on an old lot, the lateral should be looked at while the site is still open. It's far easier then than after the new landscaping and driveway are in. On streets near the park, big old shade trees crowd the tree lawns, and they send roots toward any line carrying water. Before closing on an older home here, a buyer should get a sewer scope. It costs little next to what it can turn up.",
+    "permitNote": "The city is responsible only for the public main. The owner's service line is private from the foundation to the tap, even the portion beneath the pavement. Sewer repairs are permitted by DOTI's wastewater staff. When a street or alley has to be opened, the job also needs right-of-way approvals for the excavation and for blocking the lane, all submitted in E-Permits. On scrape-and-rebuild projects, the builder's permit set is the right time to decide whether to keep or replace the old line.",
+    "signals": [
+      "Root tails at nearly every clay joint between the foundation and the curb",
+      "A cracked or offset joint where the cast iron building drain meets clay",
+      "Mortar joints washed out so bare soil shows through the gap",
+      "Old lines carrying far more fixtures after a pop-top or addition"
+    ],
+    "faqs": [
+      {
+        "q": "We're scraping a Wash Park bungalow and building new. Can we keep the old sewer line?",
+        "a": "Sometimes, but only if a camera says so. An old clay line that is round, on grade and free of breaks can be lined and reused. That saves opening the street and the tree lawn. If it has sags, broken joints or a bad tap at the main, replace it while the lot is still bare. Doing it after landscaping and flatwork costs more and makes a bigger mess."
+      },
+      {
+        "q": "Why do Washington Park lines keep backing up with roots even after cleaning?",
+        "a": "Cleaning cuts the roots at the joint, but the gap in the joint is still there, so the roots grow back. Clay lines from the early 1900s have dozens of those joints. Lining puts one continuous pipe inside the old one and seals every joint at once. That is why it usually ends the cycle of cleaning that a hydro-jet alone can't break."
+      }
+    ],
+    "sources": [
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Wastewater-Management/FAQ",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Documents/Wastewater-Permits/Sewer-Use-and-Drainage-Permits",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Right-of-Way-Services/Street-Occupancy",
+      "https://en.wikipedia.org/wiki/Washington_Park,_Denver"
+    ]
+  },
+  {
+    "name": "Highland",
+    "slug": "highland",
+    "county": "denver",
+    "fullName": "Highland, Denver",
+    "priority": 1,
+    "zips": [
+      "80211",
+      "80212"
+    ],
+    "builtEra": "1870s-1890s Victorians from the old Town of Highlands, 1900s-1920s bungalows westward, and 2000s-2020s LoHi infill",
+    "commonPipe": "Old clay tile and cast iron, often with patched sections, next to brand-new PVC on infill lots",
+    "neighborhoods": [
+      "Lower Highland (LoHi)",
+      "Potter Highlands",
+      "Highland Park (Scottish Village)",
+      "West Highland",
+      "Sunnyside",
+      "Jefferson Park"
+    ],
+    "sewerAuthority": "City and County of Denver DOTI Wastewater Management; owners handle their own service lines",
+    "local": "Northwest Denver was its own town before it was a Denver neighborhood. Highlands incorporated in 1875, became a city in 1885 and voted to join Denver in 1896. By then, blocks on the bluff above the Platte already had houses. In the Potter Highlands historic district alone, about 571 of roughly 700 buildings are counted as contributing. They range from pre-1893 Victorians and foursquares to later Craftsman and Colonial Revival houses. The oldest service lines in the city are in this part of town, and many have been fixed more than once. A camera run through an 1890s Highland lateral often shows a history in layers. There might be original clay, a length of cast iron from a mid-century repair, a newer PVC section from some later dig, and couplings joining pipes that were never quite the same size. Each change of material is a spot where grade slips and roots get in, so these lines need an honest assessment before anyone promises a liner will fix them.",
+    "local2": "LoHi has a different problem. Many old houses between Speer and 32nd were replaced by townhomes and duplexes, and each new unit brings a new service line tied into a main that may be close to a century old. The new pipe is rarely what fails. The trouble is usually the connection, or an old neighboring lateral that the construction disturbed. Farther west, in West Highland and Sunnyside, the 1900s-1920s bungalows sit on narrow lots with alleys and detached garages, so the path from house to main can pass under a garage slab. The ground also slopes toward the river in places, and on a slope a lateral with little fall can hold standing water. A liner will follow a sag like that instead of fixing it.",
+    "permitNote": "As in the rest of Denver, the city takes care of the main and the owner owns the service line all the way to it, including the tap. DOTI issues the repair permit, and digging into a street, alley or walk adds separate cut and occupancy approvals from Right-of-Way Services. Houses in Potter Highlands or Highland Park fall under Landmark Preservation review for exterior changes, so plan the restoration of historic walks or walls with care.",
+    "signals": [
+      "Clay, cast iron and PVC spliced together from generations of repairs",
+      "Mismatched couplings with offsets at each change in material",
+      "Standing water in low-slope runs on lots that fall toward the river",
+      "Service connections cracked or disturbed by neighboring infill construction"
+    ],
+    "faqs": [
+      {
+        "q": "Can a patched-together Highland sewer line be lined?",
+        "a": "It depends on the transitions. Liners handle changes from clay to cast iron well when the pipes line up and the diameters are close. A badly offset coupling, a crushed section or a sag that holds water has to be fixed first with a spot repair, or the whole line should be burst instead. We show you the footage and walk through each transition before choosing a method."
+      },
+      {
+        "q": "My LoHi townhome is new. Why would I have a sewer problem?",
+        "a": "Your own line is probably fine. The trouble tends to be at the connection to an older main, or with shared-line arrangements some infill projects used, or with damage done during nearby construction. A camera inspection from your cleanout shows where the blockage is. That tells you whether it's your pipe, a shared line or the public main, which the city would handle."
+      }
+    ],
+    "sources": [
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Wastewater-Management/FAQ",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Documents/Wastewater-Permits/Sewer-Use-and-Drainage-Permits",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Right-of-Way-Services/Street-Occupancy",
+      "https://en.wikipedia.org/wiki/Highland,_Denver",
+      "https://www.historycolorado.org/location/potter-highlands-historic-district"
+    ]
+  },
+  {
+    "name": "Congress Park",
+    "slug": "congress-park",
+    "county": "denver",
+    "fullName": "Congress Park, Denver",
+    "priority": 2,
+    "zips": [
+      "80206"
+    ],
+    "builtEra": "Platted 1887-1888, with most building after 1908: foursquares, bungalows and early apartment buildings",
+    "commonPipe": "Clay tile service lines with cast iron building drains; larger clay or cast iron lines on older multi-unit buildings",
+    "neighborhoods": [
+      "Congress Park",
+      "Cheesman Park",
+      "Capitol Hill",
+      "Country Club",
+      "Seventh Avenue Historic District"
+    ],
+    "sewerAuthority": "City and County of Denver DOTI Wastewater Management; private service lines belong to the property owner",
+    "local": "Congress Park began as Cemetery Hill. When the old city cemetery was cleared around 1890, part of it became the park that gave the neighborhood its name, and part became what is now Cheesman Park and the Botanic Gardens. The surrounding land was platted into ten subdivisions in 1887 and 1888 and annexed in 1889. Real growth came only after a second water reservoir went in around 1908. That timing matters. Most houses here date from about 1908 into the 1920s: square brick foursquares, bungalows and a scattering of small apartment buildings. Their service lines are clay tile, laid in short lengths with joints that were never truly watertight. After a century, the typical failures are roots at the joints, offsets where the ground settled, and cast iron building drains that have scaled down to a narrow channel. Most of these lines can still be lined once the roots are cleared, as long as the clay has kept its shape and grade.",
+    "local2": "After 1903, the south end of the old park became a city nursery that grew trees and flowers for parks across Denver. Today the neighborhood still has some of the biggest street trees in town, and their roots follow the clay lines under the tree lawns. The Seventh Avenue Historic District runs along the south end and is the largest in the city, so exterior work there goes through Landmark Preservation review. Trenchless methods help because they leave the hardscape alone. Toward Cheesman Park and Capitol Hill, older apartment buildings and houses split into units carry more flow in pipes sized for one family. Those lines clog faster and need a larger-diameter plan.",
+    "permitNote": "Denver owns and maintains the main only. The property owner is responsible for the service line and its connection, even where that line runs under the street. The repair permit comes from DOTI. A dig in the public way needs its own excavation permit, paired with a permit to occupy the street during the work. Inside the Seventh Avenue Historic District, talk to Landmark Preservation before a historic walk, wall or other exterior feature is disturbed.",
+    "signals": [
+      "Root intrusion at clay joints under large, old tree lawns",
+      "Cast iron building drains narrowed by scale to a fraction of their size",
+      "Settled joints near the foundation wall of early brick homes",
+      "Grease and heavy flow in lines serving converted multi-unit houses"
+    ],
+    "faqs": [
+      {
+        "q": "I'm in the Seventh Avenue Historic District. Does sewer work need landmark approval?",
+        "a": "Landmark review covers exterior changes, not pipe buried underground. But a dig that tears out a historic walk, retaining wall or other visible feature is a different matter. Check with Landmark Preservation before you disturb those. Lining or bursting from small access points leaves them in place, which is one reason trenchless methods are a good fit here."
+      },
+      {
+        "q": "Our Congress Park house was split into units. Is the old sewer line big enough?",
+        "a": "Often it is sized for one family and now carries two or three. A camera shows whether it's also scaled, rooted or sagging. A sound but undersized clay line may be worth pipe bursting, which can upsize it in place. Lining would make the inside diameter a bit smaller, which isn't what an overloaded line needs."
+      }
+    ],
+    "sources": [
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Wastewater-Management/FAQ",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Documents/Wastewater-Permits/Sewer-Use-and-Drainage-Permits",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Right-of-Way-Services/Street-Occupancy",
+      "https://en.wikipedia.org/wiki/Congress_Park,_Denver"
+    ]
+  },
+  {
+    "name": "Harvey Park",
+    "slug": "harvey-park",
+    "county": "denver",
+    "fullName": "Harvey Park, Denver",
+    "priority": 2,
+    "zips": [
+      "80219",
+      "80227",
+      "80236"
+    ],
+    "builtEra": "Late-1940s to 1950s postwar tract homes, annexed 1954, with Harvey Park South built out by about 1960",
+    "commonPipe": "Cast iron under the house with clay tile, and occasionally bituminous fiber, out to the main",
+    "neighborhoods": [
+      "Harvey Park",
+      "Harvey Park South",
+      "Bear Valley",
+      "Mar Lee",
+      "Riviera Lake area"
+    ],
+    "sewerAuthority": "City and County of Denver DOTI Wastewater Management; the owner is responsible for the private service line",
+    "local": "Harvey Park went from ranch land to about 4,000 houses in just a few years. Arthur Harvey bought the former Whiteman ranch in 1948, and Denver annexed the area in 1954. The building boom that followed filled the land between Sheridan and Federal, including about 170 prefabricated Cliff May houses. Harvey Park South was almost entirely built out by 1960. A whole neighborhood built in one burst has sewer lines that age together. Most houses have cast iron from the stack to the foundation and clay tile to the main, and a few from this era have bituminous fiber pipe instead. After roughly seventy years, the cast iron often has a rotted channel along the bottom, the clay has root-filled joints, and any fiber pipe has gone oval or blistered. When one house on a block has these problems, the neighbors' lines are usually close behind.",
+    "local2": "The ranch-style houses here are simpler to work on than prewar homes in central Denver. Laterals tend to be shorter, the runs are straighter, and many homes have an accessible cleanout. Those are good conditions for trenchless work. On one Denver job, a root-cracked cast iron line under a house about seventy years old was replaced trenchlessly over 55 feet. That is the same age and material found across Harvey Park. The exception is fiber pipe. If a section has flattened or collapsed, lining can't restore it, and it needs to be burst or dug out. With whole blocks the same age, a neighbor's camera findings are a fair preview of your own line, and a reason not to wait for a backup before scheduling an inspection.",
+    "permitNote": "Denver's responsibility ends at the public main. The service line and its tap, including any section under the street, belong to the homeowner. A DOTI wastewater permit covers the repair. If the crew has to break into the street or sidewalk, Right-of-Way Services must also sign off on the pavement cut and on the traffic setup. Trenchless replacement from the house and one small pit can often keep the job out of the street entirely.",
+    "signals": [
+      "Cast iron with the bottom of the pipe channeled or rotted through",
+      "Clay joints with root intrusion under mid-century front lawns",
+      "Oval or blistered bituminous fiber sections in some houses of this era",
+      "Similar failures showing up house after house along the same block"
+    ],
+    "faqs": [
+      {
+        "q": "Could my 1950s Harvey Park house have Orangeburg pipe?",
+        "a": "It's possible. Bituminous fiber pipe was used in some houses of this era, though clay was more common here. A camera settles it quickly, because fiber pipe has a distinctive look, and when it fails it goes oval or blisters. Fiber that has already deformed shouldn't be lined. It needs bursting or excavation to get a round, full-size pipe back."
+      },
+      {
+        "q": "Is trenchless realistic for a Harvey Park ranch?",
+        "a": "Usually, yes. Short and fairly straight laterals, basement or crawlspace access and a single run to the main suit both lining and bursting. The exceptions are collapsed fiber pipe and a line with a real sag. We point out those spots on the video and explain whether they need a small dig first."
+      }
+    ],
+    "sources": [
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Wastewater-Management/FAQ",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Documents/Wastewater-Permits/Sewer-Use-and-Drainage-Permits",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Right-of-Way-Services/Street-Occupancy",
+      "https://history.denverlibrary.org/neighborhood-history-guide/harvey-park-and-harvey-park-south",
+      "https://en.wikipedia.org/wiki/Harvey_Park,_Denver",
+      "https://5280.com/history-behind-denvers-harvey-park/"
+    ]
+  },
+  {
+    "name": "University Park",
+    "slug": "university-park",
+    "county": "denver",
+    "fullName": "University Park, Denver",
+    "priority": 2,
+    "zips": [
+      "80210"
+    ],
+    "builtEra": "Platted in 1886 as the University Park Colony, with homes from the 1890s through the postwar decades",
+    "commonPipe": "Clay tile and cast iron in older homes; cast iron and clay in the one-story postwar houses",
+    "neighborhoods": [
+      "University Park",
+      "Observatory Park",
+      "Buchtel Boulevard",
+      "Cory-Merrill",
+      "Rosedale"
+    ],
+    "sewerAuthority": "City and County of Denver DOTI Wastewater Management; homeowners own their service lines to the main",
+    "local": "University Park was founded around trees. Rufus Clark gave 150 acres of farmland for the university's move south, on the condition that 1,000 forest trees be planted along the streets and in the parks. The colony was dedicated on Arbor Day in 1886. A 1923 plan later called for an even wider variety of street trees. The result, more than a century later, is a canopy that is part of the neighborhood's identity and a steady source of roots for the clay lines beneath it. The housing is mixed. Early homes around Observatory Park and Buchtel Boulevard date to the 1890s and early 1900s, and many blocks were filled in later with one-story houses. The older lines are clay tile that has been soaking up root growth for a century. The newer ones pair cast iron under the house with clay outside, and both give way at the joints.",
+    "local2": "In April 2024, City Council approved the University Park Historic District. It is made up of about 19 separate properties rather than a single block of houses, including Observatory Park, Fitzroy Place and the Buchtel Bungalow. For homes in the district, trenchless work keeps the lawns and landscaping intact. Around the neighborhood more broadly, pop-tops and large rebuilds are putting more fixtures on old laterals. We take on institutional and commercial lines too. Elsewhere in Denver, we lined 200 feet of 12-inch drain for a university pool. Pipe of that size and length takes the same care as a house lateral, just more of it. On a residential street here, the job is usually far smaller: one clay run, one cleanout and a liner.",
+    "permitNote": "The city is responsible for public mains only. Repairing the private service line, even where it passes beneath the street to reach the main, is the owner's job. DOTI permits the sewer work itself, and excavating in the right-of-way calls for a street cut approval plus a separate occupancy approval. Owners of one of the designated University Park district properties should ask Landmark Preservation before altering anything visible outside.",
+    "signals": [
+      "Mature street-tree roots growing through clay joints along the whole run",
+      "Scaled or cracked cast iron under one-story mid-century homes",
+      "Offset joints where roots have lifted and pushed old clay sections",
+      "Old laterals now serving remodeled homes with many more fixtures"
+    ],
+    "faqs": [
+      {
+        "q": "Our University Park street has huge old trees. Will the city remove one if its roots are in my sewer?",
+        "a": "Don't count on it. Denver's responsibility stops at the public main, and trees in the right-of-way next to private homes are generally not the city's to take care of. The better fix is usually on the pipe side. Lining seals the joints so roots can't get back in, and the tree can stay."
+      },
+      {
+        "q": "Do you work on larger sewer and drain lines, not just houses?",
+        "a": "Yes. Besides residential laterals we line commercial, institutional and municipal lines. In Denver that has included 200 feet of 12-inch pool drain for a university. Larger pipe calls for different liner sizing and setup, but the approach is the same: clean it, put a camera through it, then decide honestly whether lining, bursting or excavation is the right fix."
+      }
+    ],
+    "sources": [
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Wastewater-Management/FAQ",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Documents/Wastewater-Permits/Sewer-Use-and-Drainage-Permits",
+      "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Right-of-Way-Services/Street-Occupancy",
+      "https://denverite.com/2025/06/26/emerald-ash-borer-denver-what-to-do/",
+      "https://history.denverlibrary.org/neighborhood-history-guide/university-park-neighborhood-history",
+      "https://uparkcc.org/university-park-history/",
+      "https://denverite.com/2024/04/17/denver-university-park-neighborhood-history/"
+    ]
+  },
+  {
+    "name": "Lakewood",
+    "slug": "lakewood",
+    "county": "jefferson-county",
+    "fullName": "Lakewood, CO",
+    "priority": 1,
+    "zips": [
+      "80214",
+      "80215",
+      "80226",
+      "80227",
+      "80228",
+      "80232",
+      "80235"
+    ],
+    "builtEra": "1950s-1970s postwar build-out east of Kipling, 1970s-1990s Green Mountain and south Lakewood",
+    "commonPipe": "Clay tile and cast iron in postwar homes; Orangeburg in some 1950s-60s lines; PVC in newer areas",
+    "neighborhoods": [
+      "Belmar",
+      "Eiber",
+      "Two Creeks",
+      "Lasley",
+      "Green Mountain",
+      "Bear Creek"
+    ],
+    "sewerAuthority": "About 21 providers: the City of Lakewood serves only part of north Lakewood; most homes are in independent sanitation districts",
+    "local": "Lakewood grew as unincorporated farmland and subdivisions long before it became a city in 1969, and the sewer system still shows it. The city's own provider list names about 21 water and sewer entities, from the city's utility in north Lakewood to districts such as Bancroft-Clover, Green Mountain, Lochmoor, Northwest Lakewood and East Lakewood. Many of them were created to serve a single wave of 1950s and 1960s tract housing, and the homes they serve share the same materials: cast iron under the slab or basement, then clay tile or bituminous fiber out to a main that may run down the street or through a back easement. Those laterals are now past sixty years old. Clay joints separate and invite roots, fiber pipe sags into an oval, and cast iron loses its bottom to decades of corrosion while the top still looks solid. A Lakewood camera inspection often starts with a basic question before anything else: which district's main are we connecting to?",
+    "local2": "One of the jobs we point to in Lakewood was a 67-foot cast iron line under a 1950s home where the bottom of the pipe had simply rotted away. Instead of trenching through the yard, we lined it with Perma-Liner the same day. That is the right answer when the pipe still holds its shape and grade, and the camera footage should prove it before anyone commits. It is the wrong answer on some south Lakewood and Green Mountain lots, where fill settled after construction and left a belly that holds water; a liner follows the sag, so those runs usually need a spot repair or replacement at the low point first. Big silver maples and cottonwoods along the older streets near Belmar and Eiber are the other constant, pushing root masses through clay joints close to the curb.",
+    "permitNote": "The City of Lakewood states that property owners maintain the private sewer service line from the building to the main in the street, and the independent districts we checked follow the same model. Your district, not the city, may set rules on repairs at the tap, contractor approval and inspection, so identify the provider with the city's lookup tool first. Digging in a Lakewood street needs a city right-of-way permit, and a trenchless repair that avoids the pavement can keep that part of the job small.",
+    "signals": [
+      "Cast iron with a corroded, open bottom under 1950s basements and slabs",
+      "Roots packed into clay joints near the curb under mature silver maples",
+      "Oval, flattened fiber pipe in some early postwar yard runs",
+      "Standing water in settled sections on newer south Lakewood lots"
+    ],
+    "faqs": [
+      {
+        "q": "How do I know which sewer district serves my Lakewood home?",
+        "a": "Start with your sewer bill, which comes from the provider, not always the city. Lakewood also publishes a provider list and a neighborhood lookup tool, since about 21 water and sewer entities serve parts of the city. That matters for a repair because each district owns its own main and can set its own requirements for work near the connection. We confirm the district before we quote any work at the tap."
+      },
+      {
+        "q": "Can a 1950s Lakewood cast iron line be lined, or does it need to come out?",
+        "a": "Often it can be lined. If the camera shows the pipe is still round and on grade, a cured-in-place liner can bridge a rotted bottom and small cracks without digging up the yard, as we did on a 67-foot Lakewood line. If the run has a belly, a collapse or a joint that has shifted out of line, lining alone will not fix it, and we will say so."
+      }
+    ],
+    "sources": [
+      "https://www.lakewoodco.gov/City-Hall/Departments/Public-Works/Sanitary-Sewer-Utility-Maintenance",
+      "https://www.lakewoodco.gov/files/assets/public/v/6/public-works/pdfs/engineering/2024.12.10_pw-water-and-sewer-provider-list.pdf",
+      "https://nwlsd.us/faq/",
+      "https://en.wikipedia.org/wiki/Lakewood,_Colorado"
+    ]
+  },
+  {
+    "name": "Arvada",
+    "slug": "arvada",
+    "county": "jefferson-county",
+    "fullName": "Arvada, CO",
+    "priority": 1,
+    "zips": [
+      "80002",
+      "80003",
+      "80004",
+      "80005",
+      "80007"
+    ],
+    "builtEra": "1900s-1920s Olde Town, 1950s-1970s postwar build-out, 1990s-2020s west Arvada (Candelas, Leyden Rock)",
+    "commonPipe": "Clay and cast iron in Olde Town and postwar homes; PVC across west Arvada subdivisions",
+    "neighborhoods": [
+      "Olde Town Arvada",
+      "Lake Arbor",
+      "Ralston Creek",
+      "Westwoods",
+      "Candelas",
+      "Leyden Rock"
+    ],
+    "sewerAuthority": "City of Arvada Utilities for most of the city; some areas served by districts such as Clear Creek Valley and Ralston Valley",
+    "local": "Arvada spells out an unusually firm line on who owns what: the homeowner is responsible for the sewer service line from the house up to and including the connection to the city main. That puts the tap itself, often out in the street, on the owner's side of the ledger. It matters most in the neighborhoods that ring Olde Town and spread north and south along Wadsworth and Ralston Road, where 1950s and 1960s houses still drain through clay tile and cast iron. Those clay joints were never designed to keep out roots for seventy years, and the connection at the main is often where a line has cracked, separated or been patched before. Farther west, homes from the 1990s onward in Westwoods, Candelas and Leyden Rock sit on PVC, where the problems are settlement and grade rather than age. Some pockets of the city are served by Clear Creek Valley, Ralston Valley or other districts, so the first step is confirming whose main you connect to.",
+    "local2": "The city's wastewater division offers a useful service: it will look at a camera inspection video of your service line and give an independent second opinion on what it shows. We welcome that. On one Arvada job for a builder, a 36-foot cast iron line needed a spot repair and then a Perma-Liner liner all the way to the city main, and a clear video made the case for that scope. Arvada also bans sump pump discharge into the sanitary sewer, and homes that once drained groundwater into the floor drain sometimes show silt and gravel in the lateral that has to be jetted out before any lining. Newer west-side homes rarely need that, but their long runs across graded lots deserve a camera check for low spots before anyone assumes a builder-installed line is sound.",
+    "permitNote": "Arvada makes the owner responsible for the service line from the home through the connection to the city main. Any street cut needs an Arvada permit, and addresses served by a special district, such as Clear Creek Valley or Ralston Valley, may face that district's own requirements at the tap. Check the city's special districts list before scheduling excavation, since the answer decides who inspects the connection.",
+    "signals": [
+      "Root intrusion at clay joints in 1950s-60s lines around Olde Town",
+      "Cracked or previously patched connections right at the city main",
+      "Silt and gravel in laterals where sump pumps once drained to the sewer",
+      "Minor offsets and low spots in newer PVC on west Arvada fill"
+    ],
+    "faqs": [
+      {
+        "q": "Does Arvada own the sewer tap in the street?",
+        "a": "No. Arvada states that the homeowner maintains the sanitary service line from the house up to and including the connection to the city's main. If the camera shows a failure at the tap, repairing it is the owner's cost, and street work needs a city permit. Trenchless lining that seals all the way to the main can sometimes avoid cutting the street, depending on the condition of the connection."
+      },
+      {
+        "q": "Can Arvada review my sewer camera video?",
+        "a": "Yes. The city's wastewater division offers to review televised inspection videos of service lines and give an unbiased second opinion. We are happy to hand over our footage for that review. A second set of eyes is a good idea before any major repair, and it keeps the conversation focused on what the pipe actually looks like rather than on a sales pitch. It costs nothing to ask."
+      }
+    ],
+    "sources": [
+      "https://www.arvadaco.gov/439/Sewer",
+      "https://www.arvadaco.gov/443/Special-Water-Sewer-Districts",
+      "https://www.metrowaterrecovery.com/regulations/member-special-connectors/"
+    ]
+  },
+  {
+    "name": "Wheat Ridge",
+    "slug": "wheat-ridge",
+    "county": "jefferson-county",
+    "fullName": "Wheat Ridge, CO",
+    "priority": 2,
+    "zips": [
+      "80033",
+      "80214",
+      "80215"
+    ],
+    "builtEra": "1940s-1960s postwar ranches on former nursery and farm land, scattered older farmhouses",
+    "commonPipe": "Clay tile and cast iron in postwar homes; PVC in newer infill",
+    "neighborhoods": [
+      "Fruitdale",
+      "Paramount Heights",
+      "Bel Aire",
+      "Crown Hill",
+      "Anderson Park area"
+    ],
+    "sewerAuthority": "Wheat Ridge Sanitation District for much of the city; other areas served by districts such as Northwest Lakewood Sanitation",
+    "local": "In Wheat Ridge the city does not run the sewer at all. Water and sanitary service come from special districts, and the largest, Wheat Ridge Sanitation District, was founded in 1948 to serve homes going up on what had been nurseries, greenhouses and truck farms. The district maintains mains in both streets and alleys, which means a lot of Wheat Ridge laterals leave the back of the house rather than the front. That changes everything about access: the cleanout may be in a basement at the rear, the run may pass under garages or old sheds, and the tap may be in an alley shared with neighbors. Most homes from that first postwar era drain through cast iron and clay tile, and seventy years of root growth from big yards and old orchard trees has worked into a lot of those joints. Other parts of town, including a strip near Kipling, are served by Northwest Lakewood Sanitation District instead.",
+    "local2": "Wheat Ridge Sanitation District's rules are specific about repairs. A service line is not district property, work within ten feet of a district connection must be done by a licensed contractor, and the district inspects before the trench is backfilled. The rules also prohibit fold-and-form lining on service lines. That is a different product from the cured-in-place resin liners we install, but we still confirm the method with the district before starting, because it is their connection and their call. Large lots with mature cottonwoods and elms are common here, and after years of roots, a clay line can be too broken or out of round to line; in that case replacement is the straight answer. Bursting new HDPE through the old path, where the district allows it, can still keep the yard and alley mostly intact.",
+    "permitNote": "Wheat Ridge Sanitation District treats the service line as the owner's property from the building to the public sewer. Repairs near the district connection need a licensed contractor and a district inspection before backfill, at the owner's expense. Alley and street excavation also needs a City of Wheat Ridge right-of-way permit, so a dig at an alley tap can involve two sign-offs. Homes in other districts should confirm that district's rules first.",
+    "signals": [
+      "Root masses in clay joints near alley mains behind the house",
+      "Cast iron under slab-on-grade additions with scale and pinholes",
+      "Separated joints where old sheds or garages were built over the run",
+      "Sags on long back-yard runs across former farm lots"
+    ],
+    "faqs": [
+      {
+        "q": "Why does my Wheat Ridge sewer line run out the back of the house?",
+        "a": "Wheat Ridge Sanitation District maintains mains in alleys as well as streets, and many postwar homes were plumbed to the alley. That means the tap may be behind your lot, and the run may pass under a garage or shed. Knowing the route before any work is important, and a camera with a locator shows where the line goes and how deep it is before anyone digs."
+      },
+      {
+        "q": "Does Wheat Ridge Sanitation District allow sewer lining?",
+        "a": "The district's published rules specifically prohibit fold-and-form lining on service lines. Cured-in-place pipe lining is a different method, but we confirm the approach with the district before we start, and any work near its connection needs a licensed contractor and an inspection before backfill. If your home is served by a different district, those rules may differ, so we check the address first."
+      }
+    ],
+    "sources": [
+      "https://www.ci.wheatridge.co.us/72/Utility-Information",
+      "https://www.wheatridgesanitation.com/",
+      "https://www.wheatridgesanitation.com/customers",
+      "https://static1.squarespace.com/static/5c6c406a65a707e19b3ef997/t/5c757a15c830259158f01cbb/1551202849586/WRSD+Rules+and+Regulations_WEBSITE.PDF",
+      "https://nwlsd.us/faq/"
+    ]
+  },
+  {
+    "name": "Golden",
+    "slug": "golden",
+    "county": "jefferson-county",
+    "fullName": "Golden, CO",
+    "priority": 2,
+    "zips": [
+      "80401",
+      "80403"
+    ],
+    "builtEra": "1860s-1920s historic core near downtown, 1950s-1970s mid-century subdivisions, 1990s-2000s edge development",
+    "commonPipe": "Clay and cast iron in the historic core and mid-century homes; PVC in newer subdivisions",
+    "neighborhoods": [
+      "12th Street Historic District",
+      "Beverly Heights",
+      "Mesa Meadows",
+      "Canyon Point",
+      "Goldenridge"
+    ],
+    "sewerAuthority": "City of Golden utility; wastewater is processed at the Molson Coors wastewater treatment plant",
+    "local": "Golden is one of the few Front Range cities where wastewater does not end up at a regional district plant; the city says its sewage is processed at the Molson Coors wastewater treatment plant. Under the streets, Golden's age is the story. The blocks around downtown and the 12th Street Historic District hold houses from the late 1800s and early 1900s, many rebuilt or added onto several times, with laterals that may be clay, cast iron, or a mix of repairs from different decades. Tracing those lines is part of the job, because a house may have been re-plumbed from the back while an original line still runs out front. Mid-century subdivisions on the mesas and hillsides followed, and the ground beneath them is not easy. Golden sits against the hogback, inside or near the county's Designated Dipping Bedrock Area, where tilted, swelling claystone layers can heave in narrow bands and bend a buried pipe.",
+    "local2": "Golden also combines river gravel and rock in ways that punish open trenching. Along Clear Creek the ground is cobbly alluvium, and toward the mesas and foothills bedrock sits close to the surface. That makes trenchless work attractive, but the same ground movement that justifies avoiding a trench also creates the one condition lining cannot fix: a line that has been lifted or dropped out of grade. On a heaved run we look for water holding in the camera footage; if it is there, part of the line will need to be rebuilt to proper slope. Older neighborhoods also carry mature cottonwoods near the creek, whose roots follow any leaking joint. And on steep hillside lots above town, a lateral may drop sharply to the street; steep grade is fine for flow, but it makes a clear camera record of every joint more important before choosing a method.",
+    "permitNote": "The City of Golden operates the local sewer system. Property owners in Colorado cities typically own the lateral from the house to the main, but confirm with Golden's utility where the city's responsibility begins before planning work at the tap. Any excavation in a Golden street or right-of-way needs a city permit, and properties in historic districts may face extra review for surface work such as removing walks or steps. Plan permits before the trench, not after.",
+    "signals": [
+      "Mixed clay, cast iron and old repair sections in historic-core laterals",
+      "Grade changes and joint offsets where bedrock heave has moved pipe",
+      "Cottonwood roots at leaking joints near Clear Creek",
+      "Abandoned original laterals running alongside newer replacement lines from later remodels"
+    ],
+    "faqs": [
+      {
+        "q": "Does heaving bedrock in Golden affect sewer lines?",
+        "a": "It can. Jefferson County maps a Designated Dipping Bedrock Area along the hogback near Golden, where steeply tilted clay-rich layers swell and form ridges when they get wet. A lateral crossing one can be lifted, bent or pulled apart at joints. On camera that shows up as ponding water or offsets. Lining does not correct grade, so heaved sections are often repaired or replaced first."
+      },
+      {
+        "q": "Where does Golden's sewage go?",
+        "a": "According to the City of Golden, local wastewater is processed at the Molson Coors wastewater treatment plant, and the city has been investing in required upgrades there. For homeowners the practical point is simple: the city runs the collection system, so questions about the main or the tap go to Golden's utility rather than a separate sanitation district."
+      }
+    ],
+    "sources": [
+      "https://www.cityofgolden.gov/services/water_service.php",
+      "https://www.jeffco.us/DocumentCenter/View/2074/Designated-Dipping-Bedrock-Area-Guide-PDF",
+      "https://www.jeffco.us/2712/Geology"
+    ]
+  },
+  {
+    "name": "Evergreen",
+    "slug": "evergreen",
+    "county": "jefferson-county",
+    "fullName": "Evergreen, CO",
+    "priority": 2,
+    "zips": [
+      "80439"
+    ],
+    "builtEra": "1920s-1940s summer cabins, 1960s-1980s year-round mountain subdivisions, later custom homes",
+    "commonPipe": "Cast iron and clay in older cabins and core areas; PVC and ABS in later homes; many outlying homes on septic",
+    "neighborhoods": [
+      "Hiwan Hills",
+      "Evergreen Meadows",
+      "Wah Keeney Park",
+      "Soda Creek",
+      "Bergen Park",
+      "Brook Forest"
+    ],
+    "sewerAuthority": "Evergreen Metropolitan District for sewered areas (also operating West Jefferson County Metro and Kittredge districts); many outlying homes use septic under Jefferson County",
+    "local": "Evergreen is unincorporated, and its sewer system exists because septic failed. The Evergreen Sanitation District was formed in 1948 to replace failing individual systems in the town core, and it later merged into Evergreen Metropolitan District, which now runs treatment plants and pump stations and roughly 300 miles of wastewater pipe, discharging treated water to Bear Creek. Plenty of Evergreen is still off that grid. Homes on large lots up side canyons and ridgelines commonly run on septic systems permitted by Jefferson County, so the first question on any call is whether a line goes to a district main or to a tank. For sewered homes, the ground is the problem. Granite and gneiss sit close to the surface, lines are often laid in rock trenches or shallow cuts along steep grades, and long runs drop from a house perched above the road down to a district main below the road.",
+    "local2": "That terrain is where trenchless methods pay off most, because every foot of trench might mean breaking rock, tearing up a retaining wall or regrading a driveway on a slope. A cured-in-place liner from an existing cleanout can rehabilitate a cracked line without any of that. It is not a fix for everything. Laterals that froze and split, shallow runs that heaved in winter, and lines that shifted when a slope moved may be out of alignment, and a liner will copy those defects. Ponderosa pine and aspen roots also find joints in older clay, and cabins that sat empty through a winter can hide damage until the first heavy use. For septic properties the job changes: we can camera and clean the building sewer to the tank, but the system itself falls under county septic rules.",
+    "permitNote": "Evergreen Metropolitan District says homeowners own and maintain the service line between the district's main, usually in the street, and the house. Work at the district connection should be coordinated with the district before anyone digs. Excavation in a county road requires a Jefferson County right-of-way permit, and anything that repairs, replaces or changes a septic tank or leach field needs a Jefferson County Public Health permit.",
+    "signals": [
+      "Cracks and separations in shallow runs laid over or through granite",
+      "Sags and offsets where winter frost or slope movement shifted the line",
+      "Pine and aspen roots working into older clay joints near cabins",
+      "Building sewers to septic tanks with buildup and failed baffles at the inlet"
+    ],
+    "faqs": [
+      {
+        "q": "Is my Evergreen home on sewer or septic?",
+        "a": "Check your bills. If you pay Evergreen Metropolitan District, or one of the districts it operates such as West Jefferson or Kittredge, you are on a sewer main. If not, the home is almost certainly on a septic system permitted by Jefferson County Public Health. A camera inspection also answers it quickly by following the building sewer to either a street main or a tank."
+      },
+      {
+        "q": "Why is trenchless repair so common in Evergreen?",
+        "a": "Because digging is so hard. Shallow granite, steep lots, retaining walls and long driveways make open excavation slow and disruptive. Lining a sound but cracked line from a cleanout avoids most of that. If the pipe froze, heaved or slid out of line with the slope, though, the section has to be dug and reset to proper grade, and we will tell you that up front."
+      }
+    ],
+    "sources": [
+      "https://evergreenmetro.colorado.gov/who-we-are",
+      "https://evergreenmetro.colorado.gov/about-us/departments/wastewater-department",
+      "https://evergreenmetro.colorado.gov/my-water/emergencies-faq-sewer-backup-or-water-line-break",
+      "https://www.jeffco.us/2379/Onsite-Wastewater-Treatment-Systems"
+    ]
+  },
+  {
+    "name": "Edgewater",
+    "slug": "edgewater",
+    "county": "jefferson-county",
+    "fullName": "Edgewater, CO",
+    "priority": 2,
+    "zips": [
+      "80214"
+    ],
+    "builtEra": "1900s-1950s small bungalows and cottages near Sloan's Lake, with ongoing scrape-and-rebuild infill",
+    "commonPipe": "Clay tile and cast iron in original homes; Schedule 40 PVC in rebuilt and repaired lines",
+    "neighborhoods": [
+      "Sloan's Lake west shore",
+      "Citizens Park area",
+      "Walker-Branch Park area",
+      "Harlan Street corridor",
+      "Sheridan Boulevard corridor"
+    ],
+    "sewerAuthority": "City of Edgewater sewer utility for most of the city; some areas served by East Jefferson County Sanitation District",
+    "local": "Edgewater is less than a square mile along the west shore of Sloan's Lake, and it has been a town since 1904, so almost every street carries old small-lot housing. Many of the original homes are modest bungalows and postwar cottages with clay tile laterals running a short distance to a main in the street or alley, often with cast iron inside. Short runs are an advantage for trenchless work, but the lots are tight: side yards may be a few feet wide, and detached garages, patios and additions often sit right over the old line. Edgewater's code addresses that directly. Planned permanent structures over a sanitary service line must be inspected by the city, and if the existing line is clay or damaged, it has to be replaced with Schedule 40 PVC. That rule shapes many of the jobs we see here, especially as scrape-and-rebuild projects replace older houses.",
+    "local2": "The rebuilding boom around Sloan's Lake creates a common sequence, and it usually starts with a permit rather than a backup. A new owner adds a garage, deck or addition, the city requires an inspection of the service line underneath, and the camera shows clay pipe with root intrusion that now has to go. Pipe bursting is often the cleanest way to meet that requirement, pulling fused HDPE through the old path, but whether it satisfies the replacement rule is a question to confirm with the city first; where it doesn't, a short open-cut run to PVC may be simpler. On lines that are staying in service, mature street trees near the lake are the usual culprits, and a hydro-jetting and camera visit can show whether a line is worth lining. Many of these runs are only a few dozen feet long, so the decision often comes down to access and what sits on top of the pipe rather than length.",
+    "permitNote": "Homeowners own and maintain the sewer line from the house to the connection with the city main or the East Jefferson County Sanitation District main. The City of Edgewater issues sewer permits, except in areas served by East Jefferson, which handles its own. Structures planned over a service line trigger a city inspection, and clay or damaged pipe must then be replaced with Schedule 40 PVC.",
+    "signals": [
+      "Root-packed clay joints on short runs to the street or alley",
+      "Old lines running under detached garages, patios and additions",
+      "Cast iron under bungalow floors with heavy scale",
+      "Mixed pipe where past owners patched sections with newer material"
+    ],
+    "faqs": [
+      {
+        "q": "Do I have to replace my clay sewer line to build over it in Edgewater?",
+        "a": "The city requires an inspection of the service line when a permanent structure is proposed over it. If the line is clay or damaged, it must be replaced with Schedule 40 PVC. A camera inspection before you finalize plans shows the material and condition, so you know early whether replacement belongs in the project budget and schedule."
+      },
+      {
+        "q": "Who handles sewer permits in Edgewater?",
+        "a": "It depends on who serves your address. The City of Edgewater runs its own sewer utility and issues permits for sewer work, but some properties are served by East Jefferson County Sanitation District, which handles permits in its area. Your utility bill will usually tell you which one applies, and we confirm it before any work."
+      }
+    ],
+    "sources": [
+      "https://www.edgewaterco.gov/city-services/utilities/water-sewer",
+      "https://www.edgewaterco.gov/city-services/public-works/right-of-way-resources/-folder-140",
+      "https://www.metrowaterrecovery.com/regulations/member-special-connectors/"
+    ]
+  },
+  {
+    "name": "Westminster",
+    "slug": "westminster",
+    "county": "adams-county",
+    "fullName": "Westminster, CO",
+    "priority": 1,
+    "zips": [
+      "80030",
+      "80031",
+      "80234",
+      "80021",
+      "80020"
+    ],
+    "builtEra": "1910s-1920s Harris Park town site, 1960s-1980s suburban expansion, 1990s-2000s growth north of 104th",
+    "commonPipe": "Cast iron and clay tile in older south-side homes; PVC in most subdivisions built after the 1980s",
+    "neighborhoods": [
+      "Harris Park",
+      "Bradburn Village",
+      "Legacy Ridge",
+      "Countryside",
+      "Sheridan Green"
+    ],
+    "sewerAuthority": "City of Westminster Wastewater Collections; about two thirds of the city drains to the Big Dry Creek plant, the south end to Metro Water Recovery",
+    "local": "Westminster is where All Sewer is based, so these are the streets our crews know best. The city grew outward from the old Harris town site near 72nd Avenue and Bradburn Boulevard, where the original plat was laid out in the 1880s and many houses date from the 1910s onward. Those homes are the ones most likely to have cast iron leaving the basement and clay tile running to the street, and after a century the cast iron tends to thin and scale along the bottom where water has run the longest. Moving north and west, the housing gets younger in rough bands: ranch and split-level neighborhoods from the 1960s and 1970s, then Legacy Ridge and the other golf-course and open-space subdivisions of the 1990s. The city's rule is the same everywhere, though. Westminster maintains the main under the street, and the owner is responsible for the lateral from the house all the way to the point where it joins that main, so a crack under the curb is still the homeowner's pipe.",
+    "local2": "Westminster also sits on a line most people never notice. Roughly two thirds of the city drains north and east to the city-run Big Dry Creek Wastewater Treatment Facility, while the southern neighborhoods send their flow to Metro Water Recovery. The city is now evaluating the Big Dry Creek interceptor, a trunk line partly installed in the 1970s, with construction expected to start in 2027 along the trail north of 128th Avenue. That work covers public pipe, not private laterals, but it is a reminder of how old much of the underground is here. The city also straddles two counties, with the western neighborhoods in Jefferson County; the sewer rules follow the city, not the county line.",
+    "permitNote": "Per the city's own guidance, whoever owns the house owns the sewer lateral from the house to the connection with the city main, and the city maintains only the main. If a backup is suspected to be in the main itself, Wastewater Collections is the office to call. Excavation or pipe bursting that reaches into a city street or sidewalk needs a right-of-way permit from the city, which is one reason lining from a cleanout, with no street cut at all, is often the preferred route when the pipe is a candidate for it.",
+    "signals": [
+      "Scaled, thinning cast iron under basements in the Harris Park area homes",
+      "Root masses at clay tile joints near the curb in 1960s-1970s neighborhoods",
+      "Offset joints and small sags where clay soils have shifted older laterals",
+      "Belly or poor slope in some newer PVC lines from settled backfill"
+    ],
+    "faqs": [
+      {
+        "q": "Is the pipe under my Westminster driveway mine or the city's?",
+        "a": "If it only serves your house, it is almost certainly yours. Westminster places responsibility for the lateral on the owner from the house to the city main, which usually means the pipe under the driveway, sidewalk and part of the street. The city maintains the main itself. If you are not sure where your line connects, a camera inspection with a locator will show the route and depth before anyone decides on a repair."
+      },
+      {
+        "q": "My Westminster home is in the Jefferson County part of the city. Do different rules apply?",
+        "a": "Not for the sewer lateral. Westminster runs one wastewater collection system across both counties, so the owner-responsibility rule and the city right-of-way permitting are the same whether you live near Standley Lake or near Federal Boulevard. What differs is where the flow ends up: most of the city drains to Big Dry Creek, and the south end drains to Metro Water Recovery. Neither changes what you are responsible for."
+      }
+    ],
+    "sources": [
+      "https://www.westminsterco.gov/m/faq?cat=50",
+      "https://devwww.westminsterco.gov/Residents/Water/WastewaterandWastewaterServices/BigDryCreekWastewaterTreatmentFacility",
+      "https://www.westminsterco.gov/1156/Big-Dry-Creek-Sewer-Interceptor-Project",
+      "https://www.westminstereconomicdevelopment.org/wp-content/uploads/2021/09/00_HarrisParkCommunityVisionPlan_book_Aug2021_high-002.pdf",
+      "https://en.wikipedia.org/wiki/Westminster,_Colorado"
+    ]
+  },
+  {
+    "name": "Thornton",
+    "slug": "thornton",
+    "county": "adams-county",
+    "fullName": "Thornton, CO",
+    "priority": 1,
+    "zips": [
+      "80229",
+      "80233",
+      "80241",
+      "80260",
+      "80602"
+    ],
+    "builtEra": "1953-1960s Hoffman-era planned community, 1970s-1990s build-out, 2000s-present growth north toward 168th",
+    "commonPipe": "Clay tile with cast iron at the house in original Thornton; PVC in newer northern subdivisions",
+    "neighborhoods": [
+      "Original Thornton",
+      "Woodglen",
+      "Hunters Glen",
+      "Thorncreek",
+      "Heritage Todd Creek"
+    ],
+    "sewerAuthority": "City of Thornton wastewater collection system, with treatment at Metro Water Recovery",
+    "local": "Thornton started as one developer's idea. In 1953 Sam Hoffman bought farmland along Washington Street and built what is described as the first fully planned community in Adams County, and by the end of 1955 there were more than 1,200 homes. The city incorporated the next year. Houses built that fast, in that decade, tended to use the same materials from one lot to the next, so the laterals in original Thornton south of 104th are now roughly seventy years old and typically clay tile, often with cast iron just outside the foundation. Clay itself lasts; the joints are the weak point. Mortar and early gasketed joints let fine roots in, the roots swell, and eventually a joint cracks or shifts. Where the soil has also moved, a joint can drop and leave a lip that catches paper. Those are the lines we see most often here, and many are still good candidates for trenchless replacement or lining if the grade is intact.",
+    "local2": "Mature shade trees are part of what makes the older blocks pleasant, and they are also what makes digging a lateral expensive. On one Thornton job, 48 feet of cast iron ran between established trees the owners did not want to lose, so our crew replaced it by pipe bursting, pulling new fused HDPE through the old line from two small pits instead of trenching past the roots. Newer Thornton, north of 120th and out toward Heritage Todd Creek, is a different story: PVC laterals built to modern city standards, which call for cleanouts on service runs longer than 100 feet. Those lines rarely need lining; when they fail it is usually a sag or a bad connection.",
+    "permitNote": "Thornton's wastewater division maintains the city's roughly 511 miles of collection infrastructure and televises mains for roots and breaks. The city's published pages do not spell out exactly where private responsibility ends, so confirm with Thornton wastewater lines maintenance before assuming the city will cover any part of the lateral; in most Front Range cities the owner's pipe runs to the main. Work in the street requires city right-of-way approval, and the city standards govern how new service connections are made to existing mains.",
+    "signals": [
+      "Root intrusion at nearly every clay joint in 1950s original-Thornton laterals",
+      "Cracked or displaced joints near the cast iron-to-clay transition outside the foundation",
+      "Heavy scale in the cast iron section under slabs and basements",
+      "Sags in long northern-Thornton PVC runs where trench backfill settled"
+    ],
+    "faqs": [
+      {
+        "q": "Can a Thornton sewer line be replaced without cutting down or damaging a big tree?",
+        "a": "Often, yes. Pipe bursting and lining both work through the existing pipe, so the only excavation is at the ends. We did exactly that on a Thornton home where 48 feet of cast iron ran between mature trees. Trenchless is not automatic, though: if roots have crushed the pipe or the line has lost its grade, a camera will show it, and we will tell you plainly that a conventional repair is the better fix."
+      },
+      {
+        "q": "Does Thornton treat its own sewage?",
+        "a": "No. The city runs a large collection system of its own, around 511 miles of infrastructure plus lift stations, but treatment is handled by Metro Water Recovery. For a homeowner, the practical contact is Thornton's wastewater lines maintenance division, which responds to problems in the city mains. Anything on the private side of the connection is handled by a contractor the owner hires."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thornton,_Colorado",
+      "https://www.thorntonco.gov/city-services/water/wastewater",
+      "https://www.thorntonco.gov/contact-us/wastewater-lines-maintenance",
+      "https://www.thorntonco.gov/media/file/section-300-2012-standards-and-specs",
+      "https://www.coloradohomesource.com/thornton-real-estate/thornton-subdivisions/"
+    ]
+  },
+  {
+    "name": "Northglenn",
+    "slug": "northglenn",
+    "county": "adams-county",
+    "fullName": "Northglenn, CO",
+    "priority": 2,
+    "zips": [
+      "80233",
+      "80234",
+      "80260"
+    ],
+    "builtEra": "1959-1960s Perl-Mack master-planned build-out, 1970s-1980s infill, recent redevelopment such as Karl's Farm",
+    "commonPipe": "Clay tile laterals, some bituminous fiber, cast iron under the house in original tracts; PVC in newer infill",
+    "neighborhoods": [
+      "Deza Estates",
+      "Webster Lake",
+      "Huron Heights",
+      "Wyco Park",
+      "Karl's Farm"
+    ],
+    "sewerAuthority": "City of Northglenn, which maintains about 120 miles of mains and its own treatment plant in Weld County",
+    "local": "Northglenn was planned from scratch. Perl-Mack drew up a 280-acre subdivision in 1959, opened model homes at I-25 and 104th that summer, and by October 1962 there were about 3,000 houses. Life magazine and the home builders' association called it the most perfectly planned community in the country. For sewer lines, that pace means block after block of laterals installed within a few years of each other, using the materials of the day: clay tile to the main, cast iron under the house, and in some homes of that period bituminous fiber pipe. They are all reaching the same age at once. Clay joints let roots in; fiber pipe slowly deforms from round to oval until it blocks; the cast iron under slabs scales. Because so many homes share a pattern, a problem one neighbor finds is often a preview of what is under the house next door.",
+    "local2": "Northglenn is unusual in running its whole sewer chain itself. The city maintains roughly 120 miles of mains and ten pump stations, and it sends flow nine miles north to its own wastewater treatment plant in Weld County, which discharges to Big Dry Creek or the Bull Canal for irrigation. City crews jet the mains on a cycle of at least every three years, more often in trouble spots. That program keeps the public pipe clear, but it stops at the tap. Fiber pipe that has already flattened cannot be lined reliably, since the liner needs a round host pipe to cure against, so those sections are usually burst or replaced instead.",
+    "permitNote": "Northglenn states directly that the service lateral, from the house to where it taps into the city main, is the homeowner's responsibility, and it suggests hiring a plumber to televise the line when problems start. The city handles the main. Any excavation in a Northglenn street or sidewalk to reach the tap needs city right-of-way approval, which is worth factoring in when comparing a dig against a trenchless repair from the property side.",
+    "signals": [
+      "Bituminous fiber pipe gone oval or blistered in some early Perl-Mack era homes",
+      "Fine root hair at clay joints running under the front lawn",
+      "Standing water in low spots where soil movement has left a shallow belly",
+      "Cast iron with heavy tuberculation beneath slab-on-grade additions"
+    ],
+    "faqs": [
+      {
+        "q": "What does it mean if a camera finds Orangeburg pipe under my Northglenn house?",
+        "a": "Orangeburg is a tar-impregnated fiber pipe used in some homes of the late 1950s and 1960s. Over decades it softens and squeezes out of round, and roots push through it easily. If the pipe is still mostly round, bursting can replace it with new HDPE through the same path. Once it has flattened or collapsed, lining is not the right answer, and a partial or full replacement is. The camera footage makes that call clear."
+      },
+      {
+        "q": "Northglenn flushes the sewer mains. Does that clean my line too?",
+        "a": "No. The city's jetting program covers the public mains, on a cycle of at least every three years, but it does not reach up your lateral. Your line from the house to the tap is yours to maintain. If backups repeat after a drain cleaning, the next step is a camera inspection to see whether roots, a broken joint or a sag is behind it, rather than cleaning again and again."
+      }
+    ],
+    "sources": [
+      "https://www.northglenn.org/residents/water/sewer.php",
+      "https://www.northglenn.org/community/about_northglenn/history.php",
+      "https://en.wikipedia.org/wiki/Northglenn,_Colorado",
+      "https://www.davidsellsdenver.com/homes-for-sale-in-northglenn-co/northglenn-neighborhoods/"
+    ]
+  },
+  {
+    "name": "Commerce City",
+    "slug": "commerce-city",
+    "county": "adams-county",
+    "fullName": "Commerce City, CO",
+    "priority": 2,
+    "zips": [
+      "80022",
+      "80640"
+    ],
+    "builtEra": "1940s-1960s homes in Derby and Adams City, industrial corridor from the 1930s on, 2000s-present northern subdivisions",
+    "commonPipe": "Clay tile and cast iron in the older south end; PVC in Reunion and other northern subdivisions",
+    "neighborhoods": [
+      "Historic Derby",
+      "Adams City",
+      "Fronterra Village",
+      "Reunion",
+      "Villages at Buffalo Run",
+      "Turnberry"
+    ],
+    "sewerAuthority": "South Adams County Water and Sanitation District, not the city, runs the sewer mains and treatment for most of Commerce City",
+    "local": "In Commerce City the sewer bill does not come from City Hall. The South Adams County Water and Sanitation District runs more than 300 miles of mains, 8 to 30 inches across, over a 65-square-mile area that covers the city and surrounding unincorporated land, and it treats the flow at its own Williams Monaco plant in Henderson. The housing stock splits sharply. The south end, around Derby and old Adams City, dates from the town's incorporation in 1952 and the decades before and after, with clay laterals and cast iron that are now well into their second half-century. North of 104th, Reunion, Fronterra Village and Buffalo Run are 2000s-era PVC. The older lines are where we see root-choked joints and broken bells; the newer ones more often show settled backfill or connection problems. Knowing which half of the city a property sits in tells us a lot before the camera even goes in.",
+    "local2": "Commerce City was industrial long before it was suburban, with a refinery from 1930 and the Rocky Mountain Arsenal next door from 1942, and much of the sewer work here is commercial: shops, yards and processing buildings with long service runs and heavy use. The district keeps both an industrial pretreatment program and a grease-control effort aimed at food businesses, because congealed cooking fat is one of the main reasons its mains plug up. On the private side, grease-coated laterals from restaurants and food businesses need thorough jetting before anyone can judge the pipe, and lining is only considered after the camera shows clean, sound walls. Large-diameter lining for storm or process drains on industrial sites is also an option.",
+    "permitNote": "The district maintains the public mains and says outright that property owners can have problems within their own private sewer lines, which puts the lateral on the owner. Where exactly the district's responsibility ends at the main is a question to confirm with South Adams County Water and Sanitation before work starts. Work in a public street in Commerce City also needs the appropriate right-of-way approval, and commercial connections may fall under the district's pretreatment rules.",
+    "signals": [
+      "Grease buildup coating the walls of restaurant and commercial laterals",
+      "Root-filled clay joints under older lots in the Derby area",
+      "Broken bells and missing pipe sections in long-neglected commercial runs",
+      "Settled connections at the cleanout in newer northern PVC lines"
+    ],
+    "faqs": [
+      {
+        "q": "Who do I call about the sewer in Commerce City, the city or the district?",
+        "a": "For most addresses, the South Adams County Water and Sanitation District. It owns and maintains the sewer mains and treatment plant serving the city and nearby unincorporated land. If a backup is coming from the main, the district handles it. If the problem is in your private line between the building and the main, that is on the owner, and a camera inspection is the quickest way to tell which side it is."
+      },
+      {
+        "q": "Can a commercial lateral full of grease be lined?",
+        "a": "Sometimes, but only after it is fully cleaned. Grease hides cracks and offsets, so we hydro-jet the line first and then run a camera to see the actual pipe wall. If the pipe is round and holds its grade, a CIPP liner can bond and give a smooth interior. If there are collapsed sections or long bellies where grease will keep collecting, lining is the wrong fix and replacing those sections is."
+      }
+    ],
+    "sources": [
+      "https://www.southadamswaterco.gov/water___wastewater/wastewater_information.php",
+      "https://www.southadamswaterco.gov/",
+      "https://en.wikipedia.org/wiki/Commerce_City,_Colorado",
+      "https://adamscountyco.gov/our-county/community-economic-development/permits-licensing/water-and-sanitation-districts/"
+    ]
+  },
+  {
+    "name": "Brighton",
+    "slug": "brighton",
+    "county": "adams-county",
+    "fullName": "Brighton, CO",
+    "priority": 2,
+    "zips": [
+      "80601",
+      "80602",
+      "80603"
+    ],
+    "builtEra": "1880s-1920s original town near downtown, mid-century infill, 2000s-present metro-district subdivisions",
+    "commonPipe": "Cast iron and clay near downtown; PVC across Bromley Park, Brighton Crossing and other newer areas",
+    "neighborhoods": [
+      "Downtown Brighton",
+      "Bromley Park",
+      "Brighton Crossing",
+      "Prairie Center",
+      "Platte River Ranch",
+      "Village at Southgate"
+    ],
+    "sewerAuthority": "City of Brighton Utilities maintains the mains; flow west of Tower Road goes to Metro Water Recovery's Northern Treatment Plant, east of it to Lochbuie",
+    "local": "Brighton puts the line of responsibility in an unusual spot, and states it plainly: the owner is responsible not just for the pipe from the house to the main but for the wye, the fitting where the lateral joins the city main. Any backup or clog anywhere between the main and the house is the owner's to fix. That matters most in the oldest part of town. Brighton was a railroad depot in the 1870s, incorporated in 1887 and became the county seat in 1901, and the blocks around downtown still have homes from that era and the decades after. Laterals there may be cast iron or clay, and the connection at the main is often the oldest piece of the whole run. A broken wye under the street means an owner's repair under the pavement, which is where a trenchless approach can save the most digging.",
+    "local2": "Most of Brighton's recent growth is a different world. The city counts about 40 metropolitan districts across roughly a third of its land, grouped into developments such as Bromley Park, Brighton Crossing and Prairie Center, and those districts have financed streets, parks and water and sewer improvements. Homes there are on PVC, and when something goes wrong it is usually a sag from settled trench backfill or a poor joint at the cleanout. Lining does not fix a sag, since the liner follows the low spot, so those repairs are usually a short excavation. Where your flow goes also depends on location: west of Tower Road to Metro's Northern Treatment Plant, east of it to Lochbuie.",
+    "permitNote": "The City of Brighton maintains the sewer mains, while the property owner is responsible for the wye connection at the main and the entire service line from the main to the home, per the city's sewer backup guidance. Repairs that reach the main typically mean working in the street, which requires city permitting, and new or replaced connections are built to the city's sanitary sewer standards. In metro-district subdivisions it is still worth confirming with the city who maintains the main on your street.",
+    "signals": [
+      "Cracked or root-packed wye fittings at the main under older downtown streets",
+      "Thinning cast iron and rough joints in houses built before World War II",
+      "Belly sections in newer PVC laterals from trench backfill that settled",
+      "Offsets at the cleanout riser where yard soil has moved"
+    ],
+    "faqs": [
+      {
+        "q": "Brighton says I own the wye. What does that mean in practice?",
+        "a": "The wye is the fitting where your lateral joins the city main, usually under the street. Because Brighton places it on the owner, a cracked or root-filled wye is your repair even though it sits in the public right-of-way. That typically means a street permit if the connection must be dug up. Depending on the pipe, the lateral can sometimes be lined or burst from the property side to limit the work in the street."
+      },
+      {
+        "q": "Is lining a good option for a newer Brighton home?",
+        "a": "Usually it is not needed. Newer homes in Brighton's metro-district subdivisions have PVC laterals, which do not corrode or let roots in easily. When they fail, the cause is typically a sag or a separated joint, and a liner cannot correct a sag. A camera inspection will show whether a short spot repair is the right fix, which it often is."
+      }
+    ],
+    "sources": [
+      "https://www.brightonco.gov/784/Sewer-Back-up",
+      "https://brightonco.gov/579/Sewer",
+      "https://www.brightonco.gov/1063/Metropolitan-Districts",
+      "https://en.wikipedia.org/wiki/Brighton,_Colorado"
+    ]
+  },
+  {
+    "name": "Federal Heights",
+    "slug": "federal-heights",
+    "county": "adams-county",
+    "fullName": "Federal Heights, CO",
+    "priority": 2,
+    "zips": [
+      "80260",
+      "80221",
+      "80234"
+    ],
+    "builtEra": "1950s-1960s ranch subdivisions, 1980 Northborough Heights, plus manufactured-home parks and apartments",
+    "commonPipe": "Clay tile and cast iron in 1950s-1960s houses; privately owned systems in manufactured-home parks",
+    "neighborhoods": [
+      "Homestead Heights",
+      "Monticello",
+      "Northborough Heights",
+      "Aspen Meadow",
+      "Roth Park"
+    ],
+    "sewerAuthority": "City of Federal Heights Public Works maintains about 18 miles of sewer; mobile home park lines are private",
+    "local": "Federal Heights packs a lot into under two square miles. The city, incorporated in 1940 and named for Federal Boulevard, has a little over 5,500 housing units, and its public works department maintains about 18 miles of sewer. What makes it different from its neighbors is how much of that housing sits in manufactured-home parks, where the streets and utilities are private. In those parks the city does not own the sewer lines, and residents are directed to the park office. For site-built homes the picture is more familiar: Homestead Heights went up in the 1950s, Monticello in the 1960s with around 575 homes, and Northborough Heights around 1980. The first two are prime territory for clay laterals with root-prone joints and cast iron under the house, while the 1980 homes are more likely to have plastic lines. Small as the city is, a single street can hold all three situations.",
+    "local2": "Our work in Federal Heights ranges from single ranch homes to park owners and property managers dealing with shared private lines. A park main that serves dozens of homes behaves more like a small municipal system than a house lateral: long runs, many connections, and a single blockage that affects several families. Camera inspection comes first to map the pipe and its junctions; after that, cleaning, spot repairs or lining can be planned section by section. Public works also targets kitchen grease with an FOG effort of its own, and that same grease is a common culprit in apartment and condominium lines, where several kitchens feed one pipe. Those buildings often do best with scheduled jetting and a camera check afterward, so small problems are caught before a whole building backs up.",
+    "permitNote": "The Federal Heights public works department maintains the public sewer, and its guidance puts service lines on private property owners. Inside mobile home parks, streets and utilities are private, so repairs go through park management rather than the city. Work that extends into a city street to reach a public main requires city approval, and sewer overflows in the public system are reported to public works.",
+    "signals": [
+      "Root-choked clay joints under 1950s Homestead Heights front yards",
+      "Grease-lined shared lines serving apartment and condominium buildings",
+      "Cracked or separated joints in private manufactured-home park mains",
+      "Cast iron with scale and pinholes beneath 1960s slab and crawlspace homes"
+    ],
+    "faqs": [
+      {
+        "q": "I live in a Federal Heights mobile home park. Who fixes the sewer?",
+        "a": "In Federal Heights, streets and utilities inside mobile home parks are private, so the city does not maintain those sewer lines. Park management is the first call. Park owners sometimes bring us in to camera the shared lines, find the problem section and repair it, and in many cases a damaged run can be lined or spot-repaired without tearing up the park's streets."
+      },
+      {
+        "q": "My Federal Heights ranch house was built in the 1950s. Should I have the sewer checked?",
+        "a": "If the house still has its original lateral, it is likely around seventy years old and made of clay tile with cast iron near the foundation. A camera inspection is a reasonable step before buying, after repeated slow drains, or before remodeling a bathroom. It shows whether roots, cracked joints or sags are present and whether the pipe is sound enough to line or needs to be replaced."
+      }
+    ],
+    "sources": [
+      "https://www.fedheights.org/publicworks",
+      "https://en.wikipedia.org/wiki/Federal_Heights,_Colorado",
+      "https://coloradohomeblog.com/federal-heights-co/"
+    ]
+  },
+  {
+    "name": "Aurora",
+    "slug": "aurora",
+    "county": "arapahoe-county",
+    "fullName": "Aurora, CO",
+    "priority": 1,
+    "zips": [
+      "80010",
+      "80011",
+      "80012",
+      "80013",
+      "80014",
+      "80015",
+      "80016",
+      "80017",
+      "80018",
+      "80247"
+    ],
+    "builtEra": "Early 1900s Original Aurora near Colfax, 1950s-1960s postwar tracts like Hoffman Heights, then decades of growth south and east",
+    "commonPipe": "Cast iron and clay tile in the older north and central neighborhoods; PVC in most newer subdivisions to the south and east",
+    "neighborhoods": [
+      "Original Aurora",
+      "Hoffman Heights",
+      "Del Mar",
+      "Morris Heights",
+      "Utah Park"
+    ],
+    "sewerAuthority": "Aurora Water operates the city's wastewater collection system; a few edge areas are served by special districts, so confirm on your bill",
+    "local": "Aurora's city code leaves little doubt about the sewer lateral: the owner of a connected building keeps ownership of the service line and is responsible for maintaining and repairing all of it, out to where it taps the public main. The code also lets Aurora Water set a deadline for repairs, and in serious cases the city can shut off water service to a property whose failing line threatens the public system, while monthly charges keep running. That puts real weight on getting the diagnosis right. In the older parts of north Aurora, a camera usually shows cast iron under the house turning into clay tile somewhere past the foundation, and it is that transition, plus the clay joints beyond it, where roots and soil movement do most of their damage. Farther south and east, the pipe is newer PVC, and trouble there tends to come from settled trenches, construction debris or a poorly glued fitting rather than old age.",
+    "local2": "Hoffman Heights tells a lot of Aurora's story. Builder Sam Hoffman planned about 1,700 single-story brick ranches there in the early 1950s, priced for returning veterans and the workers at Lowry, Fitzsimons and Buckley. Seventy-some years later, the sewer lines under those ranches are reaching the age when cast iron scales and thins and clay tile joints let go. Because so many homes share the same builder and layout, the failure points repeat from street to street: the elbow under the slab, the transition to clay, and the joint nearest the main. Aurora also spans Arapahoe, Adams and Douglas counties across nearly a thousand feet of elevation, so a long lateral in a hilly east side subdivision can behave very differently from a flat lot near Colfax. Where a line has lost grade and holds water, we will say so and recommend replacing that section rather than lining over the sag.",
+    "permitNote": "Under the Aurora City Code, the property owner carries the whole service line. Permits come in two pieces: the building division covers the portion within five feet of the building, and the public works side covers the rest. Any new connection to the public sewer is made under the supervision of an Aurora Water representative, and you must notify the city when the work is ready for inspection. Digging in a city street or sidewalk also requires separate approval to work in the right-of-way. The city may repair a line in the right-of-way at its own expense to protect the system, but only at its discretion.",
+    "signals": [
+      "Cast iron with heavy scale and a thinning bottom under 1950s slab-on-grade ranches",
+      "Root masses at the first clay tile joint just outside the foundation wall",
+      "Offset clay joints where expansive soil has shifted the pipe over decades",
+      "Low spots and standing water in longer laterals on sloped east side lots"
+    ],
+    "faqs": [
+      {
+        "q": "Does Aurora Water fix the sewer line under the street in front of my house?",
+        "a": "Generally no. Aurora's code says the owner of a connected building keeps ownership of, and upkeep on, the service line all the way to the public sewer tap, which includes the stretch under the street. The city reserves the option to repair a line in the right-of-way itself if that is needed to protect the public system, but homeowners should plan on that section being their responsibility and budget for a camera inspection of the full length."
+      },
+      {
+        "q": "Can a 1950s Hoffman Heights sewer line be lined, or does it need to be dug up?",
+        "a": "Often it can be lined. A cast iron or clay lateral that is cracked, rooted or scaled but keeps its round profile and steady fall is a good candidate for CIPP, which puts a new pipe inside the old one without trenching the yard. If the camera shows a collapsed section, a belly that holds water, or joints that have pulled far apart, lining would only copy those defects, and bursting or a conventional repair is the honest answer."
+      }
+    ],
+    "sources": [
+      "https://aurora.municipal.codes/Code/138-262",
+      "https://en.wikipedia.org/wiki/Aurora,_Colorado",
+      "https://sah-archipedia.org/buildings/CO-01-AH43",
+      "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/"
+    ]
+  },
+  {
+    "name": "Centennial",
+    "slug": "centennial",
+    "county": "arapahoe-county",
+    "fullName": "Centennial, CO",
+    "priority": 1,
+    "zips": [
+      "80015",
+      "80016",
+      "80111",
+      "80112",
+      "80121",
+      "80122"
+    ],
+    "builtEra": "Mostly 1960s-1990s suburban subdivisions, incorporated as a city in 2001 from existing unincorporated neighborhoods",
+    "commonPipe": "Clay tile and some cast iron in the western and older neighborhoods; PVC in later subdivisions farther east",
+    "neighborhoods": [
+      "Southglenn",
+      "Walnut Hills",
+      "Willow Creek",
+      "Foxridge",
+      "Heritage Greens"
+    ],
+    "sewerAuthority": "No city sewer utility; service comes from special districts including South Arapahoe Sanitation, Southgate, South Englewood No. 1, ACWWA, East Cherry Creek Valley, Castlewood and Havana",
+    "local": "Centennial became a city in 2001, but its sewers were in the ground long before that, laid by the special districts that served the unincorporated suburbs. The city never took them over. Its own district map shows seven separate sanitation providers inside city limits: South Arapahoe Sanitation District, Southgate, South Englewood Sanitation District No. 1, the Arapahoe County Water and Wastewater Authority, East Cherry Creek Valley, Castlewood and Havana. Two houses on opposite sides of an arterial can answer to different boards with different notice rules. South Arapahoe, formed in 1957 and covering the stretch between Broadway and Holly south of Orchard Road, is blunt about ownership: the line from the building up to and including the tap on the district main belongs to the owner. The district also reports that about two-thirds of its own mains are clay or concrete, which matches what we tend to see in the private laterals connected to them.",
+    "local2": "One Centennial job shows why the approach matters. A homeowner had 47 feet of cast iron that was flaking apart from the inside. Instead of opening the yard and landscaping, we lined it through a cleanout inside the house, leaving a new jointless pipe within the old one. That works when the host pipe still has its shape and fall. South Arapahoe's own guidance on rehabilitation makes the same point we do: lining is reasonable when the damaged line has no sags and its breaks or separated joints are not too severe, and the district asks to be notified at least 48 hours before the work. In the western neighborhoods near Southglenn, mature trees and expansive clay are the usual culprits. Farther east, in newer tracts, the problem is more often a settled trench or a bad fitting.",
+    "permitNote": "Start by identifying your district, since Centennial itself does not run the sewer. In South Arapahoe Sanitation District, homeowners are on the hook for everything from the building through the tap itself, and the district's engineer must be notified at least 48 hours before a line is rehabilitated. Other districts in the city set their own tap, inspection and notification requirements, so check with yours. Digging in a public street or sidewalk also needs City of Centennial approval through its right-of-way process.",
+    "signals": [
+      "Clay tile joints packed with fine roots under older western subdivisions",
+      "Cast iron flaking and scaling inside the foundation of 1960s and 1970s homes",
+      "Separated joints near the tap where the lateral meets a deep district main",
+      "Sags in longer runs where expansive clay has settled or heaved the pipe"
+    ],
+    "faqs": [
+      {
+        "q": "Which sanitation district serves my Centennial home?",
+        "a": "It depends on the address. The city's district map shows seven sanitation providers, including South Arapahoe, Southgate, South Englewood No. 1, ACWWA and East Cherry Creek Valley, and the boundaries do not follow neighborhood names or ZIP codes. Your sewer bill is the fastest answer; if sewer charges come bundled with water, the provider named on that bill is usually the district that owns the main and sets the connection rules."
+      },
+      {
+        "q": "Will my Centennial district let me line my sewer instead of replacing it?",
+        "a": "In South Arapahoe Sanitation District, yes, with conditions. The district's rehabilitation guidance treats cured-in-place lining as an option when the line has no sags and the breaks are not too severe, and it wants 48 hours' notice before the work. We follow the same test. If the camera shows a belly or a collapsed section, the better plan is bursting or excavating that stretch instead of lining over it."
+      }
+    ],
+    "sources": [
+      "https://maps.centennialco.gov/arcgis/rest/services/Special_Districts/MapServer/5?f=pjson",
+      "https://southarapahoe.org/",
+      "https://southarapahoe.org/resources/",
+      "https://southarapahoe.org/wp-content/uploads/2019/07/SASD_2017_Sewer_Service_Rehabilitation_and_Maintenance.pdf",
+      "https://southenglewood.org/",
+      "https://southgatedistricts.org/168/Southgate-Districts",
+      "https://en.wikipedia.org/wiki/Centennial,_Colorado"
+    ]
+  },
+  {
+    "name": "Englewood",
+    "slug": "englewood",
+    "county": "arapahoe-county",
+    "fullName": "Englewood, CO",
+    "priority": 1,
+    "zips": [
+      "80110",
+      "80113"
+    ],
+    "builtEra": "Early 1900s streetcar-era blocks, then a 1950s boom that left the city mostly built out by 1960, including the 1949-1957 Arapahoe Acres",
+    "commonPipe": "Cast iron and clay tile in pre-war bungalows and cottages; clay tile, cast iron and some Orangeburg in 1950s homes",
+    "neighborhoods": [
+      "Arapahoe Acres",
+      "Cherrelyn",
+      "Bates-Logan Park",
+      "Hampden Hills",
+      "Downtown Englewood"
+    ],
+    "sewerAuthority": "City of Englewood Utilities collects wastewater inside city limits; flow is treated at South Platte Renew, which sits in Englewood",
+    "local": "Englewood is one of the few places in the south metro where the city itself runs the sanitary sewer inside its limits, through Englewood Utilities, rather than leaving it to a special district. The regional treatment plant, South Platte Renew, is here too, near Santa Fe and Dartmouth, and it takes flow from Englewood, Littleton and a long list of surrounding districts. What sits under Englewood houses reflects how fast the city filled in: incorporated in 1903, it nearly doubled in population during the 1950s and was mostly built by 1960. That means a large share of laterals are clay tile and cast iron that are now 65 to 120 years old. The narrow lots on the older grid keep laterals relatively short, but they often run beneath driveways, detached garages and alley-side trees, and those clay joints give roots and shifting soil an easy way in.",
+    "local2": "Arapahoe Acres is a special case. Built between 1949 and 1957, mostly to Edward Hawkins' Usonian-style designs, the roughly 90-home neighborhood between Bates and Dartmouth was listed on the National Register of Historic Places in 1998. Owners there tend to care a great deal about the original landscaping, carports and flatwork, which is exactly what an open-trench sewer replacement tears up. Lining from a cleanout, or bursting between two small pits, usually leaves the property looking untouched. A caution that applies across town: an Englewood mailing address does not always mean the City of Englewood owns the main. The 80110 and 80113 ZIP codes reach into Sheridan, Cherry Hills Village and unincorporated areas served by other districts, so we confirm who the provider is before planning the tie-in.",
+    "permitNote": "Inside city limits, the public main belongs to Englewood Utilities, while the private service line serving a house is generally the owner's to maintain; ask Englewood Utilities exactly where its responsibility ends on your street before planning work. Plumbing work on the building sewer goes through the city's building division, and any cut into a street, alley or sidewalk needs a right-of-way permit from Englewood Public Works. If your address is outside city limits, a different district's rules apply.",
+    "signals": [
+      "Roots entering clay tile joints near alley trees and detached garages",
+      "Cast iron with a scaled or rotted invert under 1950s slab additions",
+      "Occasional bituminous fiber pipe that has flattened into an oval",
+      "Cracked or offset joints at the transition from cast iron to clay"
+    ],
+    "faqs": [
+      {
+        "q": "My address says Englewood. Does the City of Englewood own my sewer main?",
+        "a": "Not necessarily. The Englewood ZIP codes cover parts of Sheridan, Cherry Hills Village and unincorporated Arapahoe County, where sanitation districts rather than Englewood Utilities own the mains. Check your sewer bill: if it comes from the City of Englewood, you are on the city system. If it comes from a district, that district's rules decide the tap, inspection and notice requirements for any repair."
+      },
+      {
+        "q": "Can a sewer line in Arapahoe Acres be replaced without disturbing the landscape?",
+        "a": "In many cases, yes. If the camera shows the original clay or cast iron still holds its shape and slope, it can be lined from an existing cleanout with no trench across the yard. If a section has collapsed or sagged, pipe bursting needs only a small pit at each end. When the line is too far gone for either, we will explain why and keep the excavation as short as possible."
+      }
+    ],
+    "sources": [
+      "https://www.englewoodco.gov/government/city-departments/utilities/services/wastewater",
+      "https://www.englewoodco.gov/government/city-departments/utilities/services/wastewater/find-your-sanitation-district",
+      "https://en.wikipedia.org/wiki/Englewood,_Colorado",
+      "https://en.wikipedia.org/wiki/Arapahoe_Acres",
+      "https://www.littletonco.gov/Government/Departments/Public-Works-Engineering/Sanitary-Sewer-and-Wastewater",
+      "https://southarapahoe.org/"
+    ]
+  },
+  {
+    "name": "Littleton",
+    "slug": "littleton",
+    "county": "arapahoe-county",
+    "fullName": "Littleton, CO",
+    "priority": 1,
+    "zips": [
+      "80120",
+      "80121",
+      "80122"
+    ],
+    "builtEra": "1890s-1920s historic downtown and surrounding blocks, then heavy 1950s-1960s growth tied to Denver and the Martin Marietta plant",
+    "commonPipe": "Cast iron and clay tile near downtown; clay tile with cast iron under the house in most 1950s-1960s neighborhoods",
+    "neighborhoods": [
+      "Downtown Littleton",
+      "Arapaho Hills",
+      "Aberdeen Village",
+      "Broadmoor"
+    ],
+    "sewerAuthority": "Collection is handled by about a dozen sanitation districts (South Arapahoe, South Englewood No. 1, Southwest Metro, Platte Canyon and others), with sewer billed through the city and treated at South Platte Renew",
+    "local": "Littleton is the county seat, but it does not own a sewer collection system. Mains inside the city belong to independent water and sanitation districts, and the city's own list of districts it bills for runs to twelve names, from South Arapahoe and South Englewood No. 1 to Southwest Metropolitan, Platte Canyon and Valley. What the city does own is half of the treatment plant: Littleton and Englewood jointly own South Platte Renew, which receives all of Littleton's wastewater. For a homeowner this split means the bill may say City of Littleton while the rules about your tap come from a district board. The housing underneath is older than many assume. The original town dates to 1890, and the neighborhoods that surround it grew fast in the 1950s and 1960s, so most laterals are clay tile, often with cast iron inside the house and a lot of accumulated root and soil damage at the joints.",
+    "local2": "A recent Littleton job is typical. The homeowner had 72 feet of clay tile running from the house to the main, with roots and cracked joints along the way. We lined it from inside the house, so nothing outside had to be dug up. That is a good fit when the clay still has its shape. Near the South Platte and along the older creek-side streets, though, we look hard for sags and shifted sections before recommending lining, because liners follow whatever grade the old pipe has. Arapaho Hills, a mid-century modern neighborhood on the National Register, and similar 1950s areas often have long runs under mature trees and original hardscape, which is exactly where lining or bursting saves the most.",
+    "permitNote": "Because districts own the mains, ownership questions go to your district, not the city. Districts in this area, including South Arapahoe, make the owner answerable for the private line right through the tap connection, and they generally want advance notice before a connection or rehabilitation. The City of Littleton handles plumbing and building permits and requires a permit for any excavation in the public right-of-way. The city's online district map shows which provider serves a given address.",
+    "signals": [
+      "Clay tile laterals with root intrusion at nearly every joint on older lots",
+      "Cast iron drain lines under basement floors with heavy scale and pinholes",
+      "Sags and offsets on low-lying streets closer to the South Platte River",
+      "Old repairs where a short section of PVC was banded into clay"
+    ],
+    "faqs": [
+      {
+        "q": "Why does my sewer bill come from the City of Littleton if a district owns the sewer?",
+        "a": "Littleton bills sewer service on behalf of several sanitation districts, including South Arapahoe, South Englewood No. 1, Southwest Metropolitan and Platte Canyon. The district still owns the mains and sets the rules for taps and repairs, while the city co-owns the South Platte Renew treatment plant. Use the city's district map to see which district serves your address before arranging any sewer work."
+      },
+      {
+        "q": "My Littleton home has clay sewer pipe. Should I line it or replace it?",
+        "a": "Clay that is cracked or root-infested but still round and sloped toward the main is often an excellent lining candidate; we lined a 72-foot clay line from inside a Littleton house without touching the yard. If the camera finds a belly holding water, a collapsed stretch or joints that have separated badly, lining is the wrong tool and we will recommend bursting or a targeted dig instead."
+      }
+    ],
+    "sources": [
+      "https://www.littletonco.gov/Government/Departments/Public-Works-Engineering/Sanitary-Sewer-and-Wastewater",
+      "https://www.littletonco.gov/Government/City-Services/Utilities/Sanitation-Districts",
+      "https://www.littletonco.gov/Government/Departments/Public-Works-Engineering/Sewer-Water-and-Storm-District-Map",
+      "https://southarapahoe.org/resources/",
+      "https://en.wikipedia.org/wiki/Littleton,_Colorado",
+      "https://midmoddreamhomes.com/neighborhoods/littleton"
+    ]
+  },
+  {
+    "name": "Greenwood Village",
+    "slug": "greenwood-village",
+    "county": "arapahoe-county",
+    "fullName": "Greenwood Village, CO",
+    "priority": 2,
+    "zips": [
+      "80111",
+      "80112",
+      "80121"
+    ],
+    "builtEra": "1950s-1960s acreage homes after the 1950 incorporation, then 1970s onward office and residential growth around the Denver Tech Center",
+    "commonPipe": "Clay tile and cast iron under older acreage homes; PVC and ductile or cast iron in newer homes and commercial buildings",
+    "neighborhoods": [
+      "The Preserve",
+      "Cherry Creek Vista",
+      "Greenwood Hills",
+      "One Cherry Lane"
+    ],
+    "sewerAuthority": "Several sanitation districts serve the city, including South Arapahoe, Southgate and South Englewood No. 1, plus a Greenwood Village sewer improvement district listed among South Platte Renew connectors",
+    "local": "Greenwood Village has two very different sewer landscapes. West of I-25, the city that incorporated in 1950 is mostly large residential lots, many carved out of earlier farms and orchards, with homes set well back from the road. East of the interstate is the Denver Tech Center, the office district whose growth from the 1970s on made the city what it is. On the residential side, the combination of long setbacks and big trees means long laterals, and the older ones are clay tile that has had half a century or more for roots to find every joint. Several districts share the city: South Arapahoe, Southgate and South Englewood No. 1 all list Greenwood Village in their service areas, and South Platte Renew's connector list includes a Greenwood Village sewer general improvement district. Knowing which one serves a property comes before any repair plan.",
+    "local2": "Commercial work in the Tech Center is its own category. Office buildings, restaurants and hotels there are coming up on 40 to 50 years old, and their building sewers are larger, run under parking structures and landscaped plazas, and cannot be shut down for long. Lining through existing cleanouts can often be scheduled overnight or on a weekend, keeping tenants open. We also clean out grease-heavy restaurant laterals before any lining, since a liner will not bond or cure properly over buildup. On the residential side, the High Line Canal trail passes through Greenwood Village lined with large cottonwoods, and properties near it tend to show heavier root intrusion than the city average.",
+    "permitNote": "The sanitation district that serves your property owns the main and sets connection and inspection rules; in South Arapahoe's area, private lines, tap included, fall to the property owner. Greenwood Village issues building and plumbing permits and must sign off on any work inside public streets. Where a lateral crosses a private road, HOA common area or easement, the association or easement holder may also need to approve access and restoration. Commercial properties may also need to meet the district's grease and pretreatment requirements. Confirm your district before scheduling work.",
+    "signals": [
+      "Long clay laterals with root masses under mature cottonwoods and ornamental trees",
+      "Grease buildup narrowing restaurant and hotel building sewers in the Tech Center",
+      "Cracked cast iron under the slabs of 1960s and 1970s acreage homes",
+      "Offset joints on long, deep runs where soil has moved over time"
+    ],
+    "faqs": [
+      {
+        "q": "Can a Tech Center office building have its sewer lined without closing?",
+        "a": "Usually. Lining is done through existing cleanouts or a manhole, with flow bypassed or paused for a limited window, so the work can often be done overnight or over a weekend. We camera and clean the line first, especially where kitchens contribute grease, and confirm the pipe still has its grade. A collapsed or badly sagging section may still need a spot repair before the rest is lined."
+      },
+      {
+        "q": "Why is my Greenwood Village sewer line so long?",
+        "a": "Many homes west of I-25 sit on large lots with deep setbacks, and the district main may run along a road or easement well away from the house. A lateral of 100 feet or more is not unusual. The good news is that length favors trenchless methods: lining or bursting avoids digging a long trench through mature landscaping, driveways and irrigation."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Greenwood_Village,_Colorado",
+      "https://southarapahoe.org/",
+      "https://southenglewood.org/",
+      "https://southgatedistricts.org/168/Southgate-Districts",
+      "https://www.englewoodco.gov/government/city-departments/utilities/services/wastewater/find-your-sanitation-district",
+      "https://markusdreamhomes.com/blog/4-best-neighborhoods-to-live-in-greenwood-village"
+    ]
+  },
+  {
+    "name": "Cherry Hills Village",
+    "slug": "cherry-hills-village",
+    "county": "arapahoe-county",
+    "fullName": "Cherry Hills Village, CO",
+    "priority": 2,
+    "zips": [
+      "80113",
+      "80111",
+      "80121"
+    ],
+    "builtEra": "Estate homes from before and after the 1945 incorporation, with many teardown rebuilds on older acreage",
+    "commonPipe": "Clay tile and cast iron on original estates; PVC on rebuilt homes, often tied into an older clay run near the main",
+    "neighborhoods": [
+      "Buell Mansion",
+      "Highline Meadows",
+      "Cherry Hills Farm",
+      "Cherrymoor"
+    ],
+    "sewerAuthority": "Cherry Hills Village Sanitation District serves much of the city, with other areas on Southgate, Cherryvale, South Englewood No. 1 or Englewood",
+    "local": "Lot size drives almost everything about sewer work in Cherry Hills Village. The city's R-1 zoning requires 2.5 acres per home, and even its smallest residential lots start at 16,000 square feet, so houses sit far back from the street and laterals routinely run well past 100 feet. A long line has more joints, more chances for roots from mature trees, and more room for expansive soil to pull it out of grade. Many estates also have a history of their own. The Cherry Hills Village Sanitation District rules require an old septic tank to be abandoned and plugged when a property connects, which tells you some homes here started on septic and were tied in later, sometimes through clay pipe that was never replaced. Rebuilds are common too, and a new house often ends up draining through new PVC that joins an old clay line somewhere under the lawn.",
+    "local2": "The city's sewer map is a patchwork. Besides the Cherry Hills Village Sanitation District, which sends its flow to Englewood's treatment facility under a connector agreement, parts of the city are served by Southgate, Cherryvale, South Englewood No. 1 and Englewood Utilities, and a string of small water districts still exists alongside them. On a long lateral, the most expensive mistake is replacing the whole run when only one stretch has failed. We camera the line end to end, locate the problem sections from the surface, and then line, burst or spot-repair only what needs it. Where a run has sagged badly across a low part of the lot, we will tell you plainly that lining will not fix the grade.",
+    "permitNote": "In the Cherry Hills Village Sanitation District, property owners own and maintain their service lines, and the district states it is not liable for damage arising from a private line. A tap permit is required before any connection, the permit runs with the property, and the district must get at least 24 hours' notice so an inspector can supervise the connection; skip that, and the owner pays to expose it later. Other districts in the city have their own rules. Work in city streets needs a Cherry Hills Village right-of-way permit.",
+    "signals": [
+      "Root intrusion at many joints along laterals well over 100 feet long",
+      "New PVC from a rebuilt home joined to original clay pipe near the main",
+      "Sags across low areas of large lots where soil has settled or swelled",
+      "Remnants of old septic connections or abandoned lines found during inspection"
+    ],
+    "faqs": [
+      {
+        "q": "Who is responsible for the sewer line on my Cherry Hills Village property?",
+        "a": "If you are in the Cherry Hills Village Sanitation District, you are. District rules say the owner owns and maintains the service line and its fittings, pays for repairs, and bears responsibility for damage the line causes. Parts of the city are served by other districts such as Southgate or Cherryvale, whose rules may differ, so confirm which district bills you before planning a repair."
+      },
+      {
+        "q": "My sewer lateral is very long. Do I have to replace all of it?",
+        "a": "Rarely. On long estate laterals, damage is usually concentrated in a few places: a root-packed joint, an offset near the house, or a sag in a low spot. A full camera survey with locating lets us line or burst the sections that need it and leave sound pipe alone. If the whole run is failing, lining or bursting it still avoids trenching the length of the property."
+      }
+    ],
+    "sources": [
+      "https://www.zoneomics.com/code/cherry-hills-village-CO/chapter_3",
+      "https://cherryhillsvillagesd.colorado.gov/district-information/rules-and-regulations",
+      "https://www.cherryhillsvillage.com/DocumentCenter/View/174",
+      "https://www.cherryhillsvillage.com/522/Cherry-Hills-Village-Sanitation-District",
+      "https://en.wikipedia.org/wiki/Cherry_Hills_Village,_Colorado"
+    ]
+  },
+  {
+    "name": "Sheridan",
+    "slug": "sheridan",
+    "county": "arapahoe-county",
+    "fullName": "Sheridan, CO",
+    "priority": 2,
+    "zips": [
+      "80110",
+      "80236"
+    ],
+    "builtEra": "Small 1890 town that filled in with modest homes through the mid-20th century, plus later commercial development such as River Point",
+    "commonPipe": "Clay tile and cast iron in older homes; mixed materials where lines have been partly repaired over the years",
+    "neighborhoods": [
+      "River Point at Sheridan",
+      "West Oxford Avenue area",
+      "Federal Boulevard corridor",
+      "Bear Creek area"
+    ],
+    "sewerAuthority": "Sheridan Sanitation District No. 1 and Sheridan Sanitation District No. 2 serve different parts of the city; confirm your district on your bill",
+    "local": "Sheridan is small, about 2.3 square miles and roughly 6,000 people, but its sewer arrangement is not simple. Two separate special districts, Sheridan Sanitation District No. 1 and Sheridan Sanitation District No. 2, handle collection in different parts of the city, and District No. 1 is one of the connectors whose flow goes to South Platte Renew. The town dates to 1890, when it took its name from General Philip Sheridan, whose Fort Logan sits just to the south, and much of its housing is modest single-family homes on compact lots. The laterals under those homes are mostly vitrified clay, frequently switching from cast iron at the foundation, and many have been patched piecemeal over the decades. When a line has had three or four different repairs, the camera tends to find problems right at the points where one material was banded to another.",
+    "local2": "Bear Creek runs through Sheridan on its way to the South Platte, and properties in the lower parts of town sit on river and creek deposits rather than the heavier clays found up on the plains. That changes what we look for: joints that have separated as loose soil settled, and sections that have shifted rather than heaved. Sheridan also shares its 80110 ZIP code with Englewood, so an address that reads Englewood may actually be in Sheridan and on one of the Sheridan districts. District No. 1 has carried out replacement of its own sewer pipe, which is a good moment for owners along those streets to check the condition of their laterals, since the public main and the private line are separate responsibilities.",
+    "permitNote": "Each Sheridan district owns its public mains; District No. 2 states that maintenance and replacement of district lines is the district's job, which leaves the private service line with the property owner. Ask your district where its responsibility ends and what notice or inspection it requires before connection work. The City of Sheridan issues building permits and permits for excavation in its streets. On compact lots the lateral frequently passes under a neighbor's driveway or a shared fence line, so we locate it from the surface and talk through access before any pit is dug.",
+    "signals": [
+      "Patchwork laterals with clay, cast iron and PVC joined by rubber couplings",
+      "Separated joints in loose creek and river deposits near Bear Creek",
+      "Roots from mature yard trees entering clay joints on compact lots",
+      "Cracked cast iron under older homes where the line exits the foundation"
+    ],
+    "faqs": [
+      {
+        "q": "Which sewer district serves my Sheridan home?",
+        "a": "Sheridan has two, Sheridan Sanitation District No. 1 and No. 2, covering different parts of the city. Your sewer bill names the one that serves you. Because the city shares the 80110 ZIP code with Englewood, some homes with Englewood mailing addresses are actually inside Sheridan, so do not go by the city name on the envelope. If the bill is unclear, the city or either district office can confirm from the property address."
+      },
+      {
+        "q": "My Sheridan sewer line has been patched several times. Is lining still an option?",
+        "a": "Often it is, and lining can be a clean way to turn a patchwork line into one continuous pipe. We check that every transition is aligned closely enough for the liner to pass and that the line still slopes toward the main. If an old repair left a large offset or a sag, that spot may need a small excavation first, and then the rest can be lined."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sheridan,_Colorado",
+      "https://www.sheridansan2.com/about",
+      "https://sheridansan.specialdistrict.org/",
+      "https://www.englewoodco.gov/government/city-departments/utilities/services/wastewater/find-your-sanitation-district",
+      "https://www.ci.sheridan.co.us/CivicAlerts.aspx?AID=773&ARC=1412",
+      "https://en.wikipedia.org/wiki/Englewood,_Colorado"
+    ]
+  },
+  {
+    "name": "Highlands Ranch",
+    "slug": "highlands-ranch",
+    "county": "douglas-county",
+    "fullName": "Highlands Ranch, CO",
+    "priority": 1,
+    "zips": [
+      "80126",
+      "80129",
+      "80130"
+    ],
+    "builtEra": "1981 onward master-planned build-out, Northridge first, Backcountry and the southern edge in the 2000s-2010s",
+    "commonPipe": "PVC laterals almost everywhere; ABS or cast iron only inside the house",
+    "neighborhoods": [
+      "Northridge",
+      "Eastridge",
+      "Southridge",
+      "Westridge",
+      "Backcountry"
+    ],
+    "sewerAuthority": "Highlands Ranch Water (formerly Centennial Water and Sanitation District), which treats sewage at its Marcy Gulch plant",
+    "local": "Highlands Ranch is unincorporated, so there is no city public works department behind your sewer. The collection system and the Marcy Gulch treatment plant, running since 1984, belong to Highlands Ranch Water, the utility long known as Centennial Water and Sanitation District. The first houses went in near South Broadway in 1981, which means even the oldest laterals in Northridge are plastic and only about 45 years old. Plastic pipe rarely rots, so the question here is usually alignment. The Colorado Geological Survey studied thousands of soil borings in north-central Douglas County, including Highlands Ranch subdivisions, and found swelling claystone in the bedrock and windblown soils that collapse when wetted. Along a single sewer trench you can get both: one section pushed up, another dropped. On camera that shows up as standing water in a sag or a joint that has slipped out of its bell.",
+    "local2": "Be skeptical of anyone who wants to reline a Highlands Ranch sewer on the first visit. A cured-in-place liner follows the pipe it is installed in, so a belly stays a belly and water still pools where the grade dropped. When the problem is a low spot or a pulled joint, the honest fix is usually a targeted dig at that spot, or re-laying the run on proper grade. Lining earns its place in a narrower set of cases, such as cracked fittings or root entry at a joint where the pipe is still on grade. We also find builder leftovers in original lines, like hardened concrete, gravel and scraps of pipe, and those can often be cut out with a robotic cutter or cleared with a jetter instead of any excavation.",
+    "permitNote": "Highlands Ranch Water tells residents to call a plumber first when a sewer backs up, because problems on private property are the owner's responsibility; the district handles its mains. Plan on owning your lateral all the way out, and confirm with the district where your line connects and what inspection it wants on a new connection or repair. Streets in Highlands Ranch are county roads, so a cut in the pavement typically requires a Douglas County right-of-way permit. HOA covenants from the community association can also affect landscaping restoration.",
+    "signals": [
+      "Standing water in a belly partway to the main, typical of settled backfill",
+      "Offset or separated PVC joints where claystone below the trench heaved",
+      "Construction concrete or debris lodged in a line since the house was built",
+      "Roots entering at cleanout risers and fittings near mature landscape trees"
+    ],
+    "faqs": [
+      {
+        "q": "My Highlands Ranch house is only 30 years old. Why would the sewer already be failing?",
+        "a": "Age is not the main factor for plastic pipe. The common failures here are grade and joints: backfill that settled after construction, clay bedrock that swelled and shifted a section, or a fitting damaged during a later project. A camera run with a locator shows exactly where the problem is and how deep, which tells you whether a small dig will solve it."
+      },
+      {
+        "q": "Can a liner fix a sag in my PVC sewer line?",
+        "a": "No. A liner takes the shape of the host pipe, so the low spot remains and waste keeps settling there. Lining is useful for cracks or leaking joints on a line that still has good fall. For a belly, the reliable options are excavating and re-bedding that section or replacing the run at the correct slope, and we will tell you that up front."
+      }
+    ],
+    "sources": [
+      "https://www.highlandsranchwater.org/about-us",
+      "https://www.highlandsranchwater.org/wastewater",
+      "https://www.highlandsranchwater.org/emergencies",
+      "https://coloradogeologicalsurvey.org/publications/soil-bedrock-conditions-construction-considerations-douglas-colorado/",
+      "https://en.wikipedia.org/wiki/Highlands_Ranch,_Colorado"
+    ]
+  },
+  {
+    "name": "Castle Rock",
+    "slug": "castle-rock",
+    "county": "douglas-county",
+    "fullName": "Castle Rock, CO",
+    "priority": 1,
+    "zips": [
+      "80104",
+      "80108",
+      "80109"
+    ],
+    "builtEra": "Small historic core from the 1870s-1920s, then heavy 1990s-2020s subdivision growth",
+    "commonPipe": "PVC in newer subdivisions; clay or cast iron possible under older homes near downtown",
+    "neighborhoods": [
+      "Downtown Castle Rock",
+      "Founders Village",
+      "The Meadows",
+      "Crystal Valley Ranch",
+      "Red Hawk",
+      "Plum Creek"
+    ],
+    "sewerAuthority": "Castle Rock Water, the town's utility; treatment at the Plum Creek Water Reclamation Authority",
+    "local": "Castle Rock is really two sewer towns. Around the historic downtown, the county seat that grew up in the 1870s and the rhyolite-quarry years that followed, some houses are old enough to have clay tile or cast iron running to the street, often with repairs in several materials. Everywhere else, the pipe is plastic and comparatively young; the town's population grew by about half in the 2010s alone, and neighborhoods like Crystal Valley Ranch and The Meadows are still filling in. Castle Rock Water maintains roughly 280 miles of sewer main and 10 lift stations, and all of it drains to a regional treatment plant on Plum Creek run by an independent authority. That split matters for diagnosis. An older downtown lateral may be a candidate for lining or bursting, while a recent tract lateral in trouble has usually shifted, settled or been damaged rather than worn out.",
+    "local2": "The terrain around Castle Rock is part of the problem in newer areas. Subdivisions climb mesas and ridgelines, so a lot may sit well above or below the street, and the lateral can be long and steep or deep and flat. Claystone and sandy arkose bedrock move differently when wet, and a trench cut through both can end up with a slight dip at the transition. Steep lines have their own habit: water outruns solids, which then pile up at the first fitting or flat stretch. We see recently built homes where the camera finds cement slurry, rock or a crushed section from heavy equipment during construction. Some of those are cleared with cutting heads and jetting; others need a spot repair. We only line when the pipe is on grade and the defect is something a liner actually seals.",
+    "permitNote": "Castle Rock Water owns the public mains and cleans them on a schedule; upkeep and repair of the private lateral fall to the homeowner. Ask the utility to pin down where its piece starts at your tap and what it wants to see if that connection gets disturbed. Cutting into Town pavement or a sidewalk takes a Town of Castle Rock permit for work in the public way, and the on-lot portion may also need a building or plumbing permit. HOA approval may apply to yard restoration.",
+    "signals": [
+      "Clay joints with root masses under older houses near downtown",
+      "Solids stacked at a flat spot below a steep hillside run to the street",
+      "Sags where the trench crosses from claystone into sandier bedrock layers",
+      "Cement slurry, rock or pipe scraps left in new-construction laterals"
+    ],
+    "faqs": [
+      {
+        "q": "Is my Castle Rock sewer line more likely to be clay or plastic?",
+        "a": "It depends almost entirely on when the house was built. Homes in and around the historic downtown blocks can still have clay or cast iron, sometimes partly replaced. Anything in the large subdivisions built since the 1990s should be PVC. A camera inspection settles it in a few minutes and also shows whether repairs were spliced in over the years."
+      },
+      {
+        "q": "My new-build home in Castle Rock backs up. Is that a builder problem?",
+        "a": "It can be. We regularly find construction debris, hardened concrete or a damaged section in lines only a few years old. Record the camera footage with the depth and location of the defect before any cleaning, since that documentation is what a builder or warranty conversation needs. Then the right fix can be chosen, which is often a cutter or a small spot repair rather than a full replacement."
+      }
+    ],
+    "sources": [
+      "https://www.crgov.com/3084/Wastewater",
+      "https://en.wikipedia.org/wiki/Castle_Rock,_Colorado",
+      "https://cpnmd.specialdistrict.org/wastewater",
+      "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/"
+    ]
+  },
+  {
+    "name": "Parker",
+    "slug": "parker",
+    "county": "douglas-county",
+    "fullName": "Parker, CO",
+    "priority": 1,
+    "zips": [
+      "80134",
+      "80138"
+    ],
+    "builtEra": "Incorporated 1981; growth surges in the mid-1990s and mid-2000s, continuing east today",
+    "commonPipe": "PVC laterals in nearly all subdivisions; older cast iron only in a few pre-1980 homes along the original town",
+    "neighborhoods": [
+      "Stroh Ranch",
+      "Idyllwilde",
+      "Canterberry Crossing",
+      "Clarke Farms",
+      "Bradbury Ranch"
+    ],
+    "sewerAuthority": "Parker Water and Sanitation District for most of town (not the Town of Parker itself); some edges are served by other districts",
+    "local": "In Parker, the sewer is not a town department. Parker Water and Sanitation District, a separate special district, runs water and wastewater for most of the town, and that surprises new residents who call Town Hall during a backup. Parker incorporated in 1981 with fewer than 300 residents and then boomed twice, in the mid-1990s and again in the mid-2000s, so the housing stock is overwhelmingly subdivision homes with PVC laterals. Those lines were installed fast, often by the thousands, on rolling ground cut into the same claystone and arkose that the Colorado Geological Survey flags as swelling across north-central Douglas County. What we find in Parker sewers is mostly installation and soil related: joints that were never fully seated, sags where fill settled, and occasional cracked tees where a wye meets the main line connection. Clay and cast iron are rare here outside a few older homes near the original town center.",
+    "local2": "Parker's HOA landscapes are maturing. Street trees and yard plantings put in during the 1990s and 2000s are now big enough for their roots to go looking for water, and while solvent-welded PVC resists them, the transitions do not always hold: cleanout risers, a gasketed fitting, or the spot where a plastic lateral meets an older connection. Early root entry at one joint is a situation where a short sectional liner or point repair can be a good answer, because the rest of the pipe is sound and on grade. It is a poor answer if the camera also shows a belly downstream. We map the whole line, with depth and distance at each defect, before recommending anything, so you are not paying to seal a joint on a pipe whose real problem is fall.",
+    "permitNote": "Customers inside Parker Water and Sanitation District deal with the district, not the Town, on sewer questions; if your bill comes from a different district, that district's rules apply. Across the Front Range, districts typically leave the private lateral to the homeowner; ask yours where its ownership stops and whether it inspects repairs at the tap. Digging in a Town of Parker street or sidewalk is permitted through the Town, and HOA rules often govern yard restoration.",
+    "signals": [
+      "Joints not fully seated at installation, leaking or snagging paper",
+      "Low spots in the run where fill soil settled after the subdivision was graded",
+      "Roots at cleanouts and fittings from maturing HOA landscaping",
+      "Cracked connection fittings near the main on otherwise sound PVC"
+    ],
+    "faqs": [
+      {
+        "q": "Who do I call first about a sewer backup in Parker?",
+        "a": "Start with the sewer district on your utility bill. For most of Parker that is Parker Water and Sanitation District, which can tell you whether its main is involved. If the main is flowing, the blockage is in your private line, and that is when a drain cleaning and camera inspection make sense. Calling the Town usually just redirects you to the district."
+      },
+      {
+        "q": "Our Parker home is on a newer PVC sewer. Would lining ever make sense?",
+        "a": "Occasionally. If one joint or fitting is letting roots in and the pipe is otherwise straight and properly sloped, a short liner or point repair can seal it without a trench. If the line has a sag or has shifted, lining is the wrong tool because it keeps the bad grade. The camera footage decides which case you are in."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Parker,_Colorado",
+      "https://cityoflonetree.com/utility-providers/",
+      "https://coloradogeologicalsurvey.org/publications/soil-bedrock-conditions-construction-considerations-douglas-colorado/"
+    ]
+  },
+  {
+    "name": "Lone Tree",
+    "slug": "lone-tree",
+    "county": "douglas-county",
+    "fullName": "Lone Tree, CO",
+    "priority": 2,
+    "zips": [
+      "80124"
+    ],
+    "builtEra": "First subdivision in 1982; Heritage Hills, Carriage Club and Centennial Ridge in the 1980s-1990s; RidgeGate from the 2000s on",
+    "commonPipe": "PVC laterals; commercial buildings may have cast iron or ductile iron building sewers",
+    "neighborhoods": [
+      "Heritage Hills",
+      "Carriage Club",
+      "Centennial Ridge",
+      "Terra Ridge",
+      "RidgeGate"
+    ],
+    "sewerAuthority": "Split by I-25: Southgate Sanitation District west of the highway, Parker Water and Sanitation District east of it, and Northern Douglas County Water and Sanitation District for part of Terra Ridge",
+    "local": "The first thing to know about a Lone Tree sewer is which side of I-25 it is on. The City of Lone Tree lists Southgate Water and Sanitation Districts for properties west of the interstate and Parker Water and Sanitation District for those to the east, plus Northern Douglas County Water and Sanitation District for some Terra Ridge homes along Indian Wells Drive. Southgate dates to 1961 and serves parts of four cities and unincorporated land, while the east side is newer RidgeGate construction. Lone Tree itself only began with a 1982 subdivision of nine households and incorporated in 1995, then annexed Heritage Hills, Carriage Club and Centennial Ridge in 2001. So the city's residential laterals are PVC from about the 1980s forward. The older western neighborhoods are now reaching the age when settled trenches, root-seeking landscape trees and small joint separations start to show on camera.",
+    "local2": "Lone Tree carries a large commercial load for a small city: Park Meadows, the office towers along the highway, medical campuses and a string of restaurants near the light rail stations. Commercial building sewers carry grease and higher volume, and grease that hardens in a line with a slight belly builds up quickly. For those properties, scheduled hydro-jetting and camera checks usually do more good than any repair. When a commercial line does need rehabilitation, lining is often attractive because it avoids tearing up parking lots and storefront entries, but only after we confirm the pipe still holds grade and has not collapsed. We apply that same test to the older homes west of I-25, where the first generation of plastic laterals is now around 40 years old and settling or root entry at fittings is starting to appear.",
+    "permitNote": "Because three districts serve Lone Tree, the rules for tapping, repairing or inspecting a sewer connection depend on your address; Southgate publishes its own sanitary sewer specifications, and Parker Water and Sanitation has its own rules and regulations. Owners normally carry the private lateral, though the handoff point is worth confirming with your district. Pavement or sidewalk cuts inside Lone Tree go through the city's public works permitting, and commercial properties may also face district grease interceptor requirements.",
+    "signals": [
+      "Grease buildup in commercial lines near Park Meadows and the highway corridor",
+      "Minor joint separation and roots in 1980s-1990s PVC west of I-25",
+      "Sags that trap solids and paper where trench backfill settled over time",
+      "Construction debris and slurry left in newer RidgeGate laterals east of I-25"
+    ],
+    "faqs": [
+      {
+        "q": "Which sewer district serves my home in Lone Tree?",
+        "a": "Generally, Southgate serves addresses west of I-25 and Parker Water and Sanitation serves those east of it, while part of Terra Ridge along Indian Wells Drive is in Northern Douglas County Water and Sanitation District. Your utility bill is the quickest way to confirm. It matters because each district has its own connection standards and inspection process."
+      },
+      {
+        "q": "Can a restaurant sewer in Lone Tree be relined without closing for days?",
+        "a": "Often, yes, provided the camera shows the line is intact and properly sloped. The pipe is jetted clean first, then a liner is installed and cured, which can usually be scheduled around business hours. If the inspection finds a collapsed section or a belly, that section needs excavation, and we will say so before anything is booked."
+      }
+    ],
+    "sources": [
+      "https://cityoflonetree.com/utility-providers/",
+      "https://cityoflonetree.com/about-us/city-history/",
+      "https://southgatedistricts.org/170/History",
+      "https://southgatedistricts.org/149/Sanitation-District",
+      "https://en.wikipedia.org/wiki/Lone_Tree,_Colorado"
+    ]
+  },
+  {
+    "name": "Castle Pines",
+    "slug": "castle-pines",
+    "county": "douglas-county",
+    "fullName": "Castle Pines, CO",
+    "priority": 2,
+    "zips": [
+      "80108"
+    ],
+    "builtEra": "Castle Pines North built out about 1985-2010; The Canyons and Timberline from the 2010s onward",
+    "commonPipe": "PVC laterals throughout the residential areas",
+    "neighborhoods": [
+      "Castle Pines North",
+      "Forest Park",
+      "Buffalo Ridge",
+      "Hidden Pointe",
+      "The Canyons"
+    ],
+    "sewerAuthority": "Castle Pines North Metropolitan District for most of the city; treatment at the Plum Creek Water Reclamation Authority",
+    "local": "Castle Pines North Metropolitan District is unusually direct about the line between its pipe and yours: maintenance, repair and replacement of everything from your house out to the district's main in the street are yours alone. The district runs more than seven miles of pipe and seven lift stations, and its flow is treated at the Plum Creek plant, a facility opened in 2005 that also serves Castle Rock and Castle Pines Village. The lift stations reflect the terrain. Castle Pines sits on ridges and draws west of I-25, and plenty of homes are on lots where the lateral drops steeply to the street or runs a long way to reach it. Most of that pipe is PVC from the late 1980s through the 2000s, installed in claystone and sandy bedrock. Grade problems, not deterioration, are what usually bring us out here.",
+    "local2": "The district recommends backwater valves, and on a hillside lot below the street that advice matters more than usual, because a stoppage in the main can push sewage toward the lowest fixture in the house. On the private side, Castle Pines lines tend to fail in a few recognizable ways: a steep run where solids collect at the first flat fitting, a joint pulled open where a slope has crept, or roots from ponderosa and ornamental plantings entering at a cleanout. For newer construction in The Canyons, we look for construction debris before anything else. When a slope has actually moved and taken the pipe with it, lining is not a fix, since the liner would lock in the shifted alignment. Excavating and re-laying that stretch is the durable repair.",
+    "permitNote": "Castle Pines North Metropolitan District puts the full private run, building to street main, on the owner; the district maintains the mains in the public right-of-way. Contact the district before any repair touches the connection at the main. Any trench that reaches a City of Castle Pines street needs city sign-off first, and HOA design rules may shape how the yard is put back. Homes outside the district's boundaries are served by a different district, so confirm on your bill.",
+    "signals": [
+      "Solids stacked at the first flat fitting below a steep lateral",
+      "Joints pulled apart where a hillside slope has slowly crept downhill",
+      "Roots from ponderosa and ornamental plantings entering at cleanout risers and transitions",
+      "Debris and slurry in lines from recent construction in newer sections"
+    ],
+    "faqs": [
+      {
+        "q": "Does Castle Pines North Metropolitan District fix sewer lines on private property?",
+        "a": "No. The district says owners are solely responsible for the sewer line from the house or business to the district main in the street, including repairs and replacement. The district handles the main itself. If you have a backup, the district can confirm the main is flowing, and then the private line needs to be cleaned and inspected by a contractor."
+      },
+      {
+        "q": "Should I add a backwater valve to my Castle Pines house?",
+        "a": "The district recommends them, and they make the most sense for homes with fixtures below the level of the street or the upstream manhole. A backwater valve lets flow leave the house but closes against a surge coming back. It needs occasional cleaning, and it is installed on the private line, so a camera inspection first is useful to pick the right location."
+      }
+    ],
+    "sources": [
+      "https://cpnmd.specialdistrict.org/wastewater",
+      "https://en.wikipedia.org/wiki/Castle_Pines,_Colorado",
+      "https://dougcosocial.com/resources/moving/castle-pines/neighborhoods",
+      "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/"
+    ]
+  },
+  {
+    "name": "Boulder",
+    "slug": "boulder",
+    "county": "boulder-county",
+    "fullName": "Boulder, CO",
+    "priority": 1,
+    "zips": [
+      "80301",
+      "80302",
+      "80303",
+      "80304",
+      "80305"
+    ],
+    "builtEra": "1880s-1920s Mapleton Hill, Whittier and University Hill; 1950s-1960s Martin Acres and Table Mesa; infill since",
+    "commonPipe": "Clay tile and cast iron in the historic core; clay in much postwar housing; PVC in newer construction and past repairs",
+    "neighborhoods": [
+      "Mapleton Hill",
+      "University Hill",
+      "Whittier",
+      "Newlands",
+      "Martin Acres",
+      "Table Mesa"
+    ],
+    "sewerAuthority": "City of Boulder Utilities, which runs the collection system and the Boulder Water Resource Recovery Facility",
+    "local": "Boulder's sewer story runs through its old neighborhoods. Mapleton Hill, Whittier and University Hill were built mostly between the 1880s and the 1920s, and their laterals are clay tile or cast iron that has often been patched, partly replaced or rerouted over a century. The postwar tracts that followed, Martin Acres and then Table Mesa, used clay as well; the city itself says a large share of its public sewer from the 1940s through the 1960s was clay pipe that is now reaching the end of its life. The city is lining and replacing its own mains, including the corroded trunk sewer to the treatment plant. Private laterals do not get that attention unless the owner arranges it, and many are older than the main they drain into. A camera inspection in these neighborhoods typically finds root-packed clay joints, cracked bells or cast iron with a scaled and thinning bottom.",
+    "local2": "Two things make Boulder digs harder than they look. Near the foothills, shallow sandstone and cobble-filled creek soils slow excavation, and on the Hill and Mapleton the yards are tight, the trees are large and landscaping is often decades old. That pushes the decision toward trenchless methods. We pipe-burst a 75-foot cast iron line in Boulder after another contractor had started digging and abandoned the job, pulling new fused HDPE through the old path instead of opening the rest of the yard. Trees matter too. Boulder confirmed Colorado's first emerald ash borer infestation in 2013, and as stressed ash trees decline or come out, their old roots are still wrapped around aging clay joints. Lining is a good fit for cracked but aligned pipe; a collapsed or sagging line is a bursting or replacement job.",
+    "permitNote": "The City of Boulder maintains its public mains; the building's service line is generally the property owner's, but confirm with Boulder Utilities exactly where your responsibility ends, particularly at the tap and under the street. Opening a Boulder street, alley or walk needs the city's approval before crews start, and plumbing work may require a building permit. Landmarked properties and historic districts can have review requirements for visible site changes, so check with the city's historic preservation staff if a job disturbs a designated property.",
+    "signals": [
+      "Root-packed clay joints under mature trees on Mapleton Hill and the Hill",
+      "Cast iron with a scaled, thinning or split bottom in pre-1930 houses",
+      "Offset clay sections in 1950s-1960s tract laterals in Martin Acres and Table Mesa",
+      "Mixed materials from past spot repairs spliced into century-old lines"
+    ],
+    "faqs": [
+      {
+        "q": "Can a sewer on Mapleton Hill be replaced without destroying the yard?",
+        "a": "Usually. If the old clay or cast iron is cracked but still roughly in line, it can be lined from a cleanout. If it is broken or undersized, pipe bursting pulls a new HDPE pipe through the old path from two small pits. Either way, the trees, walks and gardens along the route mostly stay put. A camera inspection tells us which method the pipe will allow."
+      },
+      {
+        "q": "The city is relining Boulder's sewer mains. Does that cover my lateral?",
+        "a": "No. City rehabilitation work covers the public mains. The service line from your house belongs to you, and it may be older than the main it connects to. If your street has had main work, it is a reasonable time to camera your own line, since a new main does not fix roots or cracks on the private side."
+      }
+    ],
+    "sources": [
+      "https://bouldercolorado.gov/services/sanitary-sewer-rehabilitation-program",
+      "https://bouldercolorado.gov/projects/main-sewer-improvements-project",
+      "https://bouldercolorado.gov/emerald-ash-borer-and-other-pests",
+      "https://bouldercolorado.gov/services/landmarks-and-historic-districts",
+      "https://localhistory.boulderlibrary.org/islandora/object/islandora:10414"
+    ]
+  },
+  {
+    "name": "Longmont",
+    "slug": "longmont",
+    "county": "boulder-county",
+    "fullName": "Longmont, CO",
+    "priority": 1,
+    "zips": [
+      "80501",
+      "80503",
+      "80504"
+    ],
+    "builtEra": "1870s-1920s East Side and West Side historic districts; 1950s-1970s expansion; 1990s-2000s subdivisions like Prospect",
+    "commonPipe": "Clay and cast iron in the historic districts; clay in many midcentury homes; PVC after the 1970s",
+    "neighborhoods": [
+      "Historic East Side",
+      "West Side",
+      "Southmoor Park",
+      "Prospect New Town",
+      "Clover Basin"
+    ],
+    "sewerAuthority": "City of Longmont utilities, which maintains the main sewer lines and runs its own treatment plant",
+    "local": "Longmont spells out the ownership rule clearly: the sewer service line between the building and the main, whether that main sits in the street, an alley or an easement, is owned and maintained by the property owner. The city handles the mains. That matters in a town with as many alley-served blocks as Longmont's historic core. The East Side district holds 67 houses, most from the nineteenth century, and the West Side district adds 118 more from the early twentieth century, built as the town grew into a sugar beet and farming center after 1903. Laterals under those homes are typically clay tile or cast iron, sometimes running out the back of the lot to a main in the alley rather than the street. Many have been partially repaired with newer pipe over the years, so a single line can contain three materials.",
+    "local2": "Longmont's crews inspect the public mains, and when they spot roots growing into the main from a private lateral, the city notifies the owner and expects them to have the roots removed before a backup occurs. The city names roots, grease and structural failure as the usual culprits in clogged service lines. The big street trees shading the historic districts supply most of the roots we cut out there. Cutting only buys time if the joint that lets them in stays open, though. On clay that is still in line, a liner seals every joint at once. If the old pipe has sagged or broken, bursting or a conventional replacement is the better call, and we will tell you which one the footage supports.",
+    "permitNote": "Per the City of Longmont, the property owner owns and maintains the whole service line, including where that main runs in an alley or easement; the city maintains the main and will help determine whether a problem is in the main or the private line. Work in a city street or alley needs a right-of-way permit from Longmont, and replacing the line usually triggers a permit with a city inspection. The city does not provide contractor referrals for private line work.",
+    "signals": [
+      "Root masses at clay joints under mature trees in the historic districts",
+      "Laterals running out the back of the lot to alley mains, not the street",
+      "Clay, cast iron and plastic spliced together from decades of partial repairs",
+      "Grease buildup narrowing the rough interior of older cast iron laterals"
+    ],
+    "faqs": [
+      {
+        "q": "The City of Longmont sent me a notice about roots in my sewer. What now?",
+        "a": "The city found roots growing from your private service line into its main during an inspection, and it expects the owner to deal with them. Start with root cutting and a camera inspection to see how the joints look. If the pipe is intact, lining can seal the joints so the roots stop coming back; if it is broken, it needs replacement."
+      },
+      {
+        "q": "My older Longmont home's sewer goes to the alley. Does that change anything?",
+        "a": "It changes where we work, not who owns the line. The city says the service line belongs to the owner whether the main is in the street, an alley or an easement. Alley connections are sometimes easier to reach, since there is less pavement, but garages and fences can sit over the route, which is a good reason to consider trenchless options."
+      }
+    ],
+    "sources": [
+      "https://longmontcolorado.gov/water/sewer-lines/",
+      "https://coloradoencyclopedia.org/article/longmont-historic-districts",
+      "https://longmontcolorado.gov/information/about-longmont/history-of-longmont/"
+    ]
+  },
+  {
+    "name": "Louisville",
+    "slug": "louisville",
+    "county": "boulder-county",
+    "fullName": "Louisville, CO",
+    "priority": 2,
+    "zips": [
+      "80027"
+    ],
+    "builtEra": "1880s-1940s Old Town mining houses; 1970s-1990s subdivisions; 2022 onward Marshall Fire rebuilds",
+    "commonPipe": "Clay and cast iron in Old Town; PVC in later subdivisions and rebuilds, often tied to an older existing lateral",
+    "neighborhoods": [
+      "Old Town",
+      "Coal Creek Ranch",
+      "Harper Lake",
+      "Scenic Heights",
+      "Steel Ranch",
+      "North End"
+    ],
+    "sewerAuthority": "City of Louisville Public Works, which maintains the sewer mains and runs the city's wastewater treatment plant",
+    "local": "Louisville grew up over coal. The Welch Mine opened in 1877, the town incorporated in 1882, and at its peak around a dozen mines operated nearby, including the Acme Mine beneath the downtown area. Mining ended by the 1950s and Louisville turned into a suburb, but the old workings are still down there, reported at roughly 50 to 150 feet below parts of town. The Colorado Geological Survey has studied subsidence across the Boulder-Weld coalfield, and one known effect is that settling ground can change the slope of gravity pipes. For an Old Town house with a clay or cast iron lateral from the early 1900s, that is one more reason a line can hold water where it should not. We camera first and measure grade before recommending anything, because a sag caused by ground movement is not something a liner can correct.",
+    "local2": "The Marshall Fire destroyed more than 550 homes in Louisville in December 2021, with Coal Creek Ranch alone losing about 160. Rebuilding has meant connecting brand-new houses to sewer laterals that survived underground. That is often fine, but those lines went through intense heat near the foundation, demolition by heavy equipment, debris removal and new foundation excavation. We have seen how that sequence can crack a cleanout, crush a shallow section or leave debris inside the pipe. A camera inspection before the new house connects, and before landscaping goes in over the route, is inexpensive insurance. If the old lateral was clay or an older plastic, it may be the right time to replace it while the yard is still open.",
+    "permitNote": "Louisville's Public Works Operations Division maintains the city's water and sewer mains; what runs under your yard is ordinarily yours, though Public Works can confirm where the city takes over at the connection. Louisville must permit any cut into a city street, and rebuild projects go through the city's building permit process, which is the right point to ask about any sewer connection requirements. Keep camera footage of a reused lateral with your rebuild records.",
+    "signals": [
+      "Clay or cast iron with root intrusion under Old Town mining-era houses",
+      "Sags or reversed grade that may reflect settling ground over old mine workings",
+      "Cracked cleanouts or crushed shallow sections on Marshall Fire rebuild lots",
+      "Construction and demolition debris sitting inside laterals reused on rebuilds"
+    ],
+    "faqs": [
+      {
+        "q": "We are rebuilding after the Marshall Fire. Should we reuse our old sewer line?",
+        "a": "Possibly, but inspect it first. The pipe was underground during the fire, then crews demolished the house, removed debris and dug a new foundation above it. A camera run shows whether the lateral is intact, clean and on grade. If it is, reuse can be reasonable. If it is cracked, crushed or an older material, replacing it before final grading is far easier than later."
+      },
+      {
+        "q": "Does old mining under Louisville affect sewer lines?",
+        "a": "It can. Parts of town sit over abandoned coal workings, and ground settlement can change a sewer's slope or open joints. Not every Old Town sewer problem is caused by mining, since age and roots are more common, but when the camera shows unexpected sags, measuring the grade helps decide between a spot repair and a full replacement."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Louisville,_Colorado",
+      "https://coloradonewsline.com/2022/01/07/1084-homes-louisville-superior-destroyed-marshall-fire-updated-tally/",
+      "https://coloradoavidgolfer.com/fire-claims-coal-creek-neighborhood/",
+      "https://archives.boulderweekly.com/news/no-solid-ground/",
+      "https://coloradogeologicalsurvey.org/publications/coal-mine-subsidence-land-use-boulder-weld-colorado/",
+      "https://www.louisvilleco.gov/local-government/government/departments/public-works/operations-division",
+      "https://www.louisvilleco.gov/living-in-louisville/residents/louisville-rebuilds-marshall-fire-recovery/permit-information"
+    ]
+  },
+  {
+    "name": "Lafayette",
+    "slug": "lafayette",
+    "county": "boulder-county",
+    "fullName": "Lafayette, CO",
+    "priority": 2,
+    "zips": [
+      "80026"
+    ],
+    "builtEra": "1888-1920s Old Town coal-camp houses; 1960s-1980s expansion; 1990s-2010s subdivisions",
+    "commonPipe": "Cast iron and clay in Old Town; clay in midcentury homes; PVC in newer subdivisions",
+    "neighborhoods": [
+      "Old Town",
+      "Waneka Lake",
+      "Indian Peaks",
+      "Silver Creek"
+    ],
+    "sewerAuthority": "City of Lafayette Public Works, which operates the sewer collection system and the city's water reclamation plant",
+    "local": "Lafayette started as a coal town. Mary Miller filed the town plat in 1888 on land where coal had been found a few years earlier, and the Simpson Mine and others soon ran beneath and around it. By 1914 it was a busy mining town, and many of the small frame houses in Old Town date from those decades, with cast iron or clay laterals running out to the street. Mining left something else behind. Old workings lie roughly 50 to 150 feet down beneath parts of the city, and a sinkhole there has made local news. The Colorado Geological Survey notes that subsidence can break utility lines and leave gravity systems unable to drain. For sewer work, that means we check grade along the full length of an Old Town line rather than assuming a clog is the whole story.",
+    "local2": "One of our Lafayette jobs shows why trenchless options matter in the older blocks. The home had 44 feet of cast iron that was close to collapse, and replacing it conventionally would have meant tearing out a porch and a driveway. Because the pipe still held its shape and slope, we lined it instead, and the porch and driveway stayed where they were. That is the right outcome only when the host pipe allows it. Had the camera shown a section already collapsed, or a sag from settling ground, the answer would have been excavating that spot or bursting the line. Lafayette's mature street trees, including ash now threatened by emerald ash borer, keep sending roots into the open joints of older clay.",
+    "permitNote": "The City of Lafayette maintains its public sewer mains and treatment plant; homeowners generally carry their own lateral, with Lafayette Public Works the place to confirm where the city's share begins at the tap. Digging into Lafayette streets or alleys calls for a city permit, and on-lot sewer replacement is normally permitted and inspected under the city's adopted building code. Ask Public Works about tap location before a crew mobilizes.",
+    "signals": [
+      "Cast iron with a rotted or flattened bottom under Old Town houses",
+      "Clay joints opened by roots from large, decades-old street trees",
+      "Unexpected sags that call for grade checks near old mine areas",
+      "Porches, garages and driveways built over the original sewer route"
+    ],
+    "faqs": [
+      {
+        "q": "Can an old cast iron sewer in Lafayette's Old Town be lined?",
+        "a": "If it still holds its shape and slope, yes. We lined a 44-foot Lafayette cast iron line that was near collapse and saved the porch and driveway built over it. The camera decides: cracks, holes and scaling can be lined, but a fully collapsed section or a belly needs excavation or pipe bursting."
+      },
+      {
+        "q": "Could coal mining under Lafayette be why my sewer keeps backing up?",
+        "a": "It is possible but not the usual cause. Roots, grease and aging pipe account for most backups. In parts of town over old workings, ground settlement can create low spots or separated joints, so we measure grade during the inspection. If the line has dropped, lining is not the fix, and we will recommend a repair that restores the slope."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lafayette,_Colorado",
+      "https://archives.boulderweekly.com/news/no-solid-ground/",
+      "https://coloradogeologicalsurvey.org/publications/coal-mine-subsidence-land-use-boulder-weld-colorado/",
+      "https://www.lafayetteco.gov/67/Public-Works-Department",
+      "https://www.lafayetteco.gov/361/Building-Code-Design-Information"
+    ]
+  },
+  {
+    "name": "Superior",
+    "slug": "superior",
+    "county": "boulder-county",
+    "fullName": "Superior, CO",
+    "priority": 2,
+    "zips": [
+      "80027"
+    ],
+    "builtEra": "Original Town from the 1896 coal-era plat; Rock Creek Ranch and Sagamore in the 1990s; Downtown Superior and fire rebuilds since",
+    "commonPipe": "PVC in the 1990s subdivisions and rebuilds; older mixed materials in surviving Original Town homes",
+    "neighborhoods": [
+      "Original Town",
+      "Rock Creek Ranch",
+      "Sagamore",
+      "Downtown Superior"
+    ],
+    "sewerAuthority": "Town of Superior Public Works and Utilities, which handles water, sewer and storm drainage",
+    "local": "Superior stayed a tiny coal town for most of the twentieth century, with about 250 residents, then exploded in the 1990s when Rock Creek Ranch and Sagamore were built, reaching more than 9,000 people by 2000. That compressed history shapes its sewers. Almost everything is PVC laid in one decade by production builders, and those lines are now about 30 years old: young for pipe, but old enough for backfill to have settled and for landscape roots to have found the cleanouts. Then the Marshall Fire tore through in December 2021, destroying nearly 400 residential structures in Superior. Sagamore was lost entirely and only a handful of historic homes in Original Town survived. Many lots now have a new house on an old lateral, and the Town handles the mains those laterals feed, along with water and storm drainage, through a single Public Works and Utilities department.",
+    "local2": "For a Superior rebuild, the sewer that matters most is the one you cannot see. The original PVC lateral stayed in the ground while the house burned, was demolished and hauled away, and a new foundation was dug. Plastic near the foundation can be heat damaged, and shallow sections can be cracked or crushed by excavators and trucks. We also find burned debris and soil washed into open line ends. A camera run before connecting the new plumbing, and a second look before final landscaping, catches problems while they are easy to fix. In the surviving Rock Creek Ranch houses, the typical findings are more ordinary: bellies, loose joints and roots at fittings. Lining seldom fits those; spot repairs usually do.",
+    "permitNote": "The Town of Superior's Public Works and Utilities department runs the sewer system and publishes design standards for utility construction. Homeowners typically own the lateral; the Town can say where its portion starts and what inspection applies when a connection is replaced or reused on a rebuild. Street and right-of-way digging in Superior is permitted by the Town. Rebuild owners should raise sewer reuse with the Town during building permit review.",
+    "signals": [
+      "Heat-deformed or cracked PVC near the foundation on fire-rebuild lots",
+      "Crushed shallow sections from demolition trucks and excavation equipment",
+      "Burned debris and soil inside lateral ends left open during rebuilding",
+      "Settled bellies and root entry at fittings in 1990s lines"
+    ],
+    "faqs": [
+      {
+        "q": "Our Superior home was rebuilt after the Marshall Fire. Was the sewer line replaced?",
+        "a": "Not necessarily. Many rebuilds reconnected to the existing lateral if it passed whatever check was done at the time. If you are not sure, a camera inspection will show whether the line is original, whether it has heat or crush damage, and whether debris is sitting in it. Checking now is easier than finding out through a backup."
+      },
+      {
+        "q": "Our Rock Creek Ranch house is from the 1990s. What sewer problems are common?",
+        "a": "For plastic lines of that age, we mostly see low spots where the trench settled, joints that have loosened, and roots getting in at cleanouts or fittings near mature landscaping. Most of these call for cleaning plus a targeted repair at one spot rather than lining or full replacement. The camera footage shows how many trouble spots there are and where."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Superior,_Colorado",
+      "https://coloradonewsline.com/2022/01/07/1084-homes-louisville-superior-destroyed-marshall-fire-updated-tally/",
+      "https://www.superiorcolorado.gov/Government/Departments/Public-Works-Utilities"
+    ]
+  },
+  {
+    "name": "Fort Collins",
+    "slug": "fort-collins",
+    "county": "larimer-county",
+    "fullName": "Fort Collins, CO",
+    "priority": 1,
+    "zips": [
+      "80521",
+      "80524",
+      "80525",
+      "80526",
+      "80528"
+    ],
+    "builtEra": "1880s-1920s Old Town and Laurel School area, 1946-1960s postwar ranches, then rapid growth south of Harmony Road",
+    "commonPipe": "Clay tile and cast iron in the east and west side historic blocks; clay or occasional Orangeburg in postwar ranches; PVC in newer south-side neighborhoods",
+    "neighborhoods": [
+      "Laurel School Historic District",
+      "Loomis Addition",
+      "City Park neighborhood",
+      "Circle Drive",
+      "Holy Family",
+      "Old Town"
+    ],
+    "sewerAuthority": "Fort Collins Utilities for most of the city; parts of the south and southeast are served by the South Fort Collins Sanitation District",
+    "local": "The Laurel School Historic District alone was listed on the National Register with 549 contributing buildings, most of them Victorian and Craftsman homes put up between the 1880s and the 1920s. That block of history, along with the Loomis Addition and other west side streets, is where Fort Collins keeps its oldest private sewer lines. A typical lateral there leaves the house as cast iron, then switches to short sections of vitrified clay tile with mortared bell joints running under the front yard to the alley or street main. After a hundred-plus years, the clay itself is usually still hard, but the joints are not. Mortar crumbles, joints open, and fine roots move in. The Colorado Geological Survey also maps swelling and collapsing soils over the Pierre Shale beneath much of the city, so seasonal wetting and drying slowly pushes those short clay sections out of line. On camera that reads as a pipe that steps up or down at each joint, with roots hanging at the offsets.",
+    "local2": "Ash trees were a favorite street tree here for decades. When the emerald ash borer was confirmed in north Fort Collins in 2020, the city estimated that ash made up about 15 percent of its trees and a third of its canopy. Big ash, silver maple and cottonwood roots have a long head start on any 1940s or 1950s clay lateral. The postwar ranch streets, like the Circle Drive homes that went on sale in 1946 and the west side infill of 1948, are where we most often find clay that is intact enough to line: roots cut back with a jetter, the joints sealed inside a continuous liner, no trenching under mature trees. Where the camera shows a real belly or a crushed section, we say so and quote a spot dig or a replacement instead of pretending a liner will fix lost grade.",
+    "permitNote": "The service line from the house to the public main belongs to the property owner. Most of the city is served by Fort Collins Utilities, but the South Fort Collins Sanitation District maintains nearly 250 miles of sewer in its own territory, so check which provider is on your bill before any work. Where the repair ends at the main, and who handles the tap, can differ between the two, so confirm with the provider. Opening pavement in public space, whether street, alley or walk, requires City right-of-way approval first.",
+    "signals": [
+      "Fine root curtains at every mortared clay joint under older east and west side lots",
+      "Stepped offsets where swelling shale soil has pushed clay sections out of line",
+      "Cast iron under the basement slab with heavy scale narrowing the flow",
+      "Sags holding standing water in 1940s-1950s ranch laterals"
+    ],
+    "faqs": [
+      {
+        "q": "Can a sewer line under a historic house in Old Town be fixed without digging up the yard?",
+        "a": "Usually. Many laterals in the Laurel School and Loomis areas have cracked joints and roots yet keep a round profile, which makes them good candidates for cured-in-place lining from a cleanout. That leaves porches, walks and old trees alone. If the camera shows a crushed section or a bad sag, lining alone will not cure it, and we will recommend digging up just that spot or bursting in new pipe."
+      },
+      {
+        "q": "Our ash tree was removed for emerald ash borer. Will the roots still cause sewer trouble?",
+        "a": "Dead roots stop growing, but any roots already inside the pipe stay there and keep catching paper and grease until they are cut out. Removal can also change how the soil around the lateral holds water. A camera inspection after the tree comes down shows whether jetting is enough or whether the damaged joints should be lined before a new tree is planted nearby."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Laurel_School_Historic_District",
+      "https://history.fcgov.com/1940s/neighborhoods",
+      "https://coloradogeologicalsurvey.org/publications/geologic-map-fort-collins-quadrangle-larimer-colorado/",
+      "https://news.yahoo.com/emerald-ash-borer-spreading-slower-120019804.html",
+      "https://www.sfcsd.net/collections",
+      "https://www.fortcollins.gov/Services/Utilities/Other-Utilities-Pages/Water/Wastewater",
+      "https://en.wikipedia.org/wiki/Fort_Collins,_Colorado"
+    ]
+  },
+  {
+    "name": "Loveland",
+    "slug": "loveland",
+    "county": "larimer-county",
+    "fullName": "Loveland, CO",
+    "priority": 1,
+    "zips": [
+      "80537",
+      "80538"
+    ],
+    "builtEra": "1890s-1930s downtown and West Fourth and Fifth Street districts, postwar growth into the 1970s, then large east-side development",
+    "commonPipe": "Clay tile with cast iron inside the house in the historic core; clay and some fiber pipe in 1950s-1960s homes; PVC east of Boyd Lake and in newer west-side subdivisions",
+    "neighborhoods": [
+      "Downtown Loveland",
+      "West Fourth Street Historic District",
+      "West Fifth Street Historic District",
+      "Mariana Butte",
+      "Centerra",
+      "Boyd Lake area"
+    ],
+    "sewerAuthority": "City of Loveland Utilities (Loveland Water and Power), which has provided wastewater service since 1902",
+    "local": "Loveland's municipal sewer service goes back to 1902, only two decades after the town incorporated along the Colorado Central Railroad. The homes that grew up around it are still standing: the West Fifth Street district holds houses from 1891 through 1932, and every home in the 800 and 900 blocks of West Fourth Street was built by one builder, William W. Green, mostly in the 1920s. A block built by one hand tends to share one plumbing method, so when one of those laterals fails the neighbors' usually carry the same weaknesses. Expect a cast iron drain under the house that runs into clay tile somewhere near the foundation, laid in short lengths with packed or mortared joints. Those joints are the weak points. Decades of soil movement and root pressure open them up, and the transition from iron to clay is a common spot for a separation or a broken hub.",
+    "local2": "The sugar factory ran here from 1901 to 1977, and orchards and farm fields around it gave way to neighborhoods in stages. That leaves Loveland with a mixed picture: 1950s and 1960s tract streets with clay laterals, and miles of newer homes toward Centerra and around the lakes where PVC is the norm and trouble is more often a construction defect than age. Near the Big Thompson, flood deposits of sand and cobble change the digging conditions from one lot to the next. For the older clay, lining from a cleanout avoids tearing out mature landscaping and front walks. For a lateral that has lost its slope, we will tell you a liner will copy that sag rather than correct it, and price the dig.",
+    "permitNote": "The City of Loveland owns and maintains the public mains and treats wastewater at its own reclamation facility, expanded in 2019. The private service line belongs to the property owner; before planning a repair, ask the utility exactly which piece at the main is yours. If the dig reaches pavement the City controls, a right-of-way permit comes first; building staff can tell you whether the private repair also needs a plumbing permit.",
+    "signals": [
+      "Separated or cracked hubs where cast iron meets clay near the foundation",
+      "Roots packed into clay joints under older West Fourth and Fifth Street lots",
+      "Construction debris or poorly bedded PVC in some newer east-side laterals",
+      "Low spots in 1950s-1960s clay lines that hold wipes and grease"
+    ],
+    "faqs": [
+      {
+        "q": "My house is in one of Loveland's historic districts. Does a sewer repair change the look of the property?",
+        "a": "It does not have to. Lining or bursting works from a cleanout and a small access pit, so the front yard, trees and walks can stay as they are. Historic designation mainly concerns what you see from the street, but check with the City before any exterior work. If the camera shows a collapsed section, a small, targeted dig is still less disruptive than trenching the whole lawn."
+      },
+      {
+        "q": "We live in a newer Loveland home. Why is the sewer already backing up?",
+        "a": "In homes built in the last twenty or thirty years the pipe is usually PVC, which does not rust or let roots in easily. Early problems more often come from a joint that was not fully seated, a sag where the trench was poorly compacted, or debris left in the line during construction. A camera inspection pinpoints it, and in many cases a spot repair is the honest answer rather than lining the whole run."
+      }
+    ],
+    "sources": [
+      "https://www.lovelandwaterandpower.org/about-us/wastewater",
+      "https://www.northerncoloradohistory.com/walk-historic-loveland-2/",
+      "https://en.wikipedia.org/wiki/Loveland,_Colorado",
+      "https://www.lovgov.org/services/development-services/historic-preservation/historic-register/national-downtown-historic-district"
+    ]
+  },
+  {
+    "name": "Berthoud",
+    "slug": "berthoud",
+    "county": "larimer-county",
+    "fullName": "Berthoud, CO",
+    "priority": 2,
+    "zips": [
+      "80513"
+    ],
+    "builtEra": "1880s-1920s Old Town after the 1884 move, modest postwar infill, and mostly post-2000 subdivisions",
+    "commonPipe": "Clay tile and cast iron in Old Town; PVC in Heron Lakes, Prairie Star and other recent subdivisions",
+    "neighborhoods": [
+      "Old Town Berthoud",
+      "Heron Lakes",
+      "Prairie Star",
+      "Heritage Ridge",
+      "Farmstead"
+    ],
+    "sewerAuthority": "Town of Berthoud Wastewater Division, which also runs four lift stations and the town treatment plant",
+    "local": "Berthoud literally picked itself up and moved. In the winter of 1883-84, residents hauled buildings on wheels about a mile north from the Little Thompson River bottom to the higher ground where downtown sits today, because trains struggled to climb out of the valley. The town incorporated in 1888, and the grid of homes that followed is the only part of Berthoud with truly old sewer lines. Those Old Town houses, many from the 1890s through the 1920s, generally drain through cast iron inside the house and clay tile out to the main. Some of the first sewer connections came decades after the houses themselves, so it is common to find an odd mix of materials and repairs spliced together over the years. On camera, the problems tend to be joints that have opened up, roots from big yard trees, and cast iron whose bottom has worn thin.",
+    "local2": "Berthoud's population roughly doubled between 2000 and 2020, from about 4,800 to over 10,300 people, and most of that growth happened in newer subdivisions such as Heron Lakes and Prairie Star. Those homes have PVC laterals, and for them the useful service is often a clear camera look rather than a big repair: checking a sag, a bad joint or a line damaged by landscaping or fence posts. In Old Town, the calculation is different. A clay lateral under a century-old lot can often be lined in a day, sealing the joints without removing a mature tree. If the line has settled badly or collapsed, we will recommend excavation or bursting and explain why.",
+    "permitNote": "The Town of Berthoud's Wastewater Division maintains the town-owned mains, lift stations and treatment plant. The lateral from the house to the main is private, so ask the Town where the owner's share stops and what the Town requires before work on the connection. Excavating in a town street or alley calls for Town right-of-way approval, and a building permit may apply to the plumbing work itself. Berthoud straddles the Larimer-Weld line, yet inside the town's service area one utility handles sewer on both sides of that line.",
+    "signals": [
+      "Patched and mixed pipe materials under Old Town homes from later sewer hookups",
+      "Roots at clay joints under large backyard trees on older lots",
+      "Worn-through bottoms in cast iron drains beneath older houses",
+      "Settled or crushed PVC in newer yards after landscaping or fencing work"
+    ],
+    "faqs": [
+      {
+        "q": "Is lining worth it for a small Old Town Berthoud lateral?",
+        "a": "Often, yes. Many of those laterals are short runs of clay with cracked joints and roots but a sound shape, which is exactly what a cured-in-place liner fixes well. It avoids digging up a mature yard and old walks, and on a short Old Town run the work usually wraps up in a single visit. If the camera shows a collapse or a stretch that has lost its fall, lining will not solve it, and a dig or a burst is the better path."
+      },
+      {
+        "q": "Our Heron Lakes home is only a few years old. Should we worry about the sewer line?",
+        "a": "Newer PVC lines are generally reliable, but they can be cracked by heavy equipment, fence posts or landscaping, and a poorly compacted trench can settle into a sag. If you notice slow drains or gurgling, a camera inspection shows whether anything needs attention before it turns into a backup in a finished basement."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Berthoud,_Colorado",
+      "https://berthoud.org/1407/Wastewater-Collection-Treatment",
+      "https://www.coloradohomesource.com/berthoud-real-estate/berthoud-subdivisions/"
+    ]
+  },
+  {
+    "name": "Greeley",
+    "slug": "greeley",
+    "county": "weld-county",
+    "fullName": "Greeley, CO",
+    "priority": 1,
+    "zips": [
+      "80631",
+      "80634",
+      "80639"
+    ],
+    "builtEra": "1870s-1920s Union Colony core and Cranford, 1950s-1970s ranch neighborhoods, west-side growth since the 1980s",
+    "commonPipe": "Clay tile and cast iron near downtown and the university; clay with some Orangeburg in postwar homes; PVC on the west side",
+    "neighborhoods": [
+      "Cranford",
+      "Downtown Greeley",
+      "Maplewood",
+      "Arlington Heights",
+      "Belair Park",
+      "Glenmere"
+    ],
+    "sewerAuthority": "City of Greeley Water and Sewer, which runs about 390 miles of sewer pipe and 11 pumping stations",
+    "local": "Greeley's sewer system dates to 1889, less than twenty years after the Union Colony settlers laid out their town between the Cache la Poudre and South Platte rivers. The City now maintains about 390 miles of main, and it has used trenchless methods on its own pipe since 1988. What the City does not touch is the private line from each house to that main. In the older blocks, including Cranford, which the City surveyed for its historic character, those private lines are commonly cast iron under the house and clay tile beyond. They were laid when the houses were new, and many have never been replaced. The clay has held up better than the joints between the sections: mortar has broken away, roots have moved in, and settling has shifted some pieces out of line. A camera run through one of these lines usually shows a string of small defects rather than a single break.",
+    "local2": "Irrigation built Greeley. The colonists had canals watering tens of thousands of acres within two decades, and the tree-lined streets that followed are one reason the old neighborhoods feel the way they do. Those same trees are hard on clay laterals. In the ranch-home areas built in the 1950s and 1960s, like Belair Park and Arlington Heights, we see a lot of clay with root intrusion and the occasional Orangeburg fiber pipe that has flattened into an oval. The fiber pipe is a replacement job; it is too deformed to line properly, and bursting or digging is the honest answer. For clay that still holds its shape, lining gives it a new jointless pipe inside the old one without trenching the lawn.",
+    "permitNote": "The City of Greeley tells residents plainly that their service line is their own and to hire a private company for problems on it; City crews handle the public mains. Before digging, get the City's answer on exactly where private ownership stops near the main. Breaking into public pavement means pulling a Greeley right-of-way permit, and the repair itself may need its own permit and inspection.",
+    "signals": [
+      "Rows of small cracks and root intrusions along century-old clay laterals near downtown",
+      "Flattened or blistered Orangeburg fiber pipe in some 1950s-1960s ranch homes",
+      "Heavy scale and thin spots in cast iron under older basements",
+      "Offsets at joints where settling ground has shifted clay sections"
+    ],
+    "faqs": [
+      {
+        "q": "Does the City of Greeley fix the sewer line in my yard?",
+        "a": "No. The City maintains its mains and pumping stations, but the line from your house to the main is yours. The City recommends calling a private sewer company for problems on that line. A camera inspection tells you whether the blockage is in your lateral or in the public main; if it is the main, the City is the one to call."
+      },
+      {
+        "q": "Our older Greeley home has clay sewer pipe. Should we line it or replace it?",
+        "a": "It depends on shape and slope. Tile with root-filled, cracked joints that has kept its roundness and fall is a strong candidate for lining, which avoids trenching mature trees and walks. If sections have collapsed, sagged or turned out to be fiber pipe, lining will not hold up, and the better call is a pipe burst or an open repair of that section."
+      }
+    ],
+    "sources": [
+      "https://greeleyco.gov/water-and-sewer/water-system/wastewater-collection/",
+      "https://coloradoencyclopedia.org/article/greeley",
+      "https://greeleyco.gov/news/2023/city-of-greeley-to-present-results-of-cranford-historic-preservation-study/",
+      "https://speakupgreeley.com/cranfordhistsurvey",
+      "https://www.homes.com/neighborhood-search/greeley-co/"
+    ]
+  },
+  {
+    "name": "Windsor",
+    "slug": "windsor",
+    "county": "weld-county",
+    "fullName": "Windsor, CO",
+    "priority": 2,
+    "zips": [
+      "80550",
+      "80528"
+    ],
+    "builtEra": "1900s-1920s sugar-factory era downtown, scattered postwar homes, and heavy subdivision growth since 2000",
+    "commonPipe": "Clay tile and cast iron near Main Street; PVC in Water Valley, Highland Meadows and most newer subdivisions",
+    "neighborhoods": [
+      "Old Town Windsor",
+      "Water Valley",
+      "Highland Meadows",
+      "Poudre Heights",
+      "Brunner Farm",
+      "Raindance"
+    ],
+    "sewerAuthority": "Town of Windsor Public Works, which runs over 150 miles of sewer and the town treatment plant",
+    "local": "Windsor spans the Weld-Larimer county line, and the town's sewer network now covers more than 150 miles. Most of it is young. Windsor had about 9,900 residents in 2000 and about 32,700 by 2020, and the neighborhoods built for that influx, such as Water Valley and Highland Meadows, were built with PVC laterals. The older lines are concentrated around downtown, where the town grew up after the Great Western sugar factory opened in 1903 and German-Russian families came to work the beet fields. Those early 1900s homes are the ones with clay tile and cast iron laterals, and they behave like their counterparts elsewhere on the Front Range: roots in the joints, scale inside the iron, and cracks where the soil has shifted. Because so much of Windsor is new, a camera inspection often surprises owners in both directions: a 1915 bungalow may have a lateral someone already replaced, while a 2005 home can hide a cracked joint from a careless trench backfill.",
+    "local2": "The May 2008 tornado cut through Windsor with winds near 165 mph and led to roughly 24,000 insurance claims. Many damaged homes were repaired or rebuilt on their original foundations, and in some cases the lateral under the yard was reused rather than replaced. If you own a rebuilt home near the storm path, it is worth confirming what the sewer line is actually made of and whether it took damage from heavy equipment during cleanup. For older clay near downtown, lining avoids tearing up newly re-established landscaping. For a line that was crushed or knocked off grade, replacement or bursting is the better repair. Town crews are also planning a larger treatment plant as the population keeps climbing, a reminder of how quickly this system has grown.",
+    "permitNote": "The Town of Windsor asks contractors to notify Public Works before working in the sanitary sewer system, including routine clearing, blockage removal and repairs. The private service line is the owner's to maintain; the Town can say how far that ownership reaches toward the main. Any repair that crosses into the street or walk also needs Town right-of-way approval. Windsor sits in two counties, so Larimer-side homes may use a different mailing ZIP than Weld-side ones, while the Town remains the sewer utility across its service area.",
+    "signals": [
+      "Root intrusion at clay joints under early 1900s homes near Main Street",
+      "Mixed original and replacement pipe under homes rebuilt after 2008",
+      "Sags and poorly bedded joints in some newer subdivision laterals",
+      "Scale buildup in cast iron drains under older foundations"
+    ],
+    "faqs": [
+      {
+        "q": "Our Windsor house was rebuilt after the 2008 tornado. Is the sewer line new too?",
+        "a": "Not necessarily. Some rebuilds reused the original lateral under the yard, and heavy cleanup equipment could have cracked or shifted it. A camera inspection shows what material is down there and its condition. If it is older clay with cracks but good shape, lining may be the answer; if it was crushed or knocked off grade, a dig or burst is the right call."
+      },
+      {
+        "q": "Do we have to tell the Town of Windsor before a sewer repair?",
+        "a": "The Town asks contractors to notify Public Works before work in the sanitary sewer system, including clearing and repairs. We handle that coordination as part of the job, along with any right-of-way permit needed if the work reaches the street or sidewalk. That keeps Town crews informed in case the work affects the connection at the main, and it avoids surprises if a Town crew is already jetting that stretch of main the same week."
+      }
+    ],
+    "sources": [
+      "https://www.windsorco.gov/372/Water-Sewer",
+      "https://en.wikipedia.org/wiki/Windsor,_Colorado",
+      "https://windsorprojectconnect.com/wwtfreplacement",
+      "https://livelovewindsor.com/top-neighborhoods-in-windsor-colorado-a-locals-guide/"
+    ]
+  },
+  {
+    "name": "Erie",
+    "slug": "erie",
+    "county": "weld-county",
+    "fullName": "Erie, CO",
+    "priority": 2,
+    "zips": [
+      "80516"
+    ],
+    "builtEra": "1870s-1920s coal-town core in Old Town Erie, small postwar pockets, and mostly post-1995 subdivisions",
+    "commonPipe": "Clay tile and cast iron in Old Town Erie; PVC in Erie Village, Vista Ridge, Colliers Hill and other newer neighborhoods",
+    "neighborhoods": [
+      "Old Town Erie",
+      "Erie Village",
+      "Vista Ridge",
+      "Canyon Creek",
+      "Colliers Hill",
+      "Erie Commons"
+    ],
+    "sewerAuthority": "Town of Erie public works and utilities, which operate the town's sewer collection and treatment",
+    "local": "Erie was a coal town before it was a suburb. The first official underground mine opened in 1876, and mining went on until the last mine shut in 1978. Much of the Boulder-Weld coal field runs under and around town, and state geologists have looked closely at how old mine workings in this area can settle decades after they close. For sewer lines, that matters because a lateral depends on steady slope. Ground that drops even a little can create a belly where waste sits, or crack a rigid clay joint. The oldest laterals, under the miners' houses in Old Town Erie, are typically clay tile and cast iron. Those lines have also had more than a century of roots and ordinary soil movement working on them. When a camera shows a sag or offset under an older Erie home, it is fair to ask whether the ground itself has moved.",
+    "local2": "Erie grew from about 6,300 residents in 2000 to just over 30,000 in 2020, and it spans both Weld and Boulder counties, with most residents on the Weld side. The subdivisions that absorbed that growth, such as Vista Ridge and Colliers Hill, have PVC laterals that rarely need lining. When they do have problems, it is usually a bad joint, a crushed section from later construction, or a sag. That is where honesty about methods matters: a liner follows the existing pipe, so if the line has settled out of grade, lining it just seals in the sag. For those cases, we recommend excavation or bursting to reset the slope. For intact older clay in Old Town, lining is often the cleaner fix, sealing every joint along the run without opening the yard.",
+    "permitNote": "The Town of Erie maintains the public sewer mains; the service line from the building to the main is private. Get the Town's word on where the private portion ends at the connection and what inspection it requires for a repaired or replaced line. Excavation in Town pavement requires a right-of-way permit. Because Erie crosses the Boulder-Weld county line, confirm you are dealing with the Town rather than a neighboring district if your address is near the edge of town.",
+    "signals": [
+      "Sags or offsets that may reflect ground settlement in the old coal field",
+      "Root-filled clay joints under early homes in Old Town Erie",
+      "Cracked or crushed PVC where later construction crossed newer laterals",
+      "Corroded cast iron drains beneath the oldest Erie foundations"
+    ],
+    "faqs": [
+      {
+        "q": "Can old coal mines under Erie damage my sewer line?",
+        "a": "They can contribute. Where old workings settle, the ground above can shift, and a sewer lateral needs steady slope to drain. A camera inspection with location tracing shows whether a line has a sag or offset. Lining will not fix a belly, so if settlement has changed the grade, we recommend digging or bursting to reset it."
+      },
+      {
+        "q": "Our Vista Ridge home is on PVC. Why would it need a camera inspection?",
+        "a": "PVC resists roots and corrosion, but it can crack under heavy equipment or settle into a low spot if the trench was not well compacted. A camera look before buying or after repeated slow drains shows exactly what is going on, and the fix is often a single spot repair at the damaged joint instead of a whole new line. On a newer home, that is usually all it takes."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Erie,_Colorado",
+      "https://www.eriehistoricalsociety.org/historic-coal-mines-in-erie-co/",
+      "https://cbsnews.com/colorado/news/colorado-agency-studies-land-around-old-front-range-mines",
+      "https://www.erieco.gov/1047/Water-Wastewater",
+      "https://www.coloradohomesource.com/erie-real-estate/erie-neighborhoods/"
+    ]
+  },
+  {
+    "name": "Frederick",
+    "slug": "frederick",
+    "county": "weld-county",
+    "fullName": "Frederick, CO",
+    "priority": 2,
+    "zips": [
+      "80530",
+      "80504",
+      "80516"
+    ],
+    "builtEra": "1907-1950s coal-camp core, then mostly post-2000 subdivisions",
+    "commonPipe": "Clay tile and cast iron in the original town and Evanston; PVC in Wyndham Hill, Silverstone and most newer neighborhoods",
+    "neighborhoods": [
+      "Frederick Town (original town)",
+      "Evanston",
+      "Wyndham Hill",
+      "Silverstone",
+      "Savannah",
+      "Countryside"
+    ],
+    "sewerAuthority": "St. Vrain Sanitation District, the sole sewer provider in Frederick (also serving Firestone and Dacono)",
+    "local": "Frederick's sewer service comes from the St. Vrain Sanitation District, a special district that also serves Firestone and Dacono plus parts of Mead, Longmont and unincorporated Weld County. The district runs roughly 250 miles of collection pipe and about 15,250 taps. Its policy on private lines leaves little room for doubt: the service line and the service connection belong to the property owner, who is responsible for maintaining and repairing them. That means the owner's share reaches all the way to where the line meets the district main, not just to the property line. In the original town, which began as a coal-mining camp and incorporated in 1907, laterals from the early decades are typically clay tile, sometimes with cast iron under the house. Those older lines, plus the connection at the main, are where most real repair work in Frederick happens. Because the owner's share includes that connection, a failure right at the main is still a private repair here, which surprises many buyers coming from cities that draw the line differently.",
+    "local2": "Frederick grew from about 2,500 people in 2000 to over 14,500 in 2020, so most homes, in places like Wyndham Hill and Silverstone, have newer PVC laterals. Problems there usually come from a construction defect or later damage rather than age. The older side of town is different. The Frederick mine closed in 1960, and a Colorado Geological Survey study examined ground settlement over abandoned workings in the Frederick-Firestone-Dacono area. If the camera shows a sag in an older line, that history is worth keeping in mind. Lining suits cracked tile whose shape and fall remain intact; it is the wrong repair for a line that has settled, which needs excavation or bursting.",
+    "permitNote": "St. Vrain Sanitation District states that the owner owns the service line and the service connection, so repairs up to the main are the owner's responsibility. Contact the district before work on the connection to learn its requirements. The Town of Frederick handles right-of-way permits for work in streets and sidewalks. Water service in Frederick comes from the Town east of I-25 and from Left Hand Water District west of it, which matters if a sewer repair runs near a water line.",
+    "signals": [
+      "Cracked clay and root intrusion in original-town laterals from the early 1900s",
+      "Worn or separated service connections at the district main",
+      "Sags in older lines that may reflect ground settlement over old mines",
+      "Bedding or joint defects in some newer PVC laterals"
+    ],
+    "faqs": [
+      {
+        "q": "Who pays to fix the sewer connection at the main in Frederick?",
+        "a": "Under St. Vrain Sanitation District's rules, the property owner owns the service line and the service connection, so repairs up to the main are the owner's responsibility. The district handles its own mains. Before any work at the connection, contact the district so the repair meets its requirements. A camera inspection shows whether the problem is at the connection or elsewhere in the lateral."
+      },
+      {
+        "q": "Should an older Frederick sewer line be lined or replaced?",
+        "a": "If the clay is cracked but still holds its round shape and slope, lining works well and avoids trenching. If the line has sagged, collapsed or shifted, perhaps from ground settlement in this old mining area, lining will not correct the grade. Then the choice is between bursting a new line into place or digging out the bad stretch."
+      }
+    ],
+    "sources": [
+      "https://www.stvrainsdco.gov/sewer-system",
+      "https://www.stvrainsdco.gov/faqs",
+      "https://citizenportal.ai/articles/7311473/Colorado/Weld-County/Frederick-Town/St-Vrain-Sanitation-District-briefs-Frederick-trustees-on-system-size-expansion-and-local-service",
+      "https://www.frederickco.gov/160/Utility-Services",
+      "https://en.wikipedia.org/wiki/Frederick,_Colorado",
+      "https://cbsnews.com/colorado/news/colorado-agency-studies-land-around-old-front-range-mines",
+      "https://www.coloradohomesource.com/frederick-real-estate/"
+    ]
+  }
+]

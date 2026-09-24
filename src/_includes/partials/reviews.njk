@@ -1,0 +1,60 @@
+{% set cityReviews = reviews.items | where("city", citySlug) if citySlug else [] %}
+{% set pool = [] %}
+{% for r in reviews.items %}{% if r.text | length < 700 %}{% set pool = (pool.push(r), pool) %}{% endif %}{% endfor %}
+{% set shown = cityReviews if cityReviews | length else (pool | limit(3)) %}
+{% if shown | length %}
+<section class="border-y border-ink-900/10 bg-ink-950/[0.02]">
+  <div class="container-x py-16">
+    <div class="flex flex-wrap items-end justify-between gap-6">
+      <div>
+        <p class="eyebrow">What customers say</p>
+        <h2 class="mt-2 text-3xl sm:text-4xl">{% if cityReviews | length %}What {{ cityName }} customers say{% else %}Reviews from Google{% endif %}</h2>
+      </div>
+      {% if reviews.rating %}
+      <div class="flex items-center gap-4 rounded-xl border border-ink-900/10 bg-white px-5 py-4 shadow-sm">
+        <div>
+          <p class="font-display text-3xl font-bold leading-none text-ink-950">{{ reviews.rating }}</p>
+          <p class="mt-1 text-xs font-semibold uppercase tracking-wider text-ink-700">out of 5</p>
+        </div>
+        <div class="border-l border-ink-900/10 pl-4">
+          <div class="flex gap-0.5" aria-hidden="true">
+            {% for i in range(0, 5) %}
+            <svg class="h-4 w-4 text-accent-500" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 15l-5.2 2.6 1-5.8L1.5 7.7l5.9-.9z"/></svg>
+            {% endfor %}
+          </div>
+          {% if reviews.count %}<p class="mt-1 text-sm text-ink-700">{{ reviews.count }} Google reviews</p>{% endif %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="mt-10 grid items-start gap-6 {% if shown | length > 1 %}md:grid-cols-3{% endif %}">
+      {% for r in shown %}
+      <figure class="card flex flex-col">
+        <div class="flex gap-0.5" aria-label="{{ r.stars }} out of 5 stars">
+          {% for i in range(0, r.stars) %}
+          <svg class="h-4 w-4 text-accent-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 15l-5.2 2.6 1-5.8L1.5 7.7l5.9-.9z"/></svg>
+          {% endfor %}
+        </div>
+        <blockquote class="mt-4 flex-1 text-[15px] leading-relaxed text-ink-700">{{ r.text }}</blockquote>
+        <figcaption class="mt-5 border-t border-ink-900/10 pt-4 text-sm">
+          <span class="font-semibold text-ink-950">{{ r.name }}</span>
+          {%- if r.city -%}
+            {%- set cm = (cities | where("slug", r.city))[0] -%}
+            <span class="text-ink-700"> &middot; {{ cm.fullName if cm else r.city }}</span>
+          {%- endif -%}
+        </figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+
+    {% if reviews.profileUrl and "REPLACE" not in reviews.profileUrl %}
+    <p class="mt-8">
+      <a class="btn-secondary text-sm" href="{{ reviews.profileUrl }}" target="_blank" rel="noopener nofollow">
+        Read all reviews on Google
+      </a>
+    </p>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
