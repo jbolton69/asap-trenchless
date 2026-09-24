@@ -8,10 +8,13 @@
     "build:11ty": "eleventy",
     "watch:11ty": "eleventy --serve",
     "build": "npm run build:11ty && npm run build:css",
+    "postbuild": "node tools/indexnow.mjs --only-on-cloudflare",
     "start": "npm run build:11ty && npm-run-all --parallel watch:*",
     "reviews:refresh": "node tools/refresh-review-stats.mjs",
     "blog:import": "node tools/import-soro.mjs",
-    "img": "node tools/optimize-images.mjs"
+    "img": "node tools/optimize-images.mjs",
+    "indexnow:all": "node tools/indexnow.mjs --all",
+    "indexnow:dry": "node tools/indexnow.mjs --dry-run"
   },
   "keywords": [],
   "author": "",
