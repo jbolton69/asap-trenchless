@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ metaTitle or title }} | {{ site.shortName }}</title>
+{% set pageTitle = metaTitle or title %}<title>{% if "All Sewer" in pageTitle %}{{ pageTitle }}{% else %}{{ pageTitle }} | {{ site.shortName }}{% endif %}</title>
 <meta name="description" content="{{ metaDescription or site.description }}">
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 <meta property="og:type" content="website">
