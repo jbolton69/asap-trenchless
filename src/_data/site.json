@@ -55,7 +55,7 @@
   },
   "form": {
     "provider": "web3forms",
-    "accessKey": "REPLACE-WITH-WEB3FORMS-KEY",
+    "accessKey": "25b3ada8-c162-4163-b1c4-9156c2b40dfe",
     "primaryRecipient": "organicseopositions@gmail.com",
     "note": "Records only — recipients are set in the Web3Forms dashboard, never in page source. The form stays hidden (call CTA shown instead) until accessKey is a real key."
   }
