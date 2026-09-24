@@ -36,10 +36,10 @@
     "caption": "Watch a liner go in, start to finish — about four minutes."
   },
   "analytics": {
-    "ga4MeasurementId": "",
-    "ga4Enabled": false,
+    "ga4MeasurementId": "G-2JQZ3Q7M7X",
+    "ga4Enabled": true,
     "clickCeaseEnabled": false,
-    "note": "Create a GA4 property for asap-trenchless.com, paste its G- ID here and set ga4Enabled to true at go-live."
+    "note": "GA4 property asap-trenchless.com (555837305) in account The Trenchless Team (321379761), web stream 15840369577."
   },
   "legal": {
     "entity": "All Sewer and Plumbing Services, LLC",
