@@ -40,6 +40,11 @@ Contact: {{ site.phone | safe }}. Estimates are free.
 {% for c in counties %}**{{ c.name | safe }}**: {% for city in cities | where("county", c.slug) %}[{{ city.name | safe }}]({{ site.url }}/{{ c.slug }}/{{ city.slug }}/){% if not loop.last %}, {% endif %}{% endfor %}
 
 {% endfor %}
+## Recent projects
+
+{% for p in projects -%}
+- [{{ p.title | safe }}]({{ site.url }}{{ p.url }}): {{ p.summary | safe }}
+{% endfor %}
 ## Reference
 
 - [Our process]({{ site.url }}/our-process/): the six steps every job follows

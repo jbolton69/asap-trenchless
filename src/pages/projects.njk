@@ -1,0 +1,51 @@
+---
+layout: layouts/base.njk
+permalink: "/projects/"
+title: "Recent Trenchless Projects"
+metaTitle: "Recent Trenchless Sewer Projects in Denver & the Front Range"
+metaDescription: "Real trenchless sewer jobs from across the Denver metro: CIPP pipe lining, pipe bursting and no-dig sewer replacement in Denver, Boulder, Lakewood, Littleton, Thornton and more."
+ogImage: "/assets/img/projects/denver-commercial-pool-drain-pipe-lining-1200.jpg"
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Recent Projects
+    url: /projects/
+---
+<section class="bg-gradient-to-b from-brand-950 to-brand-800 text-white">
+  <div class="container-x py-14 sm:py-20">
+    <nav aria-label="Breadcrumb" class="mb-5 text-xs text-white/60">
+      <a class="hover:text-white" href="/">Home</a> <span class="px-1">/</span> <span class="text-white/80">Recent Projects</span>
+    </nav>
+    <p class="text-xs font-bold uppercase tracking-[0.18em] text-accent-400">Completed trenchless work</p>
+    <h1 class="mt-3 max-w-4xl text-4xl text-white sm:text-5xl">Recent Trenchless Sewer Projects</h1>
+    <p class="mt-5 max-w-2xl text-lg text-white/80">Sewer lines we've relined, burst and replaced across the Denver metro and Front Range. Each job below shows what we found on camera, the method we chose and why.</p>
+    <p class="mt-8 flex flex-wrap items-center gap-4">
+      <a class="btn-primary" href="tel:+1{{ site.phone | phoneDigits }}">Call {{ site.phone }}</a>
+      <span class="text-sm text-white/70">{{ site.phoneCta }}</span>
+    </p>
+  </div>
+</section>
+
+<section class="container-x py-14">
+  <div class="prose-site max-w-3xl">
+    <p>Every one of these jobs started the same way: a <a href="/sewer-camera-inspection/">sewer camera inspection</a> before anyone quoted a price. What the camera shows decides the method. Pipe that still holds its shape can usually be relined with <a href="/cipp-pipe-lining/">CIPP lining</a>. Pipe that has broken apart but still runs fairly straight is a candidate for <a href="/pipe-bursting/">pipe bursting</a>. Either way, the yard, driveway and landscaping above the line stay in place.</p>
+  </div>
+  {% set projectList = projects %}
+  <div class="lg:[&>div]:grid-cols-3">{% include "partials/project-cards.njk" %}</div>
+</section>
+
+<section class="bg-brand-50">
+  <div class="container-x grid gap-8 py-14 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+    <div>
+      <p class="eyebrow">Your sewer next?</p>
+      <h2 class="mt-2 text-3xl sm:text-4xl">Find out which trenchless method fits your line</h2>
+      <p class="prose-site mt-4">Tell us what's happening (backups, slow drains, roots, a failed inspection) and we'll put a camera in the line and give you a written finding. If trenchless isn't the right answer for your pipe, we'll say so.</p>
+    </div>
+    <div class="rounded-2xl bg-ink-950 p-6 text-white">
+      <p class="text-xs font-bold uppercase tracking-[0.18em] text-accent-400">{{ site.phoneCta }}</p>
+      <a class="mt-2 block font-display text-4xl font-bold hover:text-accent-400" href="tel:+1{{ site.phone | phoneDigits }}">{{ site.phone }}</a>
+      <p class="mt-1 text-sm text-white/60">{{ site.hours }}</p>
+      <a class="btn-primary mt-5 w-full text-sm" href="#quote">Request an estimate</a>
+    </div>
+  </div>
+</section>

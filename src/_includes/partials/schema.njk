@@ -63,6 +63,19 @@
       "areaServed": {"@type": "AdministrativeArea", "name": "{{ serviceSchema.areaServed or 'Colorado Front Range' }}"}
     }
     {% endif %}
+    {% if projectSchema and project %},
+    {
+      "@type": "Article",
+      "headline": {{ project.title | dump | safe }},
+      "description": {{ project.metaDescription | dump | safe }},
+      "image": "{{ site.url }}{{ project.image }}-1200.jpg",
+      "mainEntityOfPage": {"@id": "{{ site.url }}{{ page.url }}#webpage"},
+      "author": {"@type": "Organization", "name": "{{ site.name }}"},
+      "publisher": {"@id": "{{ site.url }}/#business"},
+      "about": {"@type": "Service", "name": {{ project.method | dump | safe }}, "provider": {"@id": "{{ site.url }}/#business"}},
+      "contentLocation": {"@type": "Place", "name": "{{ project.place }}, Colorado"}
+    }
+    {% endif %}
     {% if postSchema %},
     {
       "@type": "BlogPosting",

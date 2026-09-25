@@ -1,0 +1,64 @@
+---
+pagination:
+  data: projects
+  size: 1
+  alias: project
+  addAllPagesToCollections: true
+permalink: "{{ project.url }}"
+layout: layouts/page.njk
+eleventyComputed:
+  title: "{{ project.title }}"
+  metaTitle: "{{ project.metaTitle }}"
+  metaDescription: "{{ project.metaDescription }}"
+  eyebrow: "{{ project.place }}, CO · {{ project.method }}"
+  lede: "{{ project.summary }}"
+  ogImage: "{{ project.image }}-1200.jpg"
+  projectSchema: true
+---
+{% set countyObj = (counties | where("slug", project.county))[0] %}
+{% set cityObj = (cities | where("slug", project.city))[0] if project.city else null %}
+<figure class="not-prose -mt-2 mb-8">
+  <img src="{{ project.image }}-1200.webp" srcset="{{ project.image }}-600.webp 600w, {{ project.image }}-1200.webp 1200w" sizes="(min-width: 1200px) 800px, 100vw" alt="{{ project.imageAlt }}" width="1200" height="630" class="w-full rounded-2xl border border-ink-900/10 shadow-lg" fetchpriority="high">
+</figure>
+
+<div class="not-prose mb-10 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-ink-900/10 bg-ink-900/10 sm:grid-cols-3">
+  {% set facts = [["Location", project.place + ", CO"], ["Method", project.method], ["Length", project.footage], ["Pipe", project.pipe], ["Property", project.property], ["Open trench", "None"]] %}
+  {% for f in facts %}
+  <div class="bg-white p-4">
+    <p class="text-[11px] font-bold uppercase tracking-wider text-ink-700">{{ f[0] }}</p>
+    <p class="mt-1 font-display text-lg font-semibold text-ink-950">{{ f[1] }}</p>
+  </div>
+  {% endfor %}
+</div>
+
+{% for s in project.sections %}
+<h2>{{ s.h }}</h2>
+{{ s.html | safe }}
+{% endfor %}
+
+<p><strong>{{ site.phoneCta }}</strong> <a href="tel:+1{{ site.phone | phoneDigits }}">{{ site.phone }}</a></p>
+
+<aside class="not-prose mt-10 rounded-xl border border-ink-900/10 bg-brand-50 p-5 text-sm leading-relaxed text-ink-700">
+  <p class="font-semibold text-ink-950">From All Sewer &amp; Plumbing's project files</p>
+  <p class="mt-1">This job is also written up on our company site: <a class="font-semibold text-brand-700 underline underline-offset-2 hover:text-brand-800" href="{{ project.ssUrl }}">{{ project.ssAnchor }}</a>.</p>
+</aside>
+
+<h2>Related trenchless services</h2>
+<ul>
+  {% for slug in project.services %}{% set svc = (services | where("slug", slug))[0] %}{% if svc %}
+  <li><a href="/{{ svc.slug }}/">{{ svc.title }}</a></li>
+  {% endif %}{% endfor %}
+  {% if cityObj %}<li><a href="/{{ cityObj.county }}/{{ cityObj.slug }}/">Trenchless sewer repair in {{ cityObj.name }}</a></li>{% endif %}
+  {% if countyObj %}<li><a href="/{{ countyObj.slug }}/">Sewer repair across {{ countyObj.name }}</a></li>{% endif %}
+</ul>
+
+{% set others = [] %}
+{#- Same county first, then same method family, walking forward from this project so picks rotate. -#}
+{% set n = projects.length %}{% set idx = pagination.pageNumber %}
+{% for pass in [1, 2, 3] %}{% for i in range(1, n) %}{% set p = projects[(idx + i) % n] %}
+{% if others.length < 2 and (others | where("slug", p.slug)).length == 0 and ((pass == 1 and p.county == project.county) or (pass == 2 and p.diagram == project.diagram) or pass == 3) %}{% set others = (others.push(p), others) %}{% endif %}
+{% endfor %}{% endfor %}
+<h2>More recent projects</h2>
+{% set projectList = others %}
+{% include "partials/project-cards.njk" %}
+<p class="mt-6"><a href="/projects/">See all recent trenchless projects &rarr;</a></p>

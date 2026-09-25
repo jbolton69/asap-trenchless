@@ -143,6 +143,7 @@ hasVideo: true
   <p class="prose-site mt-4 max-w-3xl">A few recent jobs, with the footage, the pipe and the method we used on each.</p>
   {% set projectList = projects | limit(6) %}
   <div class="lg:[&>div]:grid-cols-3">{% include "partials/project-cards.njk" %}</div>
+  <p class="mt-8"><a class="font-semibold text-brand-700 hover:text-brand-800" href="/projects/">See all {{ projects.length }} recent trenchless projects &rarr;</a></p>
 </section>
 
 {% include "partials/reviews.njk" %}

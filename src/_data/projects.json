@@ -1,102 +1,504 @@
 [
   {
-    "city": "arvada",
-    "county": "jefferson-county",
-    "place": "Arvada",
-    "footage": "36 ft",
-    "material": "Cast iron",
-    "method": "Spot repair + CIPP lining",
-    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/arvada-36-ft-cast-iron-lining",
-    "summary": "A builder sent his own sewer video; one cracked section was repaired through a small pit and the rest of the line was lined to the main the next day."
+    "slug": "denver-commercial-pool-drain-pipe-lining",
+    "city": null,
+    "county": "denver",
+    "place": "Denver",
+    "footage": "200 ft",
+    "material": "12-inch cast iron pool drain",
+    "method": "Commercial CIPP lining",
+    "pipe": "12\" cast iron",
+    "property": "Commercial / university",
+    "diagram": "lining",
+    "theme": "teal",
+    "specLine": "12\" cast iron pool drain · University",
+    "title": "Commercial Pipe Lining in Denver: 200 Feet of 12-Inch Pool Drain Relined From the Surge Tank",
+    "cardTitle": "200 ft of 12-inch pool drain lined for a Denver university",
+    "metaTitle": "Denver Commercial Pipe Lining: 200 Ft University Pool Drain CIPP Project",
+    "metaDescription": "How we stopped a Denver university pool's drain leaks with commercial CIPP lining: 200 ft of 12-inch pipe relined from the surge tank in one day, no deck demolition.",
+    "summary": "A campus pool with leaking drains. One 12-inch liner, 200 feet long, went in from the surge tank in a single day, and the deck was never cut.",
+    "ssUrl": "https://sewer-solutions.com/projects/denver-university-pool-drain-cipp-lining/",
+    "ssAnchor": "Denver university pool drain CIPP lining project",
+    "cippUrl": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/denver-university-pool-200-ft-12-inch-lining",
+    "services": [
+      "commercial-trenchless",
+      "cipp-pipe-lining",
+      "sewer-camera-inspection"
+    ],
+    "sections": [
+      {
+        "h": "A campus pool that couldn't sit closed for weeks",
+        "html": "<p>The drain piping under a university swimming pool in Denver had started to leak. Repairing it the traditional way meant emptying the pool, saw-cutting the deck and excavating the lines underneath. That would have left a facility students and staff use every day fenced off for weeks. The school needed the leaks stopped without turning the natatorium into a construction zone.</p>"
+      },
+      {
+        "h": "Planning a no-dig repair around a working pool",
+        "html": "<p>We proposed <a href=\"/cipp-pipe-lining/\">cured-in-place pipe lining</a> installed from inside the pool's surge tank, with the water level lowered only halfway. Before anything went on the schedule, we walked the university's facilities officials through every step: how the lines would be inspected, how the liner would be installed and cured, and how the finished pipe would be tested. Institutional jobs run on approvals, and agreeing on the plan up front is what kept the actual work short.</p>"
+      },
+      {
+        "h": "Why pool drains are a hard trenchless job",
+        "html": "<p>Pool drain systems are some of the most demanding pipe we line. The runs are long, the fittings turn sharply, and preparation takes far longer than on a typical house lateral. Every drain line got a camera pass before any work began, because when one section of an aging pool system is leaking, the sections next to it are rarely far behind, and a partial repair only moves the problem down the line.</p><p>With the lines cleaned and mapped, the crew launched a single 12-inch CIPP liner from the surge tank and ran it through 200 feet of the drain network. Soaked with resin, a liner that size weighs close to 800 pounds, so handling it was planned as carefully as the lining itself. After curing, the new pipe ran continuously through each joint and around each 90-degree elbow.</p>"
+      },
+      {
+        "h": "Tested, approved and back in the water",
+        "html": "<p>The installation took one day, less time than the inspections and sign-offs around it. The post-lining video survey came back clean, and so did a water leak test. The university had braced for a long, disruptive repair and ended up with a brief closure. We've since been asked back to work on more of the school's piping.</p>"
+      },
+      {
+        "h": "Commercial trenchless pipe lining on the Front Range",
+        "html": "<p>Schools, HOAs, property managers and facility operators choose trenchless lining for the same reason this university did: the pipe is renewed while the building stays in use. If you manage a property with failing drain or sewer lines, see our <a href=\"/commercial-trenchless/\">commercial trenchless services</a> or call for a free estimate.</p>"
+      }
+    ],
+    "url": "/projects/denver-commercial-pool-drain-pipe-lining/",
+    "image": "/assets/img/projects/denver-commercial-pool-drain-pipe-lining",
+    "imageAlt": "Illustration: Commercial CIPP lining of 200 ft of sewer line in Denver, CO",
+    "footageNum": "200"
   },
   {
+    "slug": "boulder-trenchless-sewer-replacement-pipe-bursting",
     "city": "boulder",
     "county": "boulder-county",
     "place": "Boulder",
     "footage": "75 ft",
     "material": "Cast iron",
     "method": "Pipe bursting",
-    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/boulder-75-ft-pipe-bursting-rescue",
-    "summary": "Another contractor dug in the wrong spot and walked off. We burst in a new HDPE line and had the family's sewer working again that evening."
+    "pipe": "4\" cast iron → HDPE",
+    "property": "Residential",
+    "diagram": "bursting",
+    "theme": "navy",
+    "specLine": "4\" cast iron replaced with HDPE · Residential",
+    "title": "Boulder Trenchless Sewer Replacement: 75 Feet of Pipe Burst and Replaced After Another Contractor Walked Off",
+    "cardTitle": "75 ft of cast iron replaced by pipe bursting in Boulder",
+    "metaTitle": "Boulder Trenchless Sewer Replacement: 75 Ft Pipe Bursting Job",
+    "metaDescription": "A Boulder family went three days without a sewer after another contractor quit mid-job. We burst in 75 ft of new HDPE the same day and had it working by evening.",
+    "summary": "The first company dug the wrong spot and left. We started the same afternoon and had 75 feet of new fused HDPE working by evening.",
+    "ssUrl": "https://sewer-solutions.com/projects/boulder-pipe-bursting-sewer-replacement/",
+    "ssAnchor": "Boulder pipe bursting sewer replacement project",
+    "cippUrl": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/boulder-75-ft-pipe-bursting-rescue",
+    "services": [
+      "pipe-bursting",
+      "sewer-line-replacement",
+      "sewer-camera-inspection"
+    ],
+    "sections": [
+      {
+        "h": "A half-finished dig and a house with no sewer",
+        "html": "<p>By the time this Boulder family reached us, the family had spent three days unable to use their drains. A different outfit had excavated in the yard, heaped the dirt across the lawn and, as it turned out, dug in the wrong spot before disappearing from the job. The family wanted two things: someone to tell them what was really wrong, and someone who would actually finish.</p>"
+      },
+      {
+        "h": "Camera first, then a plan",
+        "html": "<p>Our technician started with a <a href=\"/sewer-camera-inspection/\">sewer camera inspection</a> rather than a shovel. The video showed about 75 feet of 4-inch cast iron lateral failing along its length. Patching it piece by piece wasn't realistic, but it ran straight enough to replace with trenchless pipe bursting. That meant a completely new sewer line without a trench from the house to the street.</p>"
+      },
+      {
+        "h": "Same-day pipe bursting",
+        "html": "<p>We keep polyethylene pipe and the bursting rig on the truck, so nothing waited on a supply run. We started that afternoon. The crew opened a small access pit near the house and another near the far end of the line, and set every shovelful of soil on plywood so the lawn wasn't buried a second time. A bursting head was pulled through the old cast iron, cracking it apart and pushing the fragments out into the surrounding soil, while new heat-fused high-density polyethylene pipe followed right behind it.</p>"
+      },
+      {
+        "h": "Working again by evening",
+        "html": "<p>The new line was connected and carrying water that evening. We backfilled both pits and put the yard back together. The family ended up with a seamless HDPE sewer lateral that has no joints for roots to get into or for Boulder County's shifting clay soil to pull apart.</p>"
+      },
+      {
+        "h": "When bursting is the right trenchless method",
+        "html": "<p>Pipe bursting fits lines that are too broken for a liner but still follow a reasonably straight path. See how our <a href=\"/pipe-bursting/\">pipe bursting</a> process works, compare it with <a href=\"/sewer-line-replacement/\">other sewer line replacement options</a>, or read more about <a href=\"/boulder-county/boulder/\">trenchless sewer repair in Boulder</a>.</p>"
+      }
+    ],
+    "url": "/projects/boulder-trenchless-sewer-replacement-pipe-bursting/",
+    "image": "/assets/img/projects/boulder-trenchless-sewer-replacement-pipe-bursting",
+    "imageAlt": "Illustration: Pipe bursting of 75 ft of sewer line in Boulder, CO",
+    "footageNum": "75"
   },
   {
-    "city": "centennial",
-    "county": "arapahoe-county",
-    "place": "Centennial",
-    "footage": "47 ft",
-    "material": "Cast iron",
-    "method": "CIPP lining",
-    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/centennial-47-ft-lining-no-dig",
-    "summary": "Flaking, cracking cast iron that hadn't collapsed yet — lined from a cleanout inside the house with no digging at all."
-  },
-  {
-    "city": null,
-    "county": "denver",
-    "place": "Denver",
-    "footage": "55 ft",
-    "material": "Cast iron",
-    "method": "Trenchless replacement",
-    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/denver-55-ft-cast-iron-trenchless-replacement",
-    "summary": "A kitchen leak in a 70-year-old house led to the camera, which found roots and cracks the length of the lateral. Replaced without opening the yard."
-  },
-  {
-    "city": null,
-    "county": "denver",
-    "place": "Denver",
-    "footage": "78 ft",
-    "material": "Terra cotta",
-    "method": "CIPP lining",
-    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/denver-78-ft-terra-cotta-lining",
-    "summary": "Roots at every joint of an old terra cotta line. Cleaned and lined end to end from the homeowner's existing inspection video."
-  },
-  {
-    "city": null,
-    "county": "denver",
-    "place": "Denver",
-    "footage": "200 ft",
-    "material": "12-inch drain",
-    "method": "CIPP lining",
-    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/denver-university-pool-200-ft-12-inch-lining",
-    "summary": "A campus pool's leaking drain system, lined from the surge tank with the pool only half drained. Camera and leak test both passed."
-  },
-  {
-    "city": "lafayette",
-    "county": "boulder-county",
-    "place": "Lafayette",
-    "footage": "44 ft",
-    "material": "Cast iron",
-    "method": "CIPP lining",
-    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/lafayette-44-ft-lining-vs-excavation",
-    "summary": "The other quote meant tearing out the porch and driveway. The line was close to collapse but still lineable — lined the next morning."
-  },
-  {
+    "slug": "lakewood-cast-iron-sewer-pipe-lining-67-ft",
     "city": "lakewood",
     "county": "jefferson-county",
     "place": "Lakewood",
     "footage": "67 ft",
     "material": "Cast iron",
     "method": "CIPP lining",
-    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/lakewood-67-ft-cast-iron-same-day-lining",
-    "summary": "Four rooter calls in a year, and the bottom of the 1950s pipe was gone. Lined the same day as the inspection, before it could collapse."
+    "pipe": "4\" cast iron",
+    "property": "Residential",
+    "diagram": "lining",
+    "theme": "navy",
+    "specLine": "1950s cast iron, bottom rotted out · Residential",
+    "title": "Lakewood Cast Iron Sewer Lining: 67 Feet Relined the Same Day It Was Inspected",
+    "cardTitle": "67 ft of 1950s cast iron lined the same day in Lakewood",
+    "metaTitle": "Lakewood Cast Iron Sewer Pipe Lining: 67 Ft Same-Day CIPP Job",
+    "metaDescription": "Four rooter calls in a year, and the bottom of a 1950s cast iron sewer was gone. We relined all 67 ft in Lakewood the day we inspected it, before it could collapse.",
+    "summary": "Four drain cleanings in twelve months, and the camera showed why: the floor of the 1950s pipe had rusted away. We lined it that same afternoon.",
+    "ssUrl": "https://sewer-solutions.com/projects/lakewood-same-day-cast-iron-sewer-lining/",
+    "ssAnchor": "Lakewood same-day cast iron sewer lining project",
+    "cippUrl": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/lakewood-67-ft-cast-iron-same-day-lining",
+    "services": [
+      "cipp-pipe-lining",
+      "sewer-camera-inspection",
+      "hydro-jetting"
+    ],
+    "sections": [
+      {
+        "h": "Four rooter calls in twelve months",
+        "html": "<p>This Lakewood homeowner had been paying to have her sewer line cleared for two years, and four of those visits came within the last twelve months. Each cleaning bought a little time. None of them explained why the backups kept coming back.</p>"
+      },
+      {
+        "h": "What the camera found",
+        "html": "<p>The house was built in the 1950s, and the cast iron sewer under it was original. When our technician ran the inspection camera, the cause of the repeat clogs was plain to see. Along much of the run, the invert, the bottom third of the pipe where wastewater flows, had corroded away completely. Sewage was running over bare soil, and no amount of rooting was going to fix a pipe with no floor.</p>"
+      },
+      {
+        "h": "Why the repair happened that afternoon",
+        "html": "<p>Iron that thin can give out without warning, and once a line collapses it can no longer be lined. It has to be dug up or burst. Our technician showed the homeowner the video, and instead of booking a return visit, the crew turned the appointment into the repair. They cleaned out the remains of the old pipe and put in a <a href=\"/cipp-pipe-lining/\">cured-in-place liner</a> through all 67 feet. Once cured, it formed a new continuous pipe with a smooth bottom that stands on its own, whatever happens to the rusted iron around it.</p>"
+      },
+      {
+        "h": "One afternoon instead of days of disruption",
+        "html": "<p>The homeowner had expected a torn-up yard and days without plumbing. The work was finished that afternoon, and she was close to tears when the crew packed up.</p>"
+      },
+      {
+        "h": "Mid-century sewers in Lakewood",
+        "html": "<p>A lot of Lakewood was built in the 1950s and '60s, and many of those homes still drain through their original cast iron. If you're calling a drain cleaner every few months, a <a href=\"/sewer-camera-inspection/\">sewer camera inspection</a> is the better next call. It shows whether no-dig pipe lining can end the cycle while the pipe is still intact enough to line. More on <a href=\"/jefferson-county/lakewood/\">trenchless sewer repair in Lakewood</a>.</p>"
+      }
+    ],
+    "url": "/projects/lakewood-cast-iron-sewer-pipe-lining-67-ft/",
+    "image": "/assets/img/projects/lakewood-cast-iron-sewer-pipe-lining-67-ft",
+    "imageAlt": "Illustration: CIPP lining of 67 ft of sewer line in Lakewood, CO",
+    "footageNum": "67"
   },
   {
+    "slug": "lafayette-no-dig-sewer-lining-44-ft-cast-iron",
+    "city": "lafayette",
+    "county": "boulder-county",
+    "place": "Lafayette",
+    "footage": "44 ft",
+    "material": "Cast iron",
+    "method": "CIPP lining",
+    "pipe": "4\" cast iron",
+    "property": "Residential",
+    "diagram": "lining",
+    "theme": "navy",
+    "specLine": "Cast iron near collapse · Porch & driveway saved",
+    "title": "Lafayette No-Dig Sewer Lining: 44 Feet of Failing Cast Iron, Porch and Driveway Left Alone",
+    "cardTitle": "44 ft of near-collapse cast iron lined in Lafayette",
+    "metaTitle": "Lafayette No-Dig Sewer Lining: 44 Ft Cast Iron CIPP Project",
+    "metaDescription": "The only quote meant tearing out a Lafayette porch and driveway. Our camera found cast iron near collapse but still lineable, and we relined 44 ft the next morning.",
+    "summary": "The other estimate meant breaking up the porch and driveway. The pipe could still take a liner, so we relined it the next morning instead.",
+    "ssUrl": "https://sewer-solutions.com/projects/lafayette-sewer-lining-instead-of-excavation/",
+    "ssAnchor": "Lafayette sewer lining instead of excavation project",
+    "cippUrl": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/lafayette-44-ft-lining-vs-excavation",
+    "services": [
+      "cipp-pipe-lining",
+      "trenchless-sewer-repair",
+      "sewer-camera-inspection"
+    ],
+    "sections": [
+      {
+        "h": "The bathroom the family gave up on",
+        "html": "<p>In this Lafayette home, the downstairs guest bathroom overflowed often enough that the family had written it off entirely. The only repair estimate they had called for conventional excavation: demolishing the front porch and a section of the driveway just to expose the sewer. After eight years in the house, the owner had no intention of paying that much for a sewer line.</p>"
+      },
+      {
+        "h": "Near the end, but still lineable",
+        "html": "<p>Our <a href=\"/sewer-camera-inspection/\">sewer camera inspection</a> found cast iron in rough shape, and our technician judged it close to collapse. The key word was close. The pipe still held enough of its shape to serve as a host for a liner, and once it gives way, that option is gone. So the repair went on the calendar for the next morning.</p>"
+      },
+      {
+        "h": "Relining 44 feet without touching the concrete",
+        "html": "<p>The crew pulled a resin-wetted liner the length of the 44-foot run, then inflated a bladder inside it to press the liner tight against the deteriorated iron while the resin cured. The result is a new structural pipe that holds its own shape inside the old one. A final camera pass confirmed the line was clean and flowing.</p>"
+      },
+      {
+        "h": "A fraction of the excavation quote",
+        "html": "<p>The family has its guest bathroom back. Nobody touched the porch or driveway, and the final bill was a small share of the excavation estimate. That's common with <a href=\"/trenchless-sewer-repair/\">trenchless sewer repair</a> in Boulder County: when the pipe can still take a liner, there's no reason to break up concrete to reach it. More on <a href=\"/boulder-county/lafayette/\">sewer repair in Lafayette</a>.</p>"
+      }
+    ],
+    "url": "/projects/lafayette-no-dig-sewer-lining-44-ft-cast-iron/",
+    "image": "/assets/img/projects/lafayette-no-dig-sewer-lining-44-ft-cast-iron",
+    "imageAlt": "Illustration: CIPP lining of 44 ft of sewer line in Lafayette, CO",
+    "footageNum": "44"
+  },
+  {
+    "slug": "littleton-clay-sewer-lining-72-ft-no-excavation",
     "city": "littleton",
     "county": "arapahoe-county",
     "place": "Littleton",
     "footage": "72 ft",
     "material": "Vitrified clay",
     "method": "CIPP lining",
-    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/littleton-72-ft-clay-lining-from-inside",
-    "summary": "A front yard full of vintage cars ruled out digging. The clay line was jetted clean and lined from inside the house."
+    "pipe": "4\" vitrified clay",
+    "property": "Residential",
+    "diagram": "lining",
+    "theme": "teal",
+    "specLine": "4\" clay, lined from inside the house · Residential",
+    "title": "Littleton Trenchless Pipe Lining: 72 Feet of Clay Sewer Relined From Inside the House",
+    "cardTitle": "72 ft of clay sewer lined from indoors in Littleton",
+    "metaTitle": "Littleton Trenchless Pipe Lining: 72 Ft Clay Sewer, No Excavation",
+    "metaDescription": "A Littleton front yard full of vintage cars ruled out digging. We hydro jetted a cracked clay sewer and relined all 72 ft from inside the house. Nothing had to move.",
+    "summary": "A front yard full of vintage cars meant no digging. We jetted the cracked clay line clean and lined all 72 feet from inside the house.",
+    "ssUrl": "https://sewer-solutions.com/projects/littleton-clay-sewer-lining-no-dig/",
+    "ssAnchor": "Littleton clay sewer lining project",
+    "cippUrl": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/littleton-72-ft-clay-lining-from-inside",
+    "services": [
+      "cipp-pipe-lining",
+      "hydro-jetting",
+      "sewer-camera-inspection"
+    ],
+    "sections": [
+      {
+        "h": "A yard full of classic cars",
+        "html": "<p>The owner of this Littleton home started the conversation by telling us he would rather put the house on the market than pay for a major sewer job. His line was backing up, and his front yard was home to his collection of vintage automobiles, which he had no plans to move. Between the budget and the cars, digging was never going to happen.</p>"
+      },
+      {
+        "h": "Cracked clay and roots",
+        "html": "<p>The camera inspection showed a 4-inch vitrified clay lateral with cracks along the run and roots working their way inside. Clay usually breaks down where sections meet and wherever the ground has stressed it, but it tends to keep its overall shape, which often makes it a strong candidate for cured-in-place pipe lining.</p>"
+      },
+      {
+        "h": "Jet it clean, then line it from indoors",
+        "html": "<p>A liner bonds best to a clean pipe wall, so the crew started with <a href=\"/hydro-jetting/\">hydro jetting</a> to scour out the roots and buildup. Then, entering the line from inside the home, they installed and cured a <a href=\"/cipp-pipe-lining/\">CIPP liner</a> through the full 72 feet. Not one car moved, and nothing in the yard was touched.</p>"
+      },
+      {
+        "h": "The house, the cars and the budget all stayed put",
+        "html": "<p>The owner kept his house and his collection, and the sewer stopped backing up, at a price well below what he'd feared. Whatever sits on top of your sewer, whether it's a patio, a mature tree or a row of classic cars, a camera inspection will tell you whether a no-dig repair can work around it. More on <a href=\"/arapahoe-county/littleton/\">trenchless sewer repair in Littleton</a>.</p>"
+      }
+    ],
+    "url": "/projects/littleton-clay-sewer-lining-72-ft-no-excavation/",
+    "image": "/assets/img/projects/littleton-clay-sewer-lining-72-ft-no-excavation",
+    "imageAlt": "Illustration: CIPP lining of 72 ft of sewer line in Littleton, CO",
+    "footageNum": "72"
   },
   {
+    "slug": "thornton-sewer-line-replacement-pipe-bursting",
     "city": "thornton",
     "county": "adams-county",
     "place": "Thornton",
     "footage": "48 ft",
     "material": "Cast iron",
     "method": "Pipe bursting",
-    "url": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/thornton-48-ft-pipe-bursting",
-    "summary": "Bursting beat lining on price for this run, and two small pits kept clear of the big shade trees in the middle of the yard."
+    "pipe": "4\" cast iron → HDPE",
+    "property": "Residential",
+    "diagram": "bursting",
+    "theme": "teal",
+    "specLine": "Cast iron replaced with HDPE · Shade trees saved",
+    "title": "Thornton Sewer Line Replacement: 48 Feet Burst in Place Without Harming the Shade Trees",
+    "cardTitle": "48 ft of cast iron burst and replaced in Thornton",
+    "metaTitle": "Thornton Sewer Line Replacement: 48 Ft Pipe Bursting, Trees Saved",
+    "metaDescription": "A second opinion on a Thornton cast iron sewer. Pipe bursting cost less than lining for this 48 ft run, and two small pits kept clear of the yard's big shade trees.",
+    "summary": "A second-opinion call. Bursting came in under lining for this run, and two small pits stayed well away from the big shade trees.",
+    "ssUrl": "https://sewer-solutions.com/projects/thornton-pipe-bursting-cast-iron-sewer/",
+    "ssAnchor": "Thornton cast iron pipe bursting project",
+    "cippUrl": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/thornton-48-ft-pipe-bursting",
+    "services": [
+      "pipe-bursting",
+      "sewer-line-replacement",
+      "cipp-pipe-lining"
+    ],
+    "sections": [
+      {
+        "h": "A second opinion, and one firm condition",
+        "html": "<p>These Thornton homeowners already had a quote for their cast iron sewer lateral and wanted a second set of eyes before signing anything. They had one firm condition: the large shade trees at the center of the lawn had to come through the repair unharmed.</p>"
+      },
+      {
+        "h": "Lining or bursting?",
+        "html": "<p>After inspecting the roughly 48-foot run and walking the property, our technician confirmed that <a href=\"/pipe-bursting/\">pipe bursting</a> would work, and that for this particular line it would cost less than <a href=\"/cipp-pipe-lining/\">CIPP lining</a>. Bursting also gives the owner a brand-new pipe in place of the old one, not a new pipe inside it.</p>"
+      },
+      {
+        "h": "Two small pits, well clear of the roots",
+        "html": "<p>A conventional trench would have cut straight through the trees' root zones. Bursting needed only two small access pits, placed well away from the roots. The crew winched a cone-shaped bursting head along the path of the old cast iron, splitting it as it went, with fused HDPE trailing behind. The result is one continuous pipe with no couplings anywhere for roots to squeeze into.</p>"
+      },
+      {
+        "h": "Finished in under a day",
+        "html": "<p>The whole replacement wrapped up in under a day, and the homeowner watched the crew work from start to finish. The trees, and the shade they give, are right where they were. Read more about <a href=\"/sewer-line-replacement/\">sewer line replacement</a> or <a href=\"/adams-county/thornton/\">trenchless sewer repair in Thornton</a>.</p>"
+      }
+    ],
+    "url": "/projects/thornton-sewer-line-replacement-pipe-bursting/",
+    "image": "/assets/img/projects/thornton-sewer-line-replacement-pipe-bursting",
+    "imageAlt": "Illustration: Pipe bursting of 48 ft of sewer line in Thornton, CO",
+    "footageNum": "48"
+  },
+  {
+    "slug": "centennial-cipp-lining-47-ft-cast-iron-no-dig",
+    "city": "centennial",
+    "county": "arapahoe-county",
+    "place": "Centennial",
+    "footage": "47 ft",
+    "material": "Cast iron",
+    "method": "CIPP lining",
+    "pipe": "4\" cast iron",
+    "property": "Residential",
+    "diagram": "lining",
+    "theme": "navy",
+    "specLine": "Flaking cast iron, lined from a cleanout · Residential",
+    "title": "Centennial CIPP Lining: 47 Feet of Flaking Cast Iron Relined With Zero Digging",
+    "cardTitle": "47 ft of flaking cast iron lined with no digging in Centennial",
+    "metaTitle": "Centennial CIPP Sewer Lining: 47 Ft Cast Iron, Zero Excavation",
+    "metaDescription": "A Centennial homeowner asked whether he needed bursting or lining. The camera showed flaking but intact cast iron, so we lined 47 ft from an indoor cleanout, no digging.",
+    "summary": "Flaking, cracking cast iron that hadn't collapsed yet. We lined it from a cleanout inside the house and never touched the lawn.",
+    "ssUrl": "https://sewer-solutions.com/projects/centennial-no-dig-cast-iron-sewer-lining/",
+    "ssAnchor": "Centennial no-dig cast iron sewer lining project",
+    "cippUrl": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/centennial-47-ft-lining-no-dig",
+    "services": [
+      "cipp-pipe-lining",
+      "pipe-bursting",
+      "sewer-camera-inspection"
+    ],
+    "sections": [
+      {
+        "h": "Bursting or lining? Let the camera decide",
+        "html": "<p>This Centennial homeowner had researched trenchless sewer repair before he called. He had narrowed it to <a href=\"/pipe-bursting/\">pipe bursting</a> versus <a href=\"/cipp-pipe-lining/\">CIPP lining</a> and asked us to settle it for his particular sewer. The camera is the only honest tiebreaker.</p>"
+      },
+      {
+        "h": "Cast iron in the early stage of failure",
+        "html": "<p>On video, his cast iron lateral was in the first phase of breaking down. The interior was scaling off, and fine cracks were forming along the pipe. Left alone, that kind of deterioration keeps thinning the wall until the pipe gives way. But nothing had collapsed, and the line was continuous from end to end. That is the situation cured-in-place lining is built for. Bursting would have thrown away pipe that was still a perfectly good host for a liner.</p>"
+      },
+      {
+        "h": "Lined through an indoor cleanout",
+        "html": "<p>Because the pipe was intact all the way to the street, nobody had to put a shovel in the lawn. Our technician fed the liner in through an existing indoor cleanout and pushed it roughly 47 feet to the city main, then gave the resin several hours to harden. The closing camera pass showed smooth, seamless pipe in place of the flaking iron.</p>"
+      },
+      {
+        "h": "Catch it before it collapses",
+        "html": "<p>If your Arapahoe County home still has its original cast iron sewer, get it on camera before it reaches the collapse stage. That's what keeps a no-dig repair on the table. More on <a href=\"/arapahoe-county/centennial/\">sewer repair in Centennial</a>.</p>"
+      }
+    ],
+    "url": "/projects/centennial-cipp-lining-47-ft-cast-iron-no-dig/",
+    "image": "/assets/img/projects/centennial-cipp-lining-47-ft-cast-iron-no-dig",
+    "imageAlt": "Illustration: CIPP lining of 47 ft of sewer line in Centennial, CO",
+    "footageNum": "47"
+  },
+  {
+    "slug": "denver-terra-cotta-sewer-lining-78-ft-roots",
+    "city": null,
+    "county": "denver",
+    "place": "Denver",
+    "footage": "78 ft",
+    "material": "Terra cotta",
+    "method": "CIPP lining",
+    "pipe": "4\" terra cotta clay",
+    "property": "Residential",
+    "diagram": "lining",
+    "theme": "teal",
+    "specLine": "4\" terra cotta, roots at every joint · Residential",
+    "title": "Denver Clay Sewer Pipe Lining: 78 Feet of Root-Choked Terra Cotta Sealed Without Digging",
+    "cardTitle": "78 ft of root-filled terra cotta lined in Denver",
+    "metaTitle": "Denver Clay Sewer Pipe Lining: 78 Ft of Root-Filled Terra Cotta",
+    "metaDescription": "Roots at every joint of a Denver terra cotta sewer. We reviewed the owner's video, cleared the roots and lined all 78 ft with CIPP. No excavation, no torn-up lawn.",
+    "summary": "Roots had found every joint in this old terra cotta line. We worked from the owner's own video, cleared it and lined all 78 feet without digging.",
+    "ssUrl": "https://sewer-solutions.com/projects/denver-terra-cotta-sewer-pipe-lining/",
+    "ssAnchor": "Denver terra cotta sewer pipe lining project",
+    "cippUrl": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/denver-78-ft-terra-cotta-lining",
+    "services": [
+      "cipp-pipe-lining",
+      "hydro-jetting",
+      "sewer-camera-inspection"
+    ],
+    "sections": [
+      {
+        "h": "The homeowner brought the video",
+        "html": "<p>We never line a pipe we haven't seen inside. This Denver homeowner already had a recent sewer inspection video and sent it over, so our technician could review it before anyone drove to the house.</p>"
+      },
+      {
+        "h": "Roots at every joint",
+        "html": "<p>The video covered roughly 78 feet of terra cotta clay pipe with scale built up on the walls and roots coming in at every joint. A clay line is really dozens of short pipe sections butted end to end, and every one of those seams is a gap a root can find. This one was failing in several places, but it was still one continuous run. That meant it could be rehabilitated instead of replaced.</p>"
+      },
+      {
+        "h": "Clear it, then line it end to end",
+        "html": "<p>After confirming the pipe was a good candidate for <a href=\"/cipp-pipe-lining/\">cured-in-place pipe lining</a>, we scheduled the job. The crew cut out the roots and cleared the buildup, then installed a CIPP liner through all 78 feet. After it cures, the liner becomes a single jointless pipe, and the gaps the roots were using no longer exist.</p>"
+      },
+      {
+        "h": "A fix for the cause, not the symptom",
+        "html": "<p>Nothing was dug up and the lawn was untouched. The homeowner said they'd be recommending us to friends and family. When roots keep returning to a clay sewer, lining removes the joints they come through instead of booking the next <a href=\"/hydro-jetting/\">root cutting</a>. More on <a href=\"/denver/\">trenchless sewer repair in Denver</a>.</p>"
+      }
+    ],
+    "url": "/projects/denver-terra-cotta-sewer-lining-78-ft-roots/",
+    "image": "/assets/img/projects/denver-terra-cotta-sewer-lining-78-ft-roots",
+    "imageAlt": "Illustration: CIPP lining of 78 ft of sewer line in Denver, CO",
+    "footageNum": "78"
+  },
+  {
+    "slug": "denver-no-dig-sewer-replacement-55-ft-cast-iron",
+    "city": null,
+    "county": "denver",
+    "place": "Denver",
+    "footage": "55 ft",
+    "material": "Cast iron",
+    "method": "Trenchless replacement",
+    "pipe": "4\" cast iron",
+    "property": "Residential",
+    "diagram": "bursting",
+    "theme": "navy",
+    "specLine": "70-year-old cast iron, roots & cracks · Residential",
+    "title": "Denver No-Dig Sewer Replacement: 55 Feet of 70-Year-Old Cast Iron Renewed Without a Trench",
+    "cardTitle": "55 ft of root-cracked cast iron replaced trenchlessly in Denver",
+    "metaTitle": "Denver No-Dig Sewer Replacement: 55 Ft of 70-Year-Old Cast Iron",
+    "metaDescription": "A kitchen leak in a 70-year-old Denver home led to a sewer camera, which found roots and cracks to the street. We renewed all 55 ft trenchlessly, with no trench in the yard.",
+    "summary": "A drip in the kitchen cabinet led to the camera, and the camera found roots and cracks out to the street. We renewed the line without a trench.",
+    "ssUrl": "https://sewer-solutions.com/projects/denver-trenchless-cast-iron-sewer-replacement/",
+    "ssAnchor": "Denver trenchless cast iron sewer replacement project",
+    "cippUrl": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/denver-55-ft-cast-iron-trenchless-replacement",
+    "services": [
+      "sewer-line-replacement",
+      "trenchless-sewer-repair",
+      "sewer-camera-inspection"
+    ],
+    "sections": [
+      {
+        "h": "A kitchen leak that led to the sewer",
+        "html": "<p>When this couple bought their Denver home, built about 70 years ago, they knew the plumbing would need work sooner or later. The first sign was water dripping in the cabinet under the kitchen sink. Following that drain back, we found original cast iron from the kitchen all the way out through the main house sewer.</p>"
+      },
+      {
+        "h": "Roots and cracks all the way to the street",
+        "html": "<p>The <a href=\"/sewer-camera-inspection/\">sewer camera inspection</a> found roots packed into the pipe and cracks running along the lateral from the foundation out to the street. Cast iron that old corrodes from the inside, and once roots get into the cracks they keep prying them wider. There was no sensible spot repair. The whole run needed renewing.</p>"
+      },
+      {
+        "h": "Replacement without the excavation",
+        "html": "<p>A new sewer was already in their budget. What they didn't want was the trench across the front yard that usually comes with one. We renewed the full 55-foot, 4-inch run using trenchless methods. They lived in the house normally throughout, and the front yard never saw a trench.</p>"
+      },
+      {
+        "h": "Post-war Denver homes and their original sewers",
+        "html": "<p>If you own one of Denver's post-war homes, there's a good chance the sewer under your yard is the one the house was built with. When that line reaches the end, a <a href=\"/sewer-line-replacement/\">no-dig sewer replacement</a> is usually possible, and it spares landscaping that took decades to grow. More on <a href=\"/denver/\">trenchless sewer repair in Denver</a>.</p>"
+      }
+    ],
+    "url": "/projects/denver-no-dig-sewer-replacement-55-ft-cast-iron/",
+    "image": "/assets/img/projects/denver-no-dig-sewer-replacement-55-ft-cast-iron",
+    "imageAlt": "Illustration: Trenchless replacement of 55 ft of sewer line in Denver, CO",
+    "footageNum": "55"
+  },
+  {
+    "slug": "arvada-sewer-spot-repair-and-cipp-lining-36-ft",
+    "city": "arvada",
+    "county": "jefferson-county",
+    "place": "Arvada",
+    "footage": "36 ft",
+    "material": "Cast iron",
+    "method": "Spot repair + CIPP lining",
+    "pipe": "4\" cast iron",
+    "property": "Residential (builder)",
+    "diagram": "lining",
+    "theme": "teal",
+    "specLine": "Spot repair + lining to the city main · Builder",
+    "title": "Arvada Sewer Spot Repair and CIPP Lining: One Small Pit, 36 Feet Relined to the Main",
+    "cardTitle": "Spot repair plus 36 ft of lining for a builder in Arvada",
+    "metaTitle": "Arvada Sewer Spot Repair + CIPP Lining: 36 Ft to the City Main",
+    "metaDescription": "An Arvada home builder sent his own sewer video. We repaired one cracked section through a small pit, then used it to CIPP line the remaining 36 ft to the main the next day.",
+    "summary": "A builder sent his own sewer video. We fixed the one cracked spot through a small pit, then used that pit to line the rest of the line to the main.",
+    "ssUrl": "https://sewer-solutions.com/projects/arvada-cast-iron-sewer-lining-spot-repair/",
+    "ssAnchor": "Arvada cast iron sewer lining and spot repair project",
+    "cippUrl": "https://curedinplacepipe.net/contractor/all-sewer-and-plumbing-services/projects/arvada-36-ft-cast-iron-lining",
+    "services": [
+      "cipp-pipe-lining",
+      "trenchless-sewer-repair",
+      "sewer-camera-inspection"
+    ],
+    "sections": [
+      {
+        "h": "A builder who knew what he wanted",
+        "html": "<p>Our customer on this Arvada job was a local builder, and lining wasn't new to him; he'd had it done on earlier houses. He knew the benefits, including a warrantied liner, a job done in a day and a lot that stays in one piece, and he wanted the same result here. His challenge was time. With several job sites to run, he couldn't stay on this one long enough for us to camera the line with him.</p>"
+      },
+      {
+        "h": "Diagnosing from his own video",
+        "html": "<p>Instead, he emailed over footage from a camera run he'd already paid for. The video showed a 4-inch cast iron sewer lateral with a single severely cracked section, and pipe in decent shape from there to the main. That made it a good fit for a combined approach: repair the single bad spot, then reline everything downstream to the city connection. We scheduled it for the next day.</p>"
+      },
+      {
+        "h": "One pit, two jobs",
+        "html": "<p>With the builder's go-ahead, the crew excavated a single small pit right over the damaged spot and fixed the fracture there. The same opening then served as the launch point for the lining. From the pit, a resin-saturated liner was pulled to the city main, relining the last 36 feet of cast iron, and a bladder held it tight against the old pipe for the few hours it took to cure. Pull the bladder, and what remains is an uninterrupted new pipe running inside the iron.</p>"
+      },
+      {
+        "h": "Why spot repair plus lining works",
+        "html": "<p>When a single section of a lateral is badly broken and everything else is only showing its age, repairing the break and lining the remainder gives you a structural, jointless line with a single small excavation. For this builder it went exactly as he expected, and for a repeat customer that is the whole point. See how <a href=\"/cipp-pipe-lining/\">CIPP pipe lining</a> works, or read more about <a href=\"/jefferson-county/arvada/\">trenchless sewer repair in Arvada</a>.</p>"
+      }
+    ],
+    "url": "/projects/arvada-sewer-spot-repair-and-cipp-lining-36-ft/",
+    "image": "/assets/img/projects/arvada-sewer-spot-repair-and-cipp-lining-36-ft",
+    "imageAlt": "Illustration: Spot repair + CIPP lining of 36 ft of sewer line in Arvada, CO",
+    "footageNum": "36"
   }
 ]
