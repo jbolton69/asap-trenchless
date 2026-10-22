@@ -29,6 +29,7 @@
 {% include "partials/footer.njk" %}
 {% include "partials/call-bar.njk" %}
 {% include "partials/privacy-notice.njk" %}
+{% if heroProof %}{% include "partials/video-modal.njk" %}{% endif %}
 {% include "partials/analytics.njk" %}
 <script>
 function ytActivate(el) {
@@ -42,7 +43,28 @@ function ytActivate(el) {
   f.allowFullscreen = true;
   el.appendChild(f);
 }
+var videoModal = document.getElementById('video-modal');
+function videoOpen() {
+  if (!videoModal) return;
+  var box = videoModal.querySelector('[data-yt]');
+  videoModal.classList.remove('hidden'); videoModal.classList.add('flex');
+  document.body.style.overflow = 'hidden';
+  ytActivate(box);
+  var c = videoModal.querySelector('[data-video-close]'); if (c) c.focus();
+  (window.dataLayer = window.dataLayer || []).push({ event: 'video_open', video_id: box.dataset.yt, page_path: location.pathname });
+}
+function videoClose() {
+  if (!videoModal || videoModal.classList.contains('hidden')) return;
+  var box = videoModal.querySelector('[data-yt]');
+  box.innerHTML = ''; delete box.dataset.loaded;
+  videoModal.classList.add('hidden'); videoModal.classList.remove('flex');
+  document.body.style.overflow = '';
+}
 document.addEventListener('click', function (e) {
+  if (e.target.closest('[data-video-open]')) { e.preventDefault(); videoOpen(); return; }
+  if (e.target.closest('[data-video-close]') || e.target === videoModal) { videoClose(); return; }
+  var rv = e.target.closest('[data-reviews-link]');
+  if (rv) { (window.dataLayer = window.dataLayer || []).push({ event: 'reviews_click', page_path: location.pathname }); }
   var cb = e.target.closest('[data-callbar]');
   if (cb) { (window.dataLayer = window.dataLayer || []).push({ event: 'callbar_click', page_path: location.pathname }); }
   var yt = e.target.closest('[data-yt]');
@@ -53,6 +75,7 @@ document.addEventListener('click', function (e) {
   if (el) { el.hidden = !el.hidden; t.setAttribute('aria-expanded', el.hidden ? 'false' : 'true'); }
 });
 document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape') { videoClose(); return; }
   if (e.key !== 'Enter' && e.key !== ' ') return;
   var yt = e.target.closest && e.target.closest('[data-yt]');
   if (yt) { e.preventDefault(); ytActivate(yt); }

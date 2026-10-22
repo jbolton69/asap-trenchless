@@ -1,4 +1,5 @@
 ---
+heroProof: true
 pagination:
   data: cities
   size: 1
@@ -33,6 +34,7 @@ eleventyComputed:
       <a class="btn-ghost" href="#quote">Free estimate</a>
     </div>
     <p class="mt-4 text-sm text-white/60">{{ site.phoneCta }} &middot; {{ site.hours }}</p>
+    {% include "partials/hero-proof.njk" %}
   </div>
 </section>
 

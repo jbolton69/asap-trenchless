@@ -4,6 +4,7 @@ title: "Trenchless Sewer Repair in Denver & the Colorado Front Range"
 metaTitle: "Trenchless Sewer Repair Denver & Front Range | All Sewer & Plumbing"
 metaDescription: "No-dig sewer line repair across the Denver metro and Colorado Front Range since 2009. CIPP lining, pipe bursting and camera inspection. Open 24/7. Estimates are free."
 hasVideo: true
+heroProof: true
 ---
 <section class="relative isolate overflow-hidden bg-ink-950 text-white">
   {% if site.heroBackground.image and site.heroBackground.opacity > 0 %}
@@ -40,6 +41,7 @@ hasVideo: true
         <a class="btn-ghost text-base" href="#quote">Get a free estimate</a>
       </div>
       <p class="mt-3 text-sm font-semibold text-accent-400">{{ site.phoneCta }} {{ site.hours }}.</p>
+      {% include "partials/hero-proof.njk" %}
       <dl class="mt-10 grid max-w-lg grid-cols-2 gap-x-6 gap-y-4 text-sm sm:grid-cols-4">
         {% for t in site.trustPoints %}
         <div>

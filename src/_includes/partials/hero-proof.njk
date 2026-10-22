@@ -1,0 +1,37 @@
+{#
+  Above-the-fold proof row for the dark heroes (home, service pages, county hubs).
+  Two conversion aids: "See how it works" opens the process video in a modal
+  (partials/video-modal.njk, included by base.njk when heroProof is set), and a
+  Google-reviews pill showing the live rating + count from _data/reviews.json
+  (refreshed by `npm run reviews:refresh`). Nothing from YouTube loads until the
+  button is clicked.
+#}
+<div class="mt-6 flex flex-wrap items-center gap-3 sm:gap-4">
+  <button type="button" data-video-open
+    class="group inline-flex items-center gap-3 rounded-full border border-white/25 bg-white/10 py-1.5 pl-1.5 pr-5 text-sm font-semibold text-white backdrop-blur transition hover:border-accent-400/70 hover:bg-white/15 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950"
+    aria-haspopup="dialog" aria-controls="video-modal">
+    <span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-accent-500 text-ink-950 shadow-lg transition group-hover:scale-105">
+      <svg class="ml-0.5 h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+    </span>
+    <span class="flex flex-col text-left leading-tight">
+      <span>See how it works</span>
+      <span class="text-xs font-normal text-white/65">{{ site.video.duration or "Short video" }} &middot; no digging, start to finish</span>
+    </span>
+  </button>
+
+  {% if reviews.rating and reviews.profileUrl and "REPLACE" not in reviews.profileUrl %}
+  <a href="{{ reviews.profileUrl }}" target="_blank" rel="noopener nofollow" data-reviews-link
+    class="group inline-flex items-center gap-3 rounded-full border border-white/25 bg-white/10 py-1.5 pl-1.5 pr-5 text-sm font-semibold text-white backdrop-blur transition hover:border-accent-400/70 hover:bg-white/15 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950">
+    <span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white font-display text-lg font-bold text-ink-950 shadow-lg">{{ reviews.rating }}</span>
+    <span class="flex flex-col text-left leading-tight">
+      <span class="flex items-center gap-1.5">
+        <span class="flex gap-0.5" aria-hidden="true">
+          {% for i in range(0, 5) %}<svg class="h-3.5 w-3.5 text-accent-400" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 15l-5.2 2.6 1-5.8L1.5 7.7l5.9-.9z"/></svg>{% endfor %}
+        </span>
+        <span>{{ reviews.count }} Google reviews</span>
+      </span>
+      <span class="text-xs font-normal text-white/65 group-hover:text-white/85">Read our reviews on Google &rarr;</span>
+    </span>
+  </a>
+  {% endif %}
+</div>
