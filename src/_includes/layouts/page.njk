@@ -1,8 +1,9 @@
 ---
 layout: layouts/base.njk
 ---
-<section class="bg-gradient-to-b from-brand-950 to-brand-800 text-white">
-  <div class="container-x py-14 sm:py-20">
+<section class="relative overflow-hidden bg-gradient-to-b from-brand-950 to-brand-800 text-white">
+  <div class="container-x relative py-14 sm:py-20 {% if site.heroTech.enabled and heroTech != false %} lg:min-h-[19rem] lg:pr-72 xl:min-h-[24rem] xl:pr-[22rem]{% endif %}">
+    {% include "partials/hero-tech.njk" %}
     {% if breadcrumbs %}
     <nav aria-label="Breadcrumb" class="mb-5 text-xs text-white/60">
       {% for b in breadcrumbs %}<a class="hover:text-white" href="{{ b.url }}">{{ b.name }}</a>{% if not loop.last %} <span class="px-1">/</span> {% endif %}{% endfor %}

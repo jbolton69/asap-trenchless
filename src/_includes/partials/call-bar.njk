@@ -1,0 +1,29 @@
+{#
+  Mobile sticky call bar — phones and tablets only (hidden from lg / 1024px up,
+  where the hero technician cutout does this job). Pinned to the bottom of the
+  screen on every page: round technician headshot, "Estimates are free. Call now."
+  and a one-tap call button carrying the page's phone number (county number on
+  county/city pages via the `phone` front-matter key, toll-free elsewhere).
+
+  Switch: site.callBar.enabled (src/_data/site.json). Per-page opt-out:
+  callBar: false in front matter. The tel: link fires the same GTM tel-click
+  trigger as every other phone link, so Google Ads keeps counting the calls;
+  it also pushes a `callbar_click` dataLayer event for separate reporting.
+  Body gets pb-20 lg:pb-0 (base.njk) so the bar never covers footer content.
+#}
+{% if site.callBar.enabled and callBar != false %}
+{% set barPhone = phone or site.phone %}
+<div id="call-bar" class="fixed inset-x-0 bottom-0 z-40 border-t border-white/10 bg-ink-950 text-white shadow-[0_-6px_24px_rgba(0,0,0,0.35)] lg:hidden" style="padding-bottom: env(safe-area-inset-bottom);">
+  <div class="flex items-center gap-3 px-4 py-2.5">
+    <img src="/assets/img/all_sewer_plumbing_services_technicians_headshot-112.webp" srcset="/assets/img/all_sewer_plumbing_services_technicians_headshot-112.webp 1x, /assets/img/all_sewer_plumbing_services_technicians_headshot-168.webp 2x" alt="" aria-hidden="true" width="56" height="56" class="h-14 w-14 shrink-0 rounded-full ring-2 ring-accent-500/80" loading="lazy" decoding="async">
+    <p class="min-w-0 flex-1 leading-tight">
+      <span class="block font-display text-lg font-bold text-white">Estimates are free.</span>
+      <span class="block text-[13px] text-white/70">Call now &mdash; our friendly staff is standing by.</span>
+    </p>
+    <a class="btn-primary shrink-0 whitespace-nowrap px-4 py-3 text-base" href="tel:+1{{ barPhone | phoneDigits }}" data-callbar aria-label="Call {{ barPhone }}">
+      <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M6.6 2.6a1.5 1.5 0 0 1 1.7.6l1.3 2.2a1.5 1.5 0 0 1-.2 1.8L8.3 8.3a10.8 10.8 0 0 0 3.4 3.4l1.1-1.1a1.5 1.5 0 0 1 1.8-.2l2.2 1.3a1.5 1.5 0 0 1 .6 1.7l-.6 1.9a1.5 1.5 0 0 1-1.5 1C8.8 16.1 3.9 11.2 3.7 4.7a1.5 1.5 0 0 1 1-1.5z"/></svg>
+      Call
+    </a>
+  </div>
+</div>
+{% endif %}

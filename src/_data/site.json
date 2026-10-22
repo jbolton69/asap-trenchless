@@ -47,6 +47,15 @@
     "venue": "Adams County, Colorado",
     "effectiveDate": "REPLACE — the date these terms go live"
   },
+  "heroTech": {
+    "enabled": true,
+    "min": "lg",
+    "note": "Crew cutout at the bottom-right of every hero band (partials/hero-tech.njk). enabled false removes it site-wide; heroTech: false in a page's front matter removes it from that page. min is the Tailwind breakpoint it appears from (lg = 1024px, xl = 1280px); the home page forces xl because the dispatch card needs the width."
+  },
+  "callBar": {
+    "enabled": true,
+    "note": "Mobile sticky call bar at the bottom of the screen on phones/tablets (partials/call-bar.njk): technician headshot + 'Estimates are free. Call now.' + one-tap call button with the page's phone number. enabled false removes it site-wide; callBar: false in a page's front matter removes it from that page. Hidden from 1024px up, where the hero crew cutout (heroTech) takes over."
+  },
   "heroBackground": {
     "image": "hero-old-pipe",
     "alt": "",

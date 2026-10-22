@@ -21,7 +21,8 @@ eleventyComputed:
 {% set countyCities = cities | where("county", county.slug) %}
 {% set countyProjects = projects | where("county", county.slug) %}
 <section class="relative overflow-hidden bg-gradient-to-b from-brand-950 to-brand-800 text-white">
-  <div class="container-x py-16 sm:py-24">
+  <div class="container-x relative py-16 sm:py-24 {% if site.heroTech.enabled and heroTech != false %} lg:min-h-[19rem] lg:pr-72 xl:min-h-[24rem] xl:pr-[22rem]{% endif %}">
+    {% include "partials/hero-tech.njk" %}
     <nav aria-label="Breadcrumb" class="mb-5 text-xs text-white/60">
       <a class="hover:text-white" href="/">Home</a> <span class="px-1">/</span>
       <a class="hover:text-white" href="/service-areas/">Service Areas</a> <span class="px-1">/</span>

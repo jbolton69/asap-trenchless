@@ -1,0 +1,24 @@
+{#
+  Crew cutout (two technicians; replaced the single-tech photo 2026-10-21) anchored to the bottom-right of a hero band, directly
+  under the main menu. Eye contact next to the phone/CTA lifts conversions.
+  Decorative (empty alt) so screen readers skip it.
+
+  Switch: site.heroTech.enabled (src/_data/site.json). Per-page opt-out:
+  heroTech: false in front matter. Shown from the `min` breakpoint up
+  (site.heroTech.min = "lg" or "xl"); phones/tablets never load it.
+  Source files (TSR crew photo, renamed per site): src/assets/img/all_sewer_plumbing_services_technicians-{320,480,640}.webp
+  Must be included INSIDE a `relative` wrapper: the hero's `container-x relative`
+  div (inner pages: he stands at its bottom-right) or, on the home page, the
+  county-dispatch card wrapper with techClass overriding his position. Tailwind safelist (keep): lg:block xl:block
+#}
+{% set techMin = min or site.heroTech.min or "lg" %}
+{% set techPos = techClass or "bottom-0 right-0" %}
+{% if site.heroTech.enabled and heroTech != false %}
+<img
+  src="/assets/img/all_sewer_plumbing_services_technicians-480.webp"
+  srcset="/assets/img/all_sewer_plumbing_services_technicians-320.webp 320w, /assets/img/all_sewer_plumbing_services_technicians-480.webp 480w, /assets/img/all_sewer_plumbing_services_technicians-640.webp 640w"
+  sizes="(min-width: 1280px) 320px, 256px"
+  alt="" aria-hidden="true" width="640" height="709"
+  loading="eager" fetchpriority="high" decoding="async"
+  class="pointer-events-none absolute {{ techPos }} z-0 hidden w-64 select-none drop-shadow-[0_12px_24px_rgba(0,0,0,0.45)] {{ techMin }}:block xl:w-80">
+{% endif %}

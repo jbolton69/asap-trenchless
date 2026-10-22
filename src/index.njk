@@ -23,7 +23,8 @@ hasVideo: true
   <div class="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-t from-ink-950/95 via-transparent to-ink-950/40" aria-hidden="true"></div>
   {% endif %}
   <div class="absolute inset-0 -z-10 bg-[radial-gradient(60%_60%_at_70%_0%,rgba(29,113,240,0.28),transparent)]" aria-hidden="true"></div>
-  <div class="container-x relative grid gap-12 py-16 sm:py-24 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+  <div class="container-x relative grid gap-12 py-16 sm:py-24 lg:grid-cols-[1.1fr_0.9fr] lg:items-center {% if site.heroTech.enabled and heroTech != false %} xl:pr-80{% endif %}">
+    {% set min = "xl" %}{% include "partials/hero-tech.njk" %}
     <div>
       <p class="inline-flex items-center gap-2 rounded-full border border-accent-500/40 bg-accent-500/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.14em] text-accent-400">
         <span class="h-1.5 w-1.5 rounded-full bg-accent-400"></span> Since {{ site.since }} &middot; Denver metro &amp; Front Range

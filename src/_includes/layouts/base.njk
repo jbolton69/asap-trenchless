@@ -21,12 +21,13 @@
 {% include "partials/schema.njk" %}
 {% block head %}{% endblock %}
 </head>
-<body class="flex min-h-screen flex-col">
+<body class="flex min-h-screen flex-col{% if site.callBar.enabled and callBar != false %} pb-20 lg:pb-0{% endif %}">
 {% include "partials/header.njk" %}
 <main id="main" class="flex-1">
 {{ content | safe }}
 </main>
 {% include "partials/footer.njk" %}
+{% include "partials/call-bar.njk" %}
 {% include "partials/privacy-notice.njk" %}
 {% include "partials/analytics.njk" %}
 <script>
@@ -42,6 +43,8 @@ function ytActivate(el) {
   el.appendChild(f);
 }
 document.addEventListener('click', function (e) {
+  var cb = e.target.closest('[data-callbar]');
+  if (cb) { (window.dataLayer = window.dataLayer || []).push({ event: 'callbar_click', page_path: location.pathname }); }
   var yt = e.target.closest('[data-yt]');
   if (yt) { ytActivate(yt); return; }
   var t = e.target.closest('[data-toggle]');
