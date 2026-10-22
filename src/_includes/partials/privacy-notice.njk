@@ -59,7 +59,7 @@
   function setOptOut(on) {
     optedOut = on;
     ls('set', K_OPTOUT, on ? '1' : '0');
-    if (on && window.gtag) { window.gtag('consent', 'update', { analytics_storage: 'denied' }); }
+    if (on && window.gtag) { window.gtag('consent', 'update', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' }); }
     toast(on ? 'Opted out. Analytics disabled on this browser.' : 'Analytics re-enabled on this browser.');
   }
 

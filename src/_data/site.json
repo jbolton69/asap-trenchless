@@ -40,7 +40,14 @@
     "ga4MeasurementId": "G-2JQZ3Q7M7X",
     "ga4Enabled": true,
     "clickCeaseEnabled": true,
-    "note": "GA4 property asap-trenchless.com (555837305) in account The Trenchless Team (321379761), web stream 15840369577."
+    "adsEnabled": true,
+    "adsId": "AW-1008600550",
+    "adsLabels": {
+      "callFromPage": "uympCK-_k6YdEOaL-OAD",
+      "phoneClick": "LNzICPfCk6YdEOaL-OAD",
+      "formSubmission": "NboZCLK_k6YdEOaL-OAD"
+    },
+    "note": "GA4 property asap-trenchless.com (555837305) in account The Trenchless Team (321379761), web stream 15840369577. Google Ads 636-538-2329 conversion actions created 2026-10-22: All Sewer Call From Page (number swap, Primary), All Sewer Phone Click (Secondary), All Sewer Form Submission (Primary, fires on /thank-you/)."
   },
   "legal": {
     "entity": "All Sewer and Plumbing Services, LLC",

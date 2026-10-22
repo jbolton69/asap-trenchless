@@ -12,7 +12,13 @@
 </noscript>
 {% endif %}
 
-{# Google Analytics 4 — loaded only when the visitor has not opted out and is not sending GPC. #}
+{# Google tag (GA4 + Google Ads) — loaded only when the visitor has not opted out and is not sending GPC.
+   Consent defaults are "granted" (US/Colorado opt-out model); the privacy notice revokes every
+   storage type on opt-out. Google Ads conversions (site.analytics.adsLabels):
+     callFromPage   — "Calls from website" number swap (720) 606-6223, config on every page
+     phoneClick     — fires on any tel: click
+     formSubmission — fires once on /thank-you/ (Web3Forms redirect target)                   #}
+{% set adsOn = site.analytics.adsEnabled and site.analytics.adsId %}
 {% if site.analytics.ga4Enabled and site.analytics.ga4MeasurementId %}
 <script>
 (function () {
@@ -23,9 +29,9 @@
   window.gtag = gtag;
 
   gtag('consent', 'default', {
-    ad_storage: 'denied',
-    ad_user_data: 'denied',
-    ad_personalization: 'denied',
+    ad_storage: 'granted',
+    ad_user_data: 'granted',
+    ad_personalization: 'granted',
     analytics_storage: 'granted'
   });
 
@@ -36,6 +42,26 @@
 
   gtag('js', new Date());
   gtag('config', '{{ site.analytics.ga4MeasurementId }}', { anonymize_ip: true });
+{% if adsOn %}
+  gtag('config', '{{ site.analytics.adsId }}');
+{% if site.analytics.adsLabels.callFromPage %}
+  // Google Ads call tracking: swaps {{ site.phone }} for a Google forwarding number on ad-click visits.
+  gtag('config', '{{ site.analytics.adsId }}/{{ site.analytics.adsLabels.callFromPage }}', {
+    'phone_conversion_number': '{{ site.phone }}'
+  });
+{% endif %}
+{% if site.analytics.adsLabels.formSubmission and page.url == '/thank-you/' %}
+  gtag('event', 'conversion', { 'send_to': '{{ site.analytics.adsId }}/{{ site.analytics.adsLabels.formSubmission }}' });
+{% endif %}
+{% if site.analytics.adsLabels.phoneClick %}
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="tel:"]');
+    if (!a) return;
+    gtag('event', 'conversion', { 'send_to': '{{ site.analytics.adsId }}/{{ site.analytics.adsLabels.phoneClick }}' });
+    gtag('event', 'phone_click', { 'phone_number': a.getAttribute('href').replace('tel:', '') });
+  }, true);
+{% endif %}
+{% endif %}
 })();
 </script>
 {% endif %}
