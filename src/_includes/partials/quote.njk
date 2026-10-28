@@ -29,8 +29,9 @@
       {% if site.form.accessKey and "REPLACE" not in site.form.accessKey %}
       <form class="mt-6 grid gap-4" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="{{ site.form.accessKey }}">
-        <input type="hidden" name="subject" value="New estimate request — {{ site.shortName }} website">
-        <input type="hidden" name="from_name" value="{{ site.shortName }} website">
+        <input type="hidden" name="subject" value="New lead — {{ site.name }} (Natural Media)">
+        <input type="hidden" name="from_name" value="Natural Media Leads">
+        {% if site.form.ccEmail %}<input type="hidden" name="ccemail" value="{{ site.form.ccEmail }}">{% endif %}
         <input type="hidden" name="redirect" value="{{ site.url }}/thank-you/">
         <div class="grid gap-4 sm:grid-cols-2">
           <label class="block text-sm font-semibold">Name
