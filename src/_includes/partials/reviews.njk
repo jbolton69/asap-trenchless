@@ -31,7 +31,7 @@
     <div class="mt-10 grid items-start gap-6 {% if shown | length > 1 %}md:grid-cols-3{% endif %}">
       {% for r in shown %}
       <figure class="card flex flex-col">
-        <div class="flex gap-0.5" aria-label="{{ r.stars }} out of 5 stars">
+        <div class="flex gap-0.5" role="img" aria-label="{{ r.stars }} out of 5 stars">
           {% for i in range(0, r.stars) %}
           <svg class="h-4 w-4 text-accent-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 15l-5.2 2.6 1-5.8L1.5 7.7l5.9-.9z"/></svg>
           {% endfor %}

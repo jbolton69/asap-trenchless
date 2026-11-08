@@ -5,7 +5,7 @@ layout: layouts/base.njk
 <article>
   <header class="bg-gradient-to-b from-brand-950 to-brand-800 text-white">
     <div class="container-x py-14 sm:py-18">
-      <nav aria-label="Breadcrumb" class="mb-5 text-xs text-white/60">
+      <nav aria-label="Breadcrumb" class="mb-5 text-xs text-white/85">
         <a class="hover:text-white" href="/">Home</a> <span class="px-1">/</span>
         <a class="hover:text-white" href="/blog/">Blog</a> <span class="px-1">/</span>
         <span class="text-white/80">{{ title }}</span>
@@ -19,7 +19,7 @@ layout: layouts/base.njk
       {% endif %}
       <h1 class="mt-4 max-w-4xl text-4xl text-white sm:text-5xl">{{ title }}</h1>
       {% if description %}<p class="mt-5 max-w-2xl text-lg text-white/80">{{ description }}</p>{% endif %}
-      <p class="mt-6 text-sm text-white/60">
+      <p class="mt-6 text-sm text-white/85">
         <time datetime="{{ date | isoDate }}">{{ date | readableDate }}</time>
         <span class="px-2">&middot;</span>{{ mins }} min read
         {% if author %}<span class="px-2">&middot;</span>{{ author }}{% endif %}

@@ -22,7 +22,7 @@ eleventyComputed:
   {% set heroKey = city.slug %}{% include "partials/hero-bg.njk" %}
   <div class="container-x relative py-14 sm:py-20 {% if site.heroTech.enabled and heroTech != false %} lg:min-h-[19rem] lg:pr-72 xl:min-h-[24rem] xl:pr-[22rem]{% endif %}">
     {% include "partials/hero-tech.njk" %}
-    <nav aria-label="Breadcrumb" class="mb-5 text-xs text-white/60">
+    <nav aria-label="Breadcrumb" class="mb-5 text-xs text-white/85">
       <a class="hover:text-white" href="/">Home</a> <span class="px-1">/</span>
       <a class="hover:text-white" href="/{{ countyObj.slug }}/">{{ countyObj.name }}</a> <span class="px-1">/</span>
       <span class="text-white/80">{{ city.name }}</span>
@@ -34,7 +34,7 @@ eleventyComputed:
       <a class="btn-primary" href="tel:+1{{ site.phone | phoneDigits }}">Call {{ site.phone }}</a>
       <a class="btn-ghost" href="#quote">Free estimate</a>
     </div>
-    <p class="mt-4 text-sm text-white/60">{{ site.phoneCta }} &middot; {{ site.hours }}</p>
+    <p class="mt-4 text-sm text-white/85">{{ site.phoneCta }} &middot; {{ site.hours }}</p>
     {% include "partials/hero-proof.njk" %}
   </div>
 </section>
