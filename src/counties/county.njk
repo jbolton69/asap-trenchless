@@ -21,7 +21,8 @@ eleventyComputed:
 ---
 {% set countyCities = cities | where("county", county.slug) %}
 {% set countyProjects = projects | where("county", county.slug) %}
-<section class="relative overflow-hidden bg-gradient-to-b from-brand-950 to-brand-800 text-white">
+<section class="relative isolate overflow-hidden bg-gradient-to-b from-brand-950 to-brand-800 text-white">
+  {% set heroKey = county.slug %}{% include "partials/hero-bg.njk" %}
   <div class="container-x relative py-16 sm:py-24 {% if site.heroTech.enabled and heroTech != false %} lg:min-h-[19rem] lg:pr-72 xl:min-h-[24rem] xl:pr-[22rem]{% endif %}">
     {% include "partials/hero-tech.njk" %}
     <nav aria-label="Breadcrumb" class="mb-5 text-xs text-white/60">
@@ -30,7 +31,7 @@ eleventyComputed:
       <span class="text-white/80">{{ county.name }}</span>
     </nav>
     <p class="text-xs font-bold uppercase tracking-[0.18em] text-accent-400">{{ county.name }}, Colorado{% if county.home %} &middot; Home base{% endif %}</p>
-    <h1 class="mt-3 max-w-4xl text-4xl text-white sm:text-5xl lg:text-6xl">Trenchless Sewer Repair in {{ county.name }}</h1>
+    {% set typedFirst = "Trenchless Sewer Repair|*in " + county.name + "*" %}{% set typedClass = "mt-3 max-w-4xl text-4xl text-white sm:text-5xl lg:text-6xl" %}{% include "partials/typed-h1.njk" %}
     <p class="mt-5 max-w-2xl text-lg text-white/80">{{ county.intro }}</p>
     <div class="mt-8 flex flex-wrap items-center gap-4">
       <a class="btn-primary" href="tel:+1{{ site.phone | phoneDigits }}">Call {{ site.phone }}</a>

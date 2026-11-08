@@ -9,6 +9,18 @@ export default function (eleventyConfig) {
       .replace(/^-|-$/g, "")
   );
 
+  // Typewriter H1 helpers: "line one|*highlighted line*" -> block lines, *...* -> <span class="hl">
+  const esc = (t) => String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  eleventyConfig.addFilter("typedHtml", (str) =>
+    String(str)
+      .split("|")
+      .map((line) => '<span class="block">' + esc(line).replace(/\*([^*]+)\*/g, '<span class="hl">$1</span>') + "</span>")
+      .join("")
+  );
+  eleventyConfig.addFilter("typedPlain", (arr) =>
+    (Array.isArray(arr) ? arr : [arr]).map((s) => String(s).replace(/\|/g, " ").replace(/\*/g, "")).join(". ")
+  );
+
   eleventyConfig.addFilter("phoneDigits", (str) => String(str).replace(/\D/g, ""));
 
   eleventyConfig.addFilter("where", (arr, key, value) =>

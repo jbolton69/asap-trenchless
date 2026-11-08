@@ -1,0 +1,22 @@
+{#
+  Per-page hero background photo with a fade so the headline stays readable.
+  Set `heroKey` before including. The photo is looked up in src/_data/heroImages.json:
+    "dekalb-county": { "name": "trenchless_sewer_repair_dekalb_county", "position": "center right" }
+  Files live in src/assets/img as <name>-640.webp, <name>-1280.webp, <name>-1920.webp (1920x800, built for speed).
+  A page with no entry renders exactly as before. The parent <section> needs `relative isolate overflow-hidden`.
+  The first image is the LCP element: fetchpriority high, explicit width/height, no lazy loading, no layout shift.
+#}
+{% set hb = heroImages[heroKey] %}
+{% if hb %}
+<img
+  src="/assets/img/{{ hb.name }}-1280.webp"
+  srcset="/assets/img/{{ hb.name }}-640.webp 640w, /assets/img/{{ hb.name }}-1280.webp 1280w, /assets/img/{{ hb.name }}-1920.webp 1920w"
+  sizes="(max-width: 767px) 50vw, 100vw"
+  width="1920" height="800"
+  alt="" aria-hidden="true"
+  fetchpriority="high" decoding="async"
+  class="pointer-events-none absolute inset-0 -z-10 h-full w-full object-cover"
+  style="object-position: {{ hb.position or 'center right' }};">
+<div class="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-r from-ink-950 via-ink-950/80 to-ink-950/10" aria-hidden="true"></div>
+<div class="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-t from-ink-950/80 via-transparent to-ink-950/45" aria-hidden="true"></div>
+{% endif %}

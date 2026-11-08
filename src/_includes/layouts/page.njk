@@ -1,7 +1,8 @@
 ---
 layout: layouts/base.njk
 ---
-<section class="relative overflow-hidden bg-gradient-to-b from-brand-950 to-brand-800 text-white">
+<section class="relative isolate overflow-hidden bg-gradient-to-b from-brand-950 to-brand-800 text-white">
+  {% set heroKey = page.fileSlug %}{% include "partials/hero-bg.njk" %}
   <div class="container-x relative py-14 sm:py-20 {% if site.heroTech.enabled and heroTech != false %} lg:min-h-[19rem] lg:pr-72 xl:min-h-[24rem] xl:pr-[22rem]{% endif %}">
     {% include "partials/hero-tech.njk" %}
     {% if breadcrumbs %}
@@ -10,7 +11,8 @@ layout: layouts/base.njk
     </nav>
     {% endif %}
     {% if eyebrow %}<p class="text-xs font-bold uppercase tracking-[0.18em] text-accent-400">{{ eyebrow }}</p>{% endif %}
-    <h1 class="mt-3 max-w-4xl text-4xl text-white sm:text-5xl">{{ h1 or title }}</h1>
+    {% if typed %}{% set typedFirst = typed %}{% set typedClass = "mt-3 max-w-4xl text-4xl text-white sm:text-5xl" %}{% include "partials/typed-h1.njk" %}
+    {% else %}<h1 class="mt-3 max-w-4xl text-4xl text-white sm:text-5xl">{{ h1 or title }}</h1>{% endif %}
     {% if lede %}<p class="mt-5 max-w-2xl text-lg text-white/80">{{ lede }}</p>{% endif %}
     {% if heroProof %}{% include "partials/hero-proof.njk" %}{% endif %}
   </div>

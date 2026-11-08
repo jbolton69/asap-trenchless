@@ -1,0 +1,34 @@
+{#- Typewriter H1. Set before including:
+     {% set typedFirst = "White line|*Highlighted line*" %}{% set typedClass = "mt-3 max-w-4xl text-4xl text-white sm:text-5xl" %}{% include "partials/typed-h1.njk" %}
+     "|" starts a new line, *asterisks* = highlight color (the yellow of the Free Estimate button). Message 2 is always the free-estimates line.
+     The invisible ghost holds every message so the layout never jumps; no-JS and reduced-motion visitors see message 1. Timing matches naturalmedia.ai. -#}
+{%- set typedMsgs = [typedFirst, "Estimates and Second Opinions|*are Always Free*"] -%}
+<h1 class="type-h1 {{ typedClass }}" data-texts="{{ typedMsgs | dump }}" aria-label="{{ typedMsgs | typedPlain }}">
+  <span class="type-ghost" aria-hidden="true">{% for t in typedMsgs %}<span>{{ t | typedHtml | safe }}</span>{% endfor %}</span>
+  <span class="type-live" aria-hidden="true"><span class="type-t">{{ typedMsgs[0] | typedHtml | safe }}</span></span>
+</h1>
+<style>
+  .type-h1{position:relative}
+  .type-ghost{visibility:hidden;display:grid}
+  .type-ghost>span{grid-area:1/1}
+  .type-live{position:absolute;top:0;left:0;right:0;display:block}
+  .type-h1 .hl{color:#fbbf0f}
+  .type-h1 .caret{display:inline-block;width:.07em;height:.85em;margin-left:.06em;vertical-align:-.06em;background:currentColor;animation:caretblink 1s steps(1) infinite}
+  @keyframes caretblink{50%{opacity:0}}
+  @media (prefers-reduced-motion:reduce){ .type-h1 .caret{display:none} }
+</style>
+<script>
+(function(){var h=document.querySelector('.type-h1');if(!h)return;
+var live=h.querySelector('.type-t'),msgs=[];if(!live)return;
+try{msgs=JSON.parse(h.getAttribute('data-texts')||'[]');}catch(e){}if(!msgs.length)return;
+if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+function parse(s){var plain='';var lines=s.split('|').map(function(line){var segs=[],re=/\*([^*]+)\*/g,last=0,m;while((m=re.exec(line))){if(m.index>last)segs.push({t:line.slice(last,m.index),h:0});segs.push({t:m[1],h:1});last=m.index+m[0].length;}if(last<line.length)segs.push({t:line.slice(last),h:0});segs.forEach(function(g){plain+=g.t;});return segs;});return {lines:lines,plain:plain};}
+var caret=document.createElement('span');caret.className='caret';caret.setAttribute('aria-hidden','true');
+function build(p){live.textContent='';p.nodes=[];p.lns=[];p.lines.forEach(function(segs){var ln=document.createElement('span');ln.className='block';live.appendChild(ln);p.lns.push(ln);segs.forEach(function(g){var el=g.h?document.createElement('span'):document.createTextNode('');if(g.h)el.className='hl';ln.appendChild(el);p.nodes.push({el:el,len:g.t.length,t:g.t,h:g.h,ln:ln});});});}
+function show(p,n){var c=0,last=null;p.nodes.forEach(function(o){var take=Math.max(0,Math.min(o.len,n-c));o.el.textContent=take?o.t.slice(0,take):'';if(take)last=o;c+=o.len;});
+if(!last){p.lns[0].insertBefore(caret,p.lns[0].firstChild);}else if(last.h){last.el.appendChild(caret);}else{last.ln.insertBefore(caret,last.el.nextSibling);}}
+var P=msgs.map(parse),TYPE=28,PUNCT=110,HOLD=1800,ERASE=11,GAP=300,m=0,n=0,cur=P[0];build(cur);show(cur,0);
+function typeStep(){if(n<cur.plain.length){n++;show(cur,n);var ch=cur.plain.charAt(n-1);setTimeout(typeStep,ch==='.'||ch===','?PUNCT:TYPE);}else{setTimeout(eraseStep,HOLD);}}
+function eraseStep(){if(n>0){n--;show(cur,n);setTimeout(eraseStep,ERASE);}else{m=(m+1)%P.length;cur=P[m];build(cur);show(cur,0);setTimeout(typeStep,GAP);}}
+requestAnimationFrame(function(){requestAnimationFrame(function(){setTimeout(typeStep,250);});});})();
+</script>

@@ -18,7 +18,8 @@ eleventyComputed:
 {% set siblings = cities | where("county", city.county) %}
 {% set cityProjects = projects | where("city", city.slug) %}
 
-<section class="relative overflow-hidden bg-gradient-to-b from-brand-950 to-brand-800 text-white">
+<section class="relative isolate overflow-hidden bg-gradient-to-b from-brand-950 to-brand-800 text-white">
+  {% set heroKey = city.slug %}{% include "partials/hero-bg.njk" %}
   <div class="container-x relative py-14 sm:py-20 {% if site.heroTech.enabled and heroTech != false %} lg:min-h-[19rem] lg:pr-72 xl:min-h-[24rem] xl:pr-[22rem]{% endif %}">
     {% include "partials/hero-tech.njk" %}
     <nav aria-label="Breadcrumb" class="mb-5 text-xs text-white/60">
@@ -27,7 +28,7 @@ eleventyComputed:
       <span class="text-white/80">{{ city.name }}</span>
     </nav>
     <p class="text-xs font-bold uppercase tracking-[0.18em] text-accent-400">{{ city.fullName | replace(", CO", ", Colorado") }}</p>
-    <h1 class="mt-3 max-w-4xl text-4xl text-white sm:text-5xl">Trenchless Sewer Repair in {{ city.name }}</h1>
+    {% set typedFirst = "Trenchless Sewer Repair|*in " + city.name + "*" %}{% set typedClass = "mt-3 max-w-4xl text-4xl text-white sm:text-5xl" %}{% include "partials/typed-h1.njk" %}
     <p class="mt-5 max-w-2xl text-lg text-white/80">Sewer line repair and replacement in {{ city.name }} without trenching your yard, driveway or slab &mdash; and an honest answer when trenchless isn't the right call.</p>
     <div class="mt-8 flex flex-wrap items-center gap-4">
       <a class="btn-primary" href="tel:+1{{ site.phone | phoneDigits }}">Call {{ site.phone }}</a>

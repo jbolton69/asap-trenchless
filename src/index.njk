@@ -7,13 +7,15 @@ hasVideo: true
 heroProof: true
 ---
 <section class="relative isolate overflow-hidden bg-ink-950 text-white">
-  {% if site.heroBackground.image and site.heroBackground.opacity > 0 %}
+  {% set heroKey = "home" %}
+  {% if heroImages[heroKey] %}{% include "partials/hero-bg.njk" %}
+  {% elif site.heroBackground.image and site.heroBackground.opacity > 0 %}
   <img
     src="/assets/img/{{ site.heroBackground.image }}-1200.webp"
     srcset="/assets/img/{{ site.heroBackground.image }}-800.webp 800w,
             /assets/img/{{ site.heroBackground.image }}-1200.webp 1200w,
             /assets/img/{{ site.heroBackground.image }}-2000.webp 2000w"
-    sizes="100vw"
+    sizes="(max-width: 767px) 50vw, 100vw"
     alt=""
     aria-hidden="true"
     fetchpriority="high"
@@ -30,9 +32,7 @@ heroProof: true
       <p class="inline-flex items-center gap-2 rounded-full border border-accent-500/40 bg-accent-500/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.14em] text-accent-400">
         <span class="h-1.5 w-1.5 rounded-full bg-accent-400"></span> Since {{ site.since }} &middot; Denver metro &amp; Front Range
       </p>
-      <h1 class="mt-5 text-4xl leading-[1.05] text-white sm:text-5xl lg:text-6xl">
-        Trenchless Sewer Repair<span class="block text-brand-300">Across the Colorado Front Range</span>
-      </h1>
+      {% set typedFirst = "Trenchless Sewer Repair|*Across the Colorado Front Range*" %}{% set typedClass = "mt-5 text-4xl leading-[1.05] text-white sm:text-5xl lg:text-6xl" %}{% include "partials/typed-h1.njk" %}
       <p class="mt-6 max-w-xl text-lg leading-relaxed text-white/75">
         We fix and replace failing sewer lines without trenching your yard, driveway or slab. Most residential lining jobs are done in a single day, and every job starts with a camera so you see the problem before you see a price.
       </p>
